@@ -1,14 +1,5 @@
 """
 Agente de Cadastro de Insumos — Construção Civil
-=================================================
-
-Web app Streamlit que recebe uma solicitação de novo insumo e:
-1. Verifica se já existe na base ATIVA (match exato fuzzy)
-2. Busca top-5 similares semânticos em ambas as bases
-3. Usa Claude para validar e sugerir reutilização ou criar nome novo
-   no padrão da base MODELO
-
-Deploy: Streamlit Cloud (grátis). Ver DEPLOY.md.
 """
 
 import streamlit as st
@@ -25,24 +16,12 @@ st.set_page_config(
 )
 
 
-# ============================================================
-# CACHE DE RECURSOS PESADOS
-# ============================================================
-
 @st.cache_resource(show_spinner="Carregando bases e modelo de IA (1ª vez ~30s)...")
 def carregar_matcher() -> Matcher:
-    """
-    Carrega bases CSV e instancia o Matcher (com SBERT + embeddings).
-    Cacheado para a sessão inteira do servidor.
-    """
     base_ativa = pd.read_csv("data/base_ativa.csv")
     base_modelo = pd.read_csv("data/base_modelo.csv")
     return Matcher(base_ativa, base_modelo)
 
-
-# ============================================================
-# UI
-# ============================================================
 
 st.title("🏗️ Agente de Cadastro de Insumos")
 st.caption(
@@ -50,24 +29,21 @@ st.caption(
     "gera um nome novo no padrão da base modelo."
 )
 
-# --- Sidebar: configuração ---
 with st.sidebar:
     st.header("⚙️ Configuração")
 
-    # API Key: prioriza secrets, depois input manual
     api_key = st.secrets.get("ANTHROPIC_API_KEY", "")
     if not api_key:
         api_key = st.text_input(
             "Anthropic API Key",
             type="password",
-            help="Crie em console.anthropic.com. Em produção, configure via Streamlit Secrets.",
+            help="Crie em console.anthropic.com.",
         )
 
     usar_claude = st.checkbox(
         "Usar Claude para validação e geração",
         value=bool(api_key),
         disabled=not api_key,
-        help="Sem Claude, o agente devolve apenas os candidatos rankeados.",
     )
 
     st.divider()
@@ -78,7 +54,7 @@ with st.sidebar:
     st.metric("Subgrupos na base MODELO", matcher.base_modelo["subgrupo"].nunique())
 
 
-# --- Input principal ---
+# --- Inputs ---
 col1, col2 = st.columns([3, 1])
 with col1:
     solicitacao = st.text_input(
@@ -90,23 +66,55 @@ with col2:
     st.write("")
     buscar = st.button("🔍 Analisar", type="primary", use_container_width=True)
 
+# --- Campo tipo de insumo / utilização ---
+with st.expander("➕ Informações adicionais (recomendado para nomes genéricos)"):
+    col_a, col_b = st.columns(2)
+    with col_a:
+        tipo_insumo = st.selectbox(
+            "Tipo de insumo:",
+            options=[
+                "",
+                "Material",
+                "Mão de Obra",
+                "Equipamento",
+                "Serviço",
+                "Ferramenta",
+                "EPI / Segurança",
+                "Outro",
+            ],
+            help="Categoria geral do insumo."
+        )
+    with col_b:
+        utilizacao = st.text_input(
+            "Para que será utilizado:",
+            placeholder="ex: impermeabilização de laje, controle de pragas, acabamento externo",
+            help="Descreva a finalidade ou onde será aplicado na obra."
+        )
 
-# ============================================================
-# EXECUÇÃO
-# ============================================================
 
+# --- Execução ---
 if buscar and solicitacao.strip():
+    # Montar contexto completo para o Claude
+    contexto_extra = ""
+    if tipo_insumo:
+        contexto_extra += f"\nTipo de insumo: {tipo_insumo}"
+    if utilizacao.strip():
+        contexto_extra += f"\nUtilização / finalidade: {utilizacao}"
+
+    solicitacao_completa = solicitacao.strip()
+    if contexto_extra:
+        solicitacao_completa += contexto_extra
+
     with st.spinner("Buscando candidatos..."):
         resultado = matcher.buscar(solicitacao)
 
-    # --- Painel de query ---
     st.divider()
     st.subheader("📥 Solicitação analisada")
     c1, c2 = st.columns(2)
-    c1.write(f"**Original:** `{resultado['query']}`")
-    c2.write(f"**Normalizada (uso interno):** `{resultado['query_normalizada']}`")
+    c1.write(f"**Original:** `{solicitacao}`")
+    if contexto_extra:
+        c2.write(f"**Contexto adicional:** {contexto_extra.strip()}")
 
-    # --- Match exato ---
     st.subheader("🎯 Match exato na base ATIVA")
     if resultado["match_exato"]:
         m = resultado["match_exato"]
@@ -118,7 +126,6 @@ if buscar and solicitacao.strip():
     else:
         st.info("Nenhum match exato encontrado (≥ 95% de similaridade).")
 
-    # --- Similares ---
     col_a, col_b = st.columns(2)
 
     with col_a:
@@ -152,7 +159,6 @@ if buscar and solicitacao.strip():
         )
         st.dataframe(df_m, use_container_width=True, hide_index=True)
 
-    # --- Claude (decisão) ---
     if usar_claude and api_key:
         st.divider()
         st.subheader("🤖 Recomendação do Agente (Claude)")
@@ -160,7 +166,7 @@ if buscar and solicitacao.strip():
         with st.spinner("Consultando Claude..."):
             decisao = consultar_claude(
                 api_key=api_key,
-                solicitacao=solicitacao,
+                solicitacao=solicitacao_completa,
                 match_exato=resultado["match_exato"],
                 similares_ativa=resultado["similares_ativa"],
                 similares_modelo=resultado["similares_modelo"],
@@ -207,9 +213,7 @@ if buscar and solicitacao.strip():
             with st.expander("📄 Resposta JSON completa"):
                 st.json(decisao)
 
-    elif usar_claude is False and api_key:
-        st.info("✓ Apenas matching ativo. Marque 'Usar Claude' para receber recomendação.")
-    else:
+    elif not api_key:
         st.warning("⚠️ Configure a Anthropic API Key na barra lateral para ativar a recomendação automática.")
 
 elif buscar:
