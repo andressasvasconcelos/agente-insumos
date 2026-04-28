@@ -2,11 +2,10 @@
 Cliente Claude (Anthropic API) para:
 1. Validar se algum candidato realmente serve (semântica + contexto de obra)
 2. Gerar nome novo no padrão da base modelo quando nada serve
-
-Usa anthropic SDK + Claude Sonnet 4 (bom custo-benefício para o caso).
 """
 
 import json
+import httpx
 from anthropic import Anthropic
 
 from core.matcher import Candidato
@@ -32,7 +31,7 @@ Devolver os 2-3 candidatos mais próximos com motivo da dúvida.
 da base MODELO:
    - Title Case (Cada Palavra Maiúscula)
    - Estrutura: [Tipo] [Especificação] [Marca/Norma se relevante] [Dimensão/Medida]
-   - Exemplos do padrão: "Cimento Portland Pozolanico 320", "Misturador Pia Parede 1/2\\"", \
+   - Exemplos do padrão: "Cimento Portland Pozolanico 320", "Misturador Pia Parede 1/2\"", \
 "Argamassa Quartzolit 20 kg", "Tubo PVC Soldável 50mm"
    - Sem unidade no nome (a unidade é campo separado)
    - Sugerir SUBGRUPO da base modelo (ex: "02.013 - Metais") e UNIDADE adequada \
@@ -44,20 +43,19 @@ Schema:
 {
   "acao": "REUTILIZAR" | "REVISAR_HUMANO" | "CRIAR_NOVO",
   "justificativa": "1-2 frases explicando a decisão",
-  "reutilizar": { "codigo": "...", "descricao": "..." } | null,
-  "revisar": [ { "codigo": "...", "descricao": "...", "motivo_duvida": "..." } ] | null,
+  "reutilizar": { "codigo": "...", "descricao": "..." },
+  "revisar": [ { "codigo": "...", "descricao": "...", "motivo_duvida": "..." } ],
   "criar_novo": {
     "nome_sugerido": "Nome no padrão da base modelo",
     "subgrupo_sugerido": "XX.XXX - Nome do Subgrupo",
     "unidade_sugerida": "un|m2|m|kg|l|vb|h|m3|sc|pc|cj",
     "alternativas_de_nome": ["alternativa 1", "alternativa 2"]
-  } | null
+  }
 }
 """
 
 
-def _formatar_candidatos(cands: list[Candidato], titulo: str) -> str:
-    """Formata candidatos para o prompt do Claude."""
+def _formatar_candidatos(cands: list, titulo: str) -> str:
     if not cands:
         return f"### {titulo}\n(nenhum candidato relevante)\n"
     linhas = [f"### {titulo}"]
@@ -73,16 +71,11 @@ def _formatar_candidatos(cands: list[Candidato], titulo: str) -> str:
 def consultar_claude(
     api_key: str,
     solicitacao: str,
-    match_exato: Candidato | None,
-    similares_ativa: list[Candidato],
-    similares_modelo: list[Candidato],
+    match_exato,
+    similares_ativa: list,
+    similares_modelo: list,
 ) -> dict:
-    """
-    Chama Claude e retorna o JSON parseado com a decisão.
-
-    Em caso de erro (API/parsing), retorna dict com 'erro' preenchido.
-    """
-    client = Anthropic(api_key=api_key)
+    client = Anthropic(api_key=api_key, http_client=httpx.Client())
 
     partes = [f"## SOLICITAÇÃO DO USUÁRIO\n{solicitacao}\n"]
 
@@ -107,6 +100,7 @@ def consultar_claude(
 
     user_prompt = "\n".join(partes)
 
+    texto = ""
     try:
         response = client.messages.create(
             model=CLAUDE_MODEL,
@@ -116,7 +110,6 @@ def consultar_claude(
         )
         texto = response.content[0].text.strip()
 
-        # Limpar markdown caso Claude tenha adicionado
         if texto.startswith("```"):
             texto = texto.split("```")[1]
             if texto.startswith("json"):
@@ -128,7 +121,7 @@ def consultar_claude(
     except json.JSONDecodeError as e:
         return {
             "erro": f"Resposta do Claude não é JSON válido: {e}",
-            "resposta_bruta": texto if "texto" in dir() else None,
+            "resposta_bruta": texto,
         }
     except Exception as e:
         return {"erro": f"Erro na chamada da API: {type(e).__name__}: {e}"}
