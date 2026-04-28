@@ -1,0 +1,2158 @@
+codigo,descricao,unidade,grupo_macro,subgrupo
+1,Servente,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+2,Pedreiro,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+3,Carpinteiro,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+4,Armador,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+5,Pintor,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+6,Graniteiro,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+7,Colocador de Mármore,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+8,Ladrilhista,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+9,Engenheiro,mes,01 - Mão de obra,01.001 - Mão de Obra Própria
+11,Mestre Geral,mes,01 - Mão de obra,01.001 - Mão de Obra Própria
+13,Basalteiro,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+19,Motorista,mes,01 - Mão de obra,01.001 - Mão de Obra Própria
+22,Vigia,mes,01 - Mão de obra,01.001 - Mão de Obra Própria
+25,Encanador de Manutencao,mes,01 - Mão de obra,01.001 - Mão de Obra Própria
+28,Operador de Grua,mes,01 - Mão de obra,01.001 - Mão de Obra Própria
+33,Tecnico em Edificacoes,mes,01 - Mão de obra,01.001 - Mão de Obra Própria
+36,Operador de Betoneira,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+37,Profissional,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+38,Ajudante,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+43,Limpador,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+44,Azulejista,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+608,Rejuntador,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+825,Telhadista,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+1007,Montagem Estruturas Concreto Pre-moldado,kg,01 - Mão de obra,01.001 - Mão de Obra Própria
+1151,Apontador / Almoxarife,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+1152,Cozinheiro,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+1153,Encarregado Eletrecista,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+1155,Encarregado Hidraulica,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+1156,Encarregado Turma,h,01 - Mão de obra,01.001 - Mão de Obra Própria
+200,Mao de Obra Pintura Superficie de Quadra Esportiva,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+206,Mao de Obra Execucao de Laje Pre-Fabricada,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+300,Mao de Obra Execucao de Alvenaria Bloco Ceramico,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+301,Mao de Obra Execucao de Alvenaria Bloco Prensil,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+310,Mao de Obra Exec. Alven. Bloco Estrut. Concreto 15,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+311,Mao de Obra Exec. Alven. Bloco Estrut. Concreto 20,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+316,Mao de Obra Exec. Alven. Vedacao Bloco Concreto 7,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+317,Mao de Obra Exec. Alven. Vedacao Bloco Concreto 10,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+318,Mao de Obra Exec. Alven. Vedacao Bloco Concreto 12,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+319,Mao de Obra Exec. Alven. Vedacao Bloco Concreto 15,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+320,Mao de Obra Exec. Alven. Vedacao Bloco Concreto 20,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+322,Mao de Obra Execucao Alvenaria Tijolo Comum e=10cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+323,Mao de Obra Execucao Alvenaria Tijolo Comum e=20cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+324,Mao de Obra Execucao Alvenaria Tijolo Furado 10cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+325,Mao de Obra Execucao Alvenaria Tijolo Furado 20cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+326,Mao de Obra Colocacao Elemento Vazado,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+327,Mao de Obra Execucao Alvenaria Tijolo Furado 18cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+328,Mao de Obra Execucao Alvenaria Tijolo Furado 12cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+329,Mao de Obra Execucao Alvenaria Tijolo Laminado 11,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+330,Mao de Obra Execucao Alvenaria Bloco 15cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+331,Mao de Obra Execucao Alvenaria Bloco 10cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+333,Mao de Obra Execucao Alvenaria Tijolo Comum e=15cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+334,Mao de Obra Execucao Alvenaria Tijolo Comum,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+335,Mao de Obra Execucao Alvenaria Tijolo Furado 15cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+400,Mao de Obra Execucao Chapisco Interno,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+401,Mao de Obra Execucao Chapisco Externo,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+402,Mao de Obra Execucao Emboco Interno,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+403,Mao de Obra Execucao Emboco Externo,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+404,Mao de Obra Execucao Reboco Interno,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+405,Mao de Obra Execucao Reboco Externo,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+406,Mao de Obra Aplicacao Massa Unica Interna,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+407,Mao de Obra Aplicacao Massa Raspada sem Emboco,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+408,Mao de Obra Colocacao de Azulejo,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+410,Mao de Obra Aplicacao Gesso Sobre Blocos Concreto,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+412,Mao de Obra Aplicacao Gesso Sobre Emboco,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+415,Mao de Obra Aplicacao Papel Parede,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+416,Mao de Obra Aplicacao Massa Unica Externa,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+417,Mao de Obra Colocacao Blokret 5cm com Rejunte,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+418,Mao de Obra Execucao Peitoril de Granilite,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+419,Mao de Obra Colocacao Piso Ceramico,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+420,Mao de Obra Colocacao Lajotao Colonial,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+421,Mao de Obra Colocacao Carpete 4mm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+422,Mao de Obra Aplicacao Lys Spray,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+423,Mao de Obra Colocacao Forro Luxalon 84r,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+424,Mao de Obra Colocacao Paviflex,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+425,Mao de Obra Execucao Degraus Paviflex,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+426,Mao de Obra Colocacao Rodape Paviflex,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+427,Mao de Obra Colocacao Dimopiso,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+428,Mao de Obra Colocacao Piso Caco de Marmore,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+430,Mao de Obra Raspagem/Calafetacao Assoalho Madeira,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+435,Mao de Obra Colocacao Carpete 5mm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+470,Mao de Obra Preparacao Superficie com Bianco,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+558,Mao de Obra Instalacao Central de Gas,un,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+606,Mao de Obra Impermeabilizacao Membrana Asfaltica,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+615,Mao de Obra Colocacao de Pedra Caxambu,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+631,Mao de Obra Exec. Alven. Bloco Concr. Estrut. 14cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+654,Mao de Obra Execucao Alvenaria Bloco Selecta 14cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+655,Mao de Obra Execucao Alvenaria Bloco Selecta 9cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+676,Mao de Obra Execucao Alvenaria Tijolo Comum 21cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+705,Mao de Obra Colocacao Caixilho 3 Folhas Linha 200,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+706,Mao de Obra Colocacao Caixilho Correr Linha 200,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+707,Mao de Obra Colocacao Caixilho Maximar Linha 200,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+751,Mao de Obra Execucao Telhado Canalete,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+752,Mao de Obra Colocacao Rufos Fibrocimento,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+754,Mao de Obra Colocacao Telhas Fibrocimento Ondulada,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+755,Mao de Obra Colocacao Cumeeira Fibrocimento,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+756,Mao de Obra Execucao de Cercas,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+764,Mao de Obra Exec. Estrutura Madeira P/Telha Fibroc,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+765,Mao de Obra Execucao Estrutura de Madeira,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+766,Mao de Obra Execucao Estrutura Metalica,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+848,Mao de Obra Aplicacao Massa Corrida,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+852,Mao de Obra Aplicacao Latex sem Massa Corrida,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+855,Mao de Obra Aplicacao Esmalte Sobre Ferro,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+856,Mao de Obra Aplicacao Oleo Sobre Madeira,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+862,Mao de Obra Aplicacao Pintura Rufos Metalicos,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+872,Mao de Obra Aplicacao Verniz Sobre Madeira,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+873,Mao de Obra Aplicacao Oleo em Rodapes,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+876,Mao de Obra Aplicacao Verniz Poliuretano,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+878,Mao de Obra Colocacao Lajota Sextavada 4cm,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+879,Mao de Obra Execucao Enceramento Portas,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+884,Mao de Obra Colocacao Forro Paraline leve,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+885,Mao de Obra Aplicacao Verniz Sobre Forro Madeira,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+886,Empreitada Forro Eucavid,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+887,Empreitada Forro Paraline Colmeia,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+888,Mao de Obra Aplicacao Verniz Assoalho,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+889,Mao de Obra Aplicacao Verniz em Rodapes Madeira,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+890,Empreitada Revestimento de Madeira,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+997,Mao de Obra Execucao Meio Fio in Loco,m,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1097,Mao de Obra Instalacao Esgoto,h,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1122,Mao de Obra Colocacao Esquadrias de Ferro,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1160,Mao de Obra Execucao Ferragem com Aco CA-60,kg,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1248,Mao de Obra Bombeamento Concreto Usinado,m3,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1267,Mao de Obra Pintura de Calhas com Tinta Asfaltica,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1364,Mao de Obra Instalacao Hidraulica,diária,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1416,Mao de Obra Instalacao Canteiro de Obra,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1421,Mao de Obra Instalacao Equipamen. Combate Incendio,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1446,Mao de Obra Locacao / Nivelamento de Rede Esgoto,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1448,Mao de Obra Colocacao de Vinamipiso,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1453,Mao de Obra Instalacao de Tubulacao Eletrica,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1454,Mao de Obra Enfiacao e Acabamento Eletrica,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1480,Mao de Obra Instalacao Sistema Cablagem Telefonica,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1664,Mao de Obra Lixamento Pintura Existente,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+1684,Mao de Obra Colocacao de Piso Elevado,m2,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+4674,CUSTAS CARTORIAIS,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+4680,SERVICO DE LIMPEZA E HIGIENIZACAO DE CAIXA DAGUA,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+4681,SERVICO DE LIMPEZA E HIGIENIZACAO DE CAIXA DAGUA,vb,01 - Mão de obra,01.002 - Mão de obra de Terceiros
+932,Transporte Estruturas Concreto Pre-moldado,kg,01 - Mão de obra,01.005 - Transporte de Estruturas
+4675,Projeto de Terraplanagem,vb,01 - Mão de obra,01.003 - Projetos
+10,Transporte Equipamento Sondagem e Percussão,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+201,Estrutura de Basquetebol,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+202,Estrutura de Voleibol,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+203,Estrutura de Futsal,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+205,Demarcacao Faixa de 5cm Para Quadra Esportiva,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+284,Projeto Eletrico Combate Incendio,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+522,Projeto Alarme,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+557,Alvara Habite-se,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+561,Consumo de Agua,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+563,Projeto TV a Cabo,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+564,Projeto Porteiro Eletronico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+594,Projeto Antena Coletiva,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+595,Projeto Portao ou Porta Automatica,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+598,Ligacao Provisoria de Agua,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+609,Aditivo Para Concreto,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+803,Aluguel Para Alojamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+804,Aluguel Equipamento Maquina e Ferramenta,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+805,Aluguel de Terreno,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+806,Material de Limpeza,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+807,Despesas c/ Hoteis,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+808,Despesas com Pessoal,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+809,IPMF,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+810,Outras Taxas de Aprovacao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+811,Despesas com Telefone,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+812,Despesas de Seguros,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+814,Despesas de Seguro com Equipamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+815,Despesas de Seguros com Terceiros,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+816,Despesas com Depreciacoes,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+817,Outras Despesas Indiretas,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+818,Despesas com Transporte e Viagens,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+819,Despesas de Comercializacao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+820,Compra do Edital,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+821,Outros Gastos,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+822,Juros com Capital de Giro,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+823,Juros Para Aquisicao de Equipamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+824,Juros com Fornecedores,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+829,Placa Agente Governamental,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+834,Mobilizacao Pessoal/Equipamentos,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+835,Desmobilizacao Pessoal/Equipamentos,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+982,Escavacao Rocha Profunda com Explosivo,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+986,Execucao Escoramento Metalico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+987,Locacao Escoramento Metalico,m3,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+999,Empreitada Execucao e Colocacao Estaca,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1009,Taxa Instalacao Equipamento Estaqueamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1011,Recuperacao de Fundacoes,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1014,Prova de Carga em Fundacoes,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1030,Valor de Compra do Terreno,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1043,Despesas de Escritura,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1044,Imposto Inter-Vivos,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1056,Registro de Contrato Cartorio Reg.Titulos e Docum.,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1063,Registro Terreno no Registro de Imoveis,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1064,Registro Conv. Cond. no R.I.,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1066,Registro da Instituicao do Condomionio,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1068,Levantamento Topografico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1074,Instalacao Equipamento Sondagem e Percussao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1075,Sondagem a Trado,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1076,Sondagem de Percussao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1077,Vistorias ao Terreno e Vizinhos,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1080,Projeto Arquitetonico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1081,Projeto Eletrico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1083,Projeto Estrutura,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1085,Projeto Geotecnico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1086,Projeto Agua Combate Incendio,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1087,Projeto Telecomunicacoes e On Line,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1088,Projeto Hidro-Sanitario,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1089,Projeto Estrutural,m2,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1090,Instalacao Provisoria de Energia,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1092,Projeto Fundacoes,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1093,Projeto Para-Raio,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1096,Projeto Telefonico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1098,Projeto Ar Condicionado,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1104,Projeto Comunicacao Visual,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1106,Projeto Estrutura Metalica,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1112,Projeto Gas,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1113,Projeto Paisagismo,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1115,Outros Projetos,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1117,Orcamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1118,Planejamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1120,Projeto Humanizacao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1121,Maquetes,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1134,Consumo de Energia,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1137,Despesas Gerais,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1138,Fotocopias e Heliograficas,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1139,Material Expediente,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1145,Medicamentos Emergencia,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1147,Alvara Construcao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1157,Placa da Obra,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1167,Despesas com Alimentacao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1168,Despesas c/ Licitacao e Concorrencias,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1169,Manutencao e Reposicao de Equipamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1170,Seguro de Riscos Diversos Danos da Obra,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1171,Gratificacoes,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1172,Vale Transporte,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1173,Cofins e Pis,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1174,Crea - Conselho Regional Engenh. Arquitet. e Agron,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1175,Despesas Financeiras,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1176,Iptu,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1177,Issqn,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1178,Multas,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1179,Outras Despesas Diretas,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1180,Consultoria e Planejamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1181,Honorarios c/ Advogados,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1182,Consumo de Combustivel,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1183,Responsabilidade Civil do Construtor - RCC,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1189,Comissao dos Corretores,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1195,Vistoria a Vizinhos e Outros,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1196,Negativa de Orgaos Publicos,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1198,Preparo da Documentacao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1205,Registro Contrato em Cartorio,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1220,Juros Para Aquisicao de Imoveis,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1420,Projeto Hidraulico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1422,Material Instalacao Incendio,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1449,Prova de Carga em Terreno,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1455,Instalacao Hidraulica Material,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1456,Material Enfiacao e Acabamento,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1457,Material Instalacao Esgoto,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1461,Custo Indireto Empresar.Administr.(Escrit.Central),vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1462,Mao de Obra Instalacao Sistema Coletivo Antena VHF,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1463,Iluminacao da Obra,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1464,Antena Banda 1,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1465,Antena Banda 3,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1466,Misturador Canal Alto + Canal Baixo,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1467,Amplificador,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1468,Divisor de VHF,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1469,Tomadas com Ganho Eletrico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1470,Baluns,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1471,Cano Sustentacao de Antenas,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1472,Conector Metalico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1473,Cablagem Coaxial,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1474,Mao de Obra Instalacao Sistema Porteiro Eletronico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1475,Placa,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1476,Fonte de Alimentacao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1477,Fecho Eletromagnetico,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1478,Interfones,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1479,Cablagem,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1481,Blocos BLI,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1482,Bracadeiras Metalicas,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1483,Aneis Guia,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1484,Mao de Obra Instalacao Sistema Para-Raio,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1495,Mao de Obra Instalacao Sistema Luz Obstaculo,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1500,Maquinas Basculante,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1501,Quadros de Comando CRT 7000,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1502,Radio Controle,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1503,Instalacoes de Recalque,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1504,Execucao de Poco,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1505,Rede Eletrica Principal,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1506,Rede Eletrica Secundaria,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1507,Instalacao Rede de Agua,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1508,Instalacao Rede de Esgoto,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1509,Banca de Armacao,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1510,Banca de Eletrica,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1511,Banca de Formas,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1512,Banca de Hidraulica,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1513,Instalacao Provisoria de Betoneira,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1514,Instalacao Provisoria de Grua,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1515,Adaptacao de Construcao Existente,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+1783,Taxa Ligacao Provisoria Monofasica,vb,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+4678,ITBI - Imposto de Transmissão de Bens Imóveis,un,04 - Verbas,"04.002 - Verbas, Taxas e Impostos"
+12,Isolante Roldana de Porcelana 72x72cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+14,Conector Bimetal,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+222,Trilho Eletrificado,m,02 - Materiais,02.005 - Materiais Elétricos Diversos
+260,Plafunier,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+270,Receptaculo Para Fluorescente 1478P Lorenzetti,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+286,Braco Aluminio Medio Para Chuveiro,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+289,Pino Para Juncao Preto,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+290,Grampo Para Fio Duplo Miguelao,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+291,Porta Lampada Reto,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+321,Suporte Pendente Preto,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+357,Rodape Eletrico,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+398,Canto Externo Para Rodape Eletrico,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+399,Canto Interno Para Rodape Eletrico,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+409,Terminal Direito de Rodape Eletrico,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+411,Terminal Esquerdo de Rodape Eletrico,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+413,Adaptador Para Rodape Eletrico,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+414,Tampa de Ligacao Para Rodape Eletrico,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+520,Calhas Para Lampadas,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+521,Reator 2x40 Partida Rapida,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+536,Conector Split-Bolt,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+537,Conector de Medicao,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+538,Quadro Distribuicao Antena Coletiva,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+559,Start Lorenzetti,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+588,Tampa Caixa Externa Celesc 60x60x6cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+589,Tampa Caixa Externa Celesc 60x60x8cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+590,Tampa Caixa Externa Celesc 70x46x8cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+591,Tampa Caixa Passagem Celesc 46x70x6cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+592,Tampa Caixa Passagem Telesc 46x70x6cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+593,Tampa Caixa Telefone 100x100cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+618,Espera BJ 10 x 15,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+658,Super Ducha Fame 220 Wts 0008,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+659,Chuveiro Eletrico Ducha Jet Set,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+666,Chuveiro Eletrico Luxo Blindado,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+667,Chuveiro Eletrico Maxi Ducha,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+668,Chuveiro Eletrico Standart,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+669,Chuveiro Eletrico Ducha Linha Top 6050,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+670,Chuveiro Eletrico com Articulacao 1993Tc,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+671,Chuveiro Eletrico Higienica 1995TC,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+672,Ducha Super Luxo JD Cromada,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+673,Ducha Super Luxo JD Colorida,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+867,Chuveiro Eletrico Chua,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+919,Quadro Para TC,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+920,Quadro Para Medicao Com Demanda M.D.R,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+923,Y - 1000 com Reator e Lampada,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+924,Y- 500 com Reator e Lampada,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+926,Transformador 45 KVA  25KV em Poste,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+927,Chave Fuzivel 25K Para Poste,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+936,Fixador Olhal,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1164,Receptaculo,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1288,Reator Partida Rapida 2x20W,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1289,Calha Para Fluorescente 2x20W,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1290,Calha Para Fluorescente 2x40W,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1350,Quadro Metalico 55x55cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1354,Arranques 55x55cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1355,Arranques 110cm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1356,Finais Angulos,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1486,Isoladores de Cano,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1487,Isoladores de Canto,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1488,Isoladores de Descida,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1489,Cano,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1492,Haste de Terra 5/8x3m,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1496,Rele Fotoeletrico,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1497,Base Para Rele,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1521,"Haste Terra 2,40",m,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1525,Tampa Caixa Celesc 40x60,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1785,Fita Isolante,m,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1786,Pino Porcelana 3 Polos 30 Amperes,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1787,Pino Porcelana 2 Polos 20 Amperes,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1859,"Bucha Aluminio Para Eletroduto Roscavel 1""",un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1863,"Bracadeira Tipo D 1""",un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1865,"Bracadeira Tipo D 3/4""",un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1871,Conector Parafuso Fundido 8,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1877,"Haste Terra Cant. 1,5m",un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1878,"Haste Terra Cant. 1,0m",un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1880,Caixa Concreto Aterramento,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1881,"Curva Aluminio 180x1.1/2""",un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1882,"Bracadeira Para Pontalete 1.1/2""",un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1883,"Bracadeira Para Armacao 1.1/2""",un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1885,Roldana Porcelana 72x72,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1886,Poste Madeira 7m,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1887,Armacao Pres-Bow sem Isolamento 4x4,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1888,Armacao Pres-Bow sem Isolamento 2x2,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1889,Medidor Trifasico Entrada Baixa Tensao Com.,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1890,Caixa Medidor Monofasica,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1891,Material Eletrico Para Instalacao Provisoria,vb,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1900,Chuveiro,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1901,Cano Para Chuveiro,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+1914,Chuveiro Popular,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+2125,Bracadeira Para Condutor PVC 88mm,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+4676,CHUVEIRO ELETRICO,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+4677,CHUVEIRO ELETRICO,un,02 - Materiais,02.005 - Materiais Elétricos Diversos
+15,Tubo Soldável 20mm 6m,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+16,Tubo Soldável Ponta Bolsa 25mm 6m,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+17,Tubo Soldável 6m 32mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+20,Tubo Soldável Ponta Bolsa 6m 20mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+23,Tubo Soldável Ponta Bolsa 6m 32mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+35,Tubo Soldavel Ponta Bolsa 40mm 6m,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+39,Tubo Soldavel Ponta Bolsa 6m 50mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+40,Tubo Soldavel Ponta Bolsa 60mm 6m,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+41,Bucha Reducao Curta Soldavel 25x20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+42,Bucha Reducao Curta Soldavel 32x25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+45,Bucha Reducao Curta Soldavel 40x32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+46,Bucha Reducao Curta Soldavel 50x40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+47,Bucha Reducao Curta Soldavel 60x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+48,Bucha Reducao Curta Soldavel 75x60mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+49,Bucha Reducao Longa Soldavel 32x20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+50,Bucha Reducao Longa Soldavel 40x20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+51,Bucha Reducao Longa Soldavel 40x25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+52,Bucha Reducao Longa Soldavel 50x25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+53,Bucha Reducao Longa Soldavel 50x32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+54,Captador Soldavel 20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+55,Captador Soldavel 25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+56,Captador Soldavel 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+57,Captador Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+58,Captador Soldavel 60mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+59,Cruzeta Soldavel 20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+60,Cruzeta Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+61,Curva 45 Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+62,Curva 45 Soldavel 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+63,Curva 90 Soldavel 20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+64,Curva 90 Soldavel 25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+65,Curva 90 Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+66,Curva 90 Soldavel 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+67,Joelho 45 Soldavel 20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+68,Joelho 45 Soldavel 25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+69,Joelho 45 Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+70,Joelho 45 Soldavel 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+71,Joelho 45 Soldavel 60mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+72,Joelho 45 Soldavel 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+73,Joelho 90 Soldavel 20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+74,Joelho 90 Soldavel 25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+75,Joelho 90 Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+76,Joelho 90 Soldavel 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+77,Joelho 90 Soldavel 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+78,Joelho 90 Soldavel 60mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+79,Joelho 90 Soldavel 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+80,Joelho Reducao 90 Soldavel 25x20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+81,Joelho Reducao 90 Soldavel 32x25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+82,Joelho Reducao 90 Soldavel 40x32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+83,Luva Soldavel 20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+84,Luva Soldavel 25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+85,Luva Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+86,Luva Soldavel 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+87,Luva Soldavel 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+88,Luva Soldavel 60mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+89,Luva Reducao Soldavel 25x20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+90,Luva Reducao Soldavel 32x25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+91,Luva Reducao Soldavel 40x32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+92,Te 90 Soldavel 20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+93,Te 90 Soldavel 25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+94,Te 90 Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+95,Te 90 Soldavel 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+96,Te Reducao 90 Soldavel 25x20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+97,Te Reducao 90 Soldavel 32x25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+98,Te Reducao 90 Soldavel 40x32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+99,Te Reducao 90 Soldavel 50x25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+100,Te Reducao 90 Soldavel 50x20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+101,Te Reducao 90 Soldavel 50x32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+105,Tubo Esgoto Leve 6m 125mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+106,Tubo Esgoto Leve 6m 150mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+107,Tubo Esgoto Leve 6m 200mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+108,Tubo Esgoto Leve 6m 250mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+109,Tubo Esgoto Ponta Bolsa 6m 40mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+110,Tubo Esgoto Ponta Bolsa 6m 50mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+111,Tubo Esgoto Ponta Bolsa 6m 75mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+112,Tubo Esgoto Ponta Bolsa 6m 100mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+113,Tubo Esgoto Ponta Bolsa 6m 150mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+114,Tubo Esgoto Ponta Bolsa Anel 6m 050-060,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+115,Tubo Esgoto Ponta Bolsa Anel 6m 060-075,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+116,Tubo Esgoto Ponta Bolsa Anel 6m 075-085,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+117,Tubo Esgoto Ponta Bolsa Anel 6m 100-110,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+118,Tubo Esgoto Ponta Bolsa Anel 6m 125-140,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+119,Tubo Esgoto Ponta Bolsa Anel 6m 180-200,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+120,Tubo Esgoto Ponta Bolsa Anel 6m 220-250,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+121,Tubo Esgoto Ponta Bolsa Anel 6m 270-300,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+122,Tubo Esgoto Ponta Bolsa Virola 6m 50mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+123,Tubo Esgoto Ponta Bolsa Virola 6m 75mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+124,Tubo Esgoto Ponta Bolsa Virola 6m 100mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+125,Tubo Esgoto Ponta Bolsa Virola 6m 150mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+126,Tubo Esgoto Ponta Lisa 6m 40mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+127,Tubo Esgoto Ponta Lisa 6m 50mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+128,Tubo Esgoto Ponta Lisa 6m 75mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+129,Tubo Esgoto Ponta Lisa 6m 100mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+130,Tubo Esgoto Ponta Lisa 6m 150mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+131,Anel de Borracha Esgoto 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+132,Anel de Borracha Esgoto 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+133,Anel de Borracha Esgoto 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+134,Anel de Borracha Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+135,Bucha Reducao Longa Esgoto 50x40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+136,Captador de Esgoto 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+137,Captador de Esgoto 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+138,Captador de Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+139,Captador de Esgoto 150mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+140,"Curva Galvanizada 90 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+141,"Curva Galvanizada 90 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+142,"Curva Galvanizada 90 1.1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+143,Curva 45 Curta Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+144,Curva 45 Longa Esgoto 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+145,Curva 45 Longa Esgoto 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+146,Curva 45 Longa Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+147,Curva 90 Longa Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+148,Curva Visita 45 Esgoto 100x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+149,Curva 90 Curta Esgoto 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+150,Curva 90 Curta Esgoto 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+151,Curva 90 Curta Esgoto 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+152,Curva 90 Curta Esgoto 100x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+153,Curva 90 Curta Esgoto 100x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+154,Curva 90 Curta Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+155,Joelho 45 Esgoto 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+156,Joelho 45 Esgoto 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+157,Luva Reducao Soldavel 60x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+158,Joelho 45 Esgoto 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+159,Joelho 45 Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+160,Joelho 90 Esgoto 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+161,Joelho 90 Esgoto 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+162,Joelho 90 Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+163,Joelho 90 Esgoto 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+164,"Joelho 90 Liso Roscavel 40x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+165,"Joelho 90 Liso Roscavel Esgoto 40x1. 1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+166,Joelho Visita 45 Esgoto 100x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+167,Joelho Visita 90 Esgoto 75x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+168,Joelho Visita 90 Esgoto 100x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+169,Juncao Dupla Esgoto 50x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+170,Juncao Dupla Esgoto 75x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+171,Juncao Dupla Esgoto 100x100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+172,Juncao Simples Esgoto 40x40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+173,Juncao Simples Esgoto 50x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+174,Juncao Simples Esgoto 75x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+175,Juncao Simples Esgoto 100x100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+176,Juncao Simples Reducao Esgoto 75x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+177,Juncao Simples Reducao Esgoto 100x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+178,Juncao Simples Reducao Esgoto 100x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+179,Juncao Simples Reducao Esgoto 150x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+180,Juncao Simples Reducao Esgoto 150x100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+181,Luva Dupla Esgoto 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+182,Luva Dupla Esgoto 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+183,Luva Dupla Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+184,Luva Simples Esgoto 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+185,Luva Simples Esgoto 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+186,Luva Simples Esgoto 75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+187,Luva Simples Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+188,Reducao Excentrica Esgoto 150x100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+189,Reducao Excentrica Esgoto 75x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+190,Reducao Excentrica Esgoto 100x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+191,Reducao Excentrica Esgoto 100x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+192,TE 90 Curto Esgoto 40x40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+193,TE 90 Curto Esgoto 50x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+194,Te 90 Curto Esgoto 75x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+195,Te 90 Curto Esgoto 100x100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+196,Te Reducao 90 Curto Esgoto 75x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+197,Te Reducao 90 Curto Esgoto 100x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+198,Te Reducao 90 Curto Esgoto 100x75mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+199,Te Reducao 90 Curto Esgoto 150x100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+280,Cap Soldavel 25mm Tigre,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+285,Tubo Ligacao Celit Cromado Para Bacia,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+607,Prolongamento Esgoto 150x150mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+620,Tee Curto Esgoto 100mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+621,Caixa Sifonada 150x150x50mm PVC,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+836,Te Soldavel 50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+838,"Joelho Azul 25 x 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+839,Te Soldavel 25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+840,"Luva Azul 25x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+893,Caixa Sifonada 150 x 50,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+894,Curva 90 Esgoto 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+895,Te Esgoto 50x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+898,Te Reducao Soldavel 50x25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+899,Te Soldavel 50x50mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+906,Joelho Azul Soldavel 25 x 1/2,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+907,Joelho Azul,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+908,Te reducao,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+913,Reducao Exentrica 50x75,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+914,Tubo Soldavel 25mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+915,Te Reducao Soldavel 32x25,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+916,Caixa Sifonada 159x150x50,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+930,Acabamento Para Registro 3/4 Antiquete Crom. Docol,pc,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+931,Luva Esgoto,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+958,Uniao Soldavel 20mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+959,Uniao Soldavel 25mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+960,Uniao Soldavel 32mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+961,"Adaptador Soldavel Roscavel Curto 20x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+962,"Adaptador Soldavel Roscavel Curto 25x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+963,"Adaptador Soldavel Roscavel Curto 32x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+965,"Adaptador Soldavel Roscavel Curto 40x1.1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+966,"Adaptador Soldavel Roscavel Curto 40x1.1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+967,"Adaptador Soldavel Roscavel Curto 50x1.1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+968,"Adaptador Soldavel Roscavel Curto 50x1.1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+969,"Adaptador Soldavel Roscavel Curto 60x2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+970,"Adaptador Soldavel Roscavel Curto 75x2.1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+973,"Adaptador Soldavel Roscavel Flange Fixo 20x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+974,"Adaptador Soldavel Roscavel Flange Fixo 25x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+975,"Adaptador Soldavel Roscavel Flange Fixo 32x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+976,"Adaptador Soldavel Roscavel Flange Fixo 40x1.1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+977,"Adaptador Soldavel Roscavel Flange Fixo 50x1.1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+978,"Adaptador Soldavel Roscavel Flange Fixo 60x2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+979,"Joelho 90 Soldavel Roscavel 20x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+980,"Joelho 90 Soldavel Roscavel 25x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+981,"Joelho 90 Soldavel Roscavel 32x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+983,"Joelho Reducao 90 Soldavel Roscavel 25x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+984,"Joelho Reducao 90 Soldavel Roscavel 32x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+991,"Luva Reducao Soldavel Roscavel 25x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+992,"Luva Reducao Soldavel Roscavel 25x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+993,"Luva Reducao Soldavel Roscavel 32x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+994,"Luva Reducao Soldavel Roscavel 40x1.1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+995,"Luva Reducao Soldavel Roscavel 25x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1016,"Te 90 Soldavel Roscavel 20x20x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1017,"Te 90 Soldavel Roscavel 25x25x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1018,"Te 90 Soldavel Roscavel 32x32x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1023,"Te Reducao 90 Soldavel Roscavel 25x25x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1024,"Te Reducao 90 Soldavel Roscavel 32x32x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1025,"Te Reducao 90 Soldavel Roscavel 40x40x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1026,"Bucha Reducao Roscavel 3x4x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1037,"Bucha Reducao Roscavel 1x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1039,"Bucha Reducao Roscavel 1x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1042,"Bucha Reducao Roscavel 1.1/4x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1046,"Bucha Reducao Roscavel 1.1/4x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1049,"Bucha Reducao Roscavel 1.1/4x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1058,"Bucha Reducao Roscavel 1.1/2x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1059,"Bucha Reducao Roscavel 1.1/2x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1061,"Bucha Reducao Roscavel 1.1/2x1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1069,"Bucha Reducao Roscavel 1.1/2x1.1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1071,"Bucha Reducao Roscavel 2x1.1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1084,"Captador Soldavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1091,"Captador Soldavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1094,"Captador Soldavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1095,"Curva 90 Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1099,"Curva 90 Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1100,"Curva 90 Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1102,"Curva 90 Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1110,"Joelho 45 Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1114,"Joelho 45 Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1123,"Joelho 45 Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1132,"Joelho 45 Roscavel 1.1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1142,"Joelho 45 Roscavel 1.1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1144,"Joelho 90 Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1158,"Joelho 90 Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1159,"Joelho 90 Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1161,"Joelho Reducao 90 Roscavel 3/4x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1162,"Joelho Reducao 90 Roscavel 1x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1163,"Juncao 45 Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1165,"Juncao 45 Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1166,"Juncao 45 Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1191,"Luva Reducao Roscavel 3/4x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1192,"Luva Reducao Roscavel 1x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1193,"Luva Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1194,"Luva Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1197,"Luva Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1199,"Luva Roscavel 1.1/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1204,"Luva Roscavel 2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1208,"Nipel Paralelo Roscavel 2.1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1210,"Nipel Paralelo Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1211,"Nipel Paralelo Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1212,"Nipel Paralelo Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1213,"Plug Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1215,"Plug Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1235,"Plug Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1236,"Te 90 Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1237,"Te 90 Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1238,"Te 90 Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1239,"Te Reducao 90 Roscavel 3/4x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1240,"Te Reducao 90 Roscavel 1x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1241,"Te Reducao 90 Roscavel 1.1/2x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1245,"Uniao Roscavel 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1246,"Uniao Roscavel 3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1247,"Uniao Roscavel 1""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1250,Vedarosca 1/2x5m,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1251,Vedarosca 1/2x10m,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1252,Vedarosca 3/4x5m,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1253,Vedarosca 3/4x10m,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1254,Vedarosca 1/2x25m,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1256,Vedarosca 3/4x25m,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1257,"Joelho 90 Azul 20x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1258,"Joelho 90 Azul 25x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1259,"Joelho Reducao 90 Azul 25x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1260,"Joelho Reducao 90 Azul 32x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1261,"Luva Azul 20x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1263,"Luva Reducao Azul 25x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1264,"Te 90 Azul 20x20x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1265,"Te 90 Azul 25x25x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1266,"Te Reducao 90 Azul 25x25x1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1275,"Te Reducao 90 Azul 32x32x3/4""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1276,Tampa Caixa D'Agua Ferro Fundido,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1337,Borracha Ligacao Vaso Sanitario,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1363,Borracha de Vedacao,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1366,Conjunto Fixador,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1372,Conjunto de Ligacao Para Vaso,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1375,Conjunto de Parafusos Para Assento,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1377,Curva Tubo de Descarga,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1380,Engate Flexivel,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1385,Haste de Chuveiro,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1391,Sifao Flexivel,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1392,Sifao Mictorio,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1399,Tubo Descarga de Embutir,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1406,Tubo de Descarga Externo,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1412,Tubo de Descarga Valvula,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1419,Vedante Para Torneira,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1423,"Acabamento Torneira com Registro 1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1431,"Registro Pressao Soldavel PVC 1.1/2""",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1530,Junta Plastica 12x3,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1532,Bucha SB/8 WC,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1533,Bucha SB/8 WCL,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1534,Curva 90 Esgoto PVC Rigido 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1535,Tubo Esgoto PVC Rigido 40mm (60m),m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1536,Arruela Vedante PVC 60x30,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1537,Joelho 45 Soldavel 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1538,Te 90 Soldavel 40mm,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1539,Captador Soldavel 40mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1540,Curva 90 Soldavel 40mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1541,Bucha Reducao Longa Soldavel 60x40mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1542,Te 90 Soldavel 60mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1543,Curva 90 Soldavel 60mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1544,Tubo Soldavel 6m 40mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1545,Tubo PVC 100 Agua,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1546,Tubo Soldavel 6m 60mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1547,Tubo Soldavel 6m 75mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1548,Tubo Soldavel 6m 50mm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1894,Tubo Diametro 20cm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1924,Tubo 15cm,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1936,Tubo PVC 100 Para Esgoto / Aguas Pluviais,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1986,Espargidores,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1991,Tubo Ligacao Niquelado,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1996,"Tubo PVC 1.1/2""",m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+1998,"Tubo Galvanizado 1.1/2""",m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+2030,"Conexao 4"" x 48mm",un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+2066,Bolsa de Borracha,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+2068,Tubo Ligacao Para Canaleta,m,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+2071,Estirante,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+2092,Engates PVC,un,02 - Materiais,02.010 - Tubos e Conexões Hidro-Sanitárias
+18,"Pó de Brita (0,075 a 4,8 mm)",m3,02 - Materiais,02.002 - Agregados
+516,"Pedra-de-Mao (Lascao > 76,0 mm)",m3,02 - Materiais,02.002 - Agregados
+990,Saibro,m3,02 - Materiais,02.002 - Agregados
+1003,Areia,m3,02 - Materiais,02.002 - Agregados
+1004,"Brita 1 (9,5 a 19 mm)",m3,02 - Materiais,02.002 - Agregados
+1005,"Brita 2 (19,0 a 25,0 mm)",m3,02 - Materiais,02.002 - Agregados
+1012,"Pedrisco  (Brita Zero 4,8 a 9,5 mm)",m3,02 - Materiais,02.002 - Agregados
+1050,Areia fina,m3,02 - Materiais,02.002 - Agregados
+1367,Areia Media,m3,02 - Materiais,02.002 - Agregados
+2045,Pedra Gres (33x50x12),pc,02 - Materiais,02.002 - Agregados
+2141,Argila Expandida,m3,02 - Materiais,02.002 - Agregados
+21,Lambril de Imbuia,m2,02 - Materiais,02.041 - Forro
+24,Lambril de Cerejeira Macica,m2,02 - Materiais,02.041 - Forro
+26,Lambril Cerejeira Folheada,m2,02 - Materiais,02.041 - Forro
+849,Gesso,kg,02 - Materiais,02.041 - Forro
+883,Forro Luxalum 84r,m2,02 - Materiais,02.041 - Forro
+1549,Divisoria Naval,m2,02 - Materiais,02.041 - Forro
+1550,Divisoria Tipo PLS,m2,02 - Materiais,02.041 - Forro
+1670,Painel Standard 2500x1200x40,m2,02 - Materiais,02.041 - Forro
+1671,Perfil Chapa Dobrada Galvanizada n.104L,m,02 - Materiais,02.041 - Forro
+1672,Perfil Chapa Dobrada Galvanizada n.05L,m,02 - Materiais,02.041 - Forro
+1673,Malhete 11/2x1.8,m,02 - Materiais,02.041 - Forro
+1674,Bucha s-6 com Parafuso,un,02 - Materiais,02.041 - Forro
+1681,"Divisoria Painel Cego h=2,14",m2,02 - Materiais,02.041 - Forro
+1686,Divisoria-Porta H=211 Tot. 214,m2,02 - Materiais,02.041 - Forro
+1919,Forro Paraline Fechada Interna,m2,02 - Materiais,02.041 - Forro
+1920,Forro Paraline Leve,m2,02 - Materiais,02.041 - Forro
+1921,Forro Eucavid com Perfil de Aluminio,m2,02 - Materiais,02.041 - Forro
+1922,Forro Paraline Colmeia,m2,02 - Materiais,02.041 - Forro
+1930,Forro Metalico Tipo Luxo 184c,m2,02 - Materiais,02.041 - Forro
+1931,Forro Metalico Tipo Luxo 84c,m2,02 - Materiais,02.041 - Forro
+1932,Material Forro Luxo Aluminio com Flush,m2,02 - Materiais,02.041 - Forro
+1934,Forro Plastico PVC,m2,02 - Materiais,02.041 - Forro
+1935,Arremate Plastico Para Forro,m,02 - Materiais,02.041 - Forro
+1937,Ripa Pinho 2a. 2x3cm Cepilhada,m,02 - Materiais,02.041 - Forro
+1947,Forro Peroba do Campo,m2,02 - Materiais,02.041 - Forro
+1949,Lambril Cedrinho 10x2,m2,02 - Materiais,02.041 - Forro
+1958,Lambril Madeira Para Parede ou Forro,m2,02 - Materiais,02.041 - Forro
+1960,"Lambril Aluminio y-336(3,77kg/m2)",m2,02 - Materiais,02.041 - Forro
+1974,Forro de Imbuia,m2,02 - Materiais,02.041 - Forro
+1981,Lambril Pinho 10x2,m2,02 - Materiais,02.041 - Forro
+27,Saboneteira Para Sabao Liquido,un,02 - Materiais,02.023 - Louças e Acessórios
+221,Porta Toalha de Papel P4,un,02 - Materiais,02.023 - Louças e Acessórios
+223,Tubo Compactado Metalico Tipo Flextic,m,02 - Materiais,02.023 - Louças e Acessórios
+224,Chapeu Flextic,un,02 - Materiais,02.023 - Louças e Acessórios
+436,"Aparelho de Bide 1 Furo 1/2""",un,02 - Materiais,02.023 - Louças e Acessórios
+437,"Aparelho Bide 3 Furos 1/2""",un,02 - Materiais,02.023 - Louças e Acessórios
+438,"Aparelho Lavatorio 3 Furos 1/2""",un,02 - Materiais,02.023 - Louças e Acessórios
+541,Acoplamento Tubo de Descarga,m,02 - Materiais,02.023 - Louças e Acessórios
+568,Banheira Carina 1.83 com Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+569,Banheira Cond. 1800 sem Metais sem Hidr.,un,02 - Materiais,02.023 - Louças e Acessórios
+571,Banheira Duplex 1650 com Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+572,Banheira Suite 1650 sem Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+573,Banheira Una 1650 Retangular com Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+574,Banheira Virginia com Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+576,"Saboneteira 7,5x15cm",un,02 - Materiais,02.023 - Louças e Acessórios
+577,Cabide Simples,un,02 - Materiais,02.023 - Louças e Acessórios
+585,Saboneteira 15x15cm,un,02 - Materiais,02.023 - Louças e Acessórios
+586,Vaso Colorido,un,02 - Materiais,02.023 - Louças e Acessórios
+587,Conjunto Acessorio Completo,un,02 - Materiais,02.023 - Louças e Acessórios
+596,Lavatorio Colorido,un,02 - Materiais,02.023 - Louças e Acessórios
+600,Vaso Sanitario Diamantina,un,02 - Materiais,02.023 - Louças e Acessórios
+617,Mictorio Centro Tocantins,un,02 - Materiais,02.023 - Louças e Acessórios
+625,Armario Banheiro Embutir 1 Porta Aluminio 33x47cm,un,02 - Materiais,02.023 - Louças e Acessórios
+626,Armario Banheiro Embutir 1 Porta Aluminio 45x60cm,un,02 - Materiais,02.023 - Louças e Acessórios
+627,Armario Banheiro Embutir 1 Porta Classico 33x47cm,un,02 - Materiais,02.023 - Louças e Acessórios
+628,Armario Banheiro Embutir 3 Portas Aluminio 75x50cm,un,02 - Materiais,02.023 - Louças e Acessórios
+632,Armario Banheiro Embutir 3 Portas Vogue 90x60cm,un,02 - Materiais,02.023 - Louças e Acessórios
+633,Armario Banheiro Embutir 1 Porta Aluminio 75x50cm,un,02 - Materiais,02.023 - Louças e Acessórios
+634,Armario Banheiro Embutir 3 Portas Aluminio 75x49cm,un,02 - Materiais,02.023 - Louças e Acessórios
+635,Armario Banheiro Sobrepor 1 Porta Aluminio 20x30cm,un,02 - Materiais,02.023 - Louças e Acessórios
+636,Armario Banheiro Sobrepor 1 Porta Aluminio 33x47cm,un,02 - Materiais,02.023 - Louças e Acessórios
+637,Armario Banheiro Sobrepor 1 Porta Aluminio 45x60cm,un,02 - Materiais,02.023 - Louças e Acessórios
+638,Armario Banheiro Sobrepor 3Portas Aluminio 75x50cm,un,02 - Materiais,02.023 - Louças e Acessórios
+639,Armario Banheiro Sobrepor 3Portas Aluminio 90x60cm,un,02 - Materiais,02.023 - Louças e Acessórios
+640,Armario Banheiro Sobrepor 1 Porta Aluminio 30x37cm,un,02 - Materiais,02.023 - Louças e Acessórios
+641,Assento Sanitario A-5,un,02 - Materiais,02.023 - Louças e Acessórios
+642,Assento Sanitario Economico,un,02 - Materiais,02.023 - Louças e Acessórios
+643,Assento Sanitario Extra Macio,un,02 - Materiais,02.023 - Louças e Acessórios
+644,Assento Sanitario Family,un,02 - Materiais,02.023 - Louças e Acessórios
+645,Assento Sanitario Luxo,un,02 - Materiais,02.023 - Louças e Acessórios
+646,Assento Sanitario Ascot,un,02 - Materiais,02.023 - Louças e Acessórios
+647,Assento Sanitario Tivoli,un,02 - Materiais,02.023 - Louças e Acessórios
+648,Caixa Descaga Externa C-25 Sobrepor,un,02 - Materiais,02.023 - Louças e Acessórios
+649,Caixa Descarga Externa C-2TBLE CP,un,02 - Materiais,02.023 - Louças e Acessórios
+650,Caixa Descarga Externa C-3TBLE CP,un,02 - Materiais,02.023 - Louças e Acessórios
+651,Caixa Descarga Externa C-4S Sobrepor,un,02 - Materiais,02.023 - Louças e Acessórios
+652,Caixa Descarga Externa C-4TBLE CP,un,02 - Materiais,02.023 - Louças e Acessórios
+653,Caixa Descarga Externa Ciflex Mec Br 0094,un,02 - Materiais,02.023 - Louças e Acessórios
+674,Espelho Oval Grav. 1073 45x56cm,un,02 - Materiais,02.023 - Louças e Acessórios
+731,Banheira Caroline 1500 sem Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+732,Banheira Carina 1.52 com Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+733,Banheira Cond. 1500 com Metais sem Hidr.,un,02 - Materiais,02.023 - Louças e Acessórios
+734,Banheira Cond. 1500 sem Metais sem Hidr.,un,02 - Materiais,02.023 - Louças e Acessórios
+735,Banheira Cond. 1800 com Metais sem Hidr.,un,02 - Materiais,02.023 - Louças e Acessórios
+736,Banheira Duplex 1800 com Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+737,Banheira Duplex 1800 sem Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+738,Banheira Suite 1650 com Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+739,Banheira Suite 1500 com Metais,un,02 - Materiais,02.023 - Louças e Acessórios
+740,Cabide Duplo,un,02 - Materiais,02.023 - Louças e Acessórios
+760,Lavatorio Wogue,un,02 - Materiais,02.023 - Louças e Acessórios
+761,Vaso Sanitario Wogue,un,02 - Materiais,02.023 - Louças e Acessórios
+864,Armario Banheiro Embutir 1 Porta Aluminio 36x31cm,un,02 - Materiais,02.023 - Louças e Acessórios
+866,Caixa Descarga Externa C-5,un,02 - Materiais,02.023 - Louças e Acessórios
+868,Adaptador Torneira Para Mangueira,un,02 - Materiais,02.023 - Louças e Acessórios
+869,Adaptador Valvula Pia Lavatorio n_01,un,02 - Materiais,02.023 - Louças e Acessórios
+870,"Bolsa de Ligacao 1.1/2""",un,02 - Materiais,02.023 - Louças e Acessórios
+871,Cesto Helic. sem Tampa Branco,un,02 - Materiais,02.023 - Louças e Acessórios
+874,Saboneteira de Parede,un,02 - Materiais,02.023 - Louças e Acessórios
+875,Saboneteira Sobrepor,un,02 - Materiais,02.023 - Louças e Acessórios
+1378,Descida Bide,un,02 - Materiais,02.023 - Louças e Acessórios
+1382,Espelho Para Caixa Descarga,un,02 - Materiais,02.023 - Louças e Acessórios
+1383,Espude,un,02 - Materiais,02.023 - Louças e Acessórios
+1389,Porta Papel,un,02 - Materiais,02.023 - Louças e Acessórios
+1393,Suporte Oculto,un,02 - Materiais,02.023 - Louças e Acessórios
+1413,Tubo Porta Toalha,m,02 - Materiais,02.023 - Louças e Acessórios
+1527,Cuba De Embutir Branca,un,02 - Materiais,02.023 - Louças e Acessórios
+1573,Tampo de Marmore com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1586,Tampo Inox 2.60 Cuba Dupla,un,02 - Materiais,02.023 - Louças e Acessórios
+1741,Armario Embutido,m2,02 - Materiais,02.023 - Louças e Acessórios
+1895,Porta Shampoo,un,02 - Materiais,02.023 - Louças e Acessórios
+1897,Lavatorio de Embutir,un,02 - Materiais,02.023 - Louças e Acessórios
+1898,Tanque de Marmorina,un,02 - Materiais,02.023 - Louças e Acessórios
+1899,Tampo Marmorina 1.60m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1903,Tampo de Marmore,m,02 - Materiais,02.023 - Louças e Acessórios
+1923,Assento Para Bacia Colocado,un,02 - Materiais,02.023 - Louças e Acessórios
+1945,Tanque de Louca sem Coluna,un,02 - Materiais,02.023 - Louças e Acessórios
+1948,Tanque de Aco Inox,un,02 - Materiais,02.023 - Louças e Acessórios
+1950,Tanque de Louca com Coluna,un,02 - Materiais,02.023 - Louças e Acessórios
+1951,Tanque de Granilite,un,02 - Materiais,02.023 - Louças e Acessórios
+1957,Tampo de Granito,m,02 - Materiais,02.023 - Louças e Acessórios
+1962,Tampo Granito 2.9m Cuba Dupla,un,02 - Materiais,02.023 - Louças e Acessórios
+1964,Tampo Granilite com Cuba Louca,un,02 - Materiais,02.023 - Louças e Acessórios
+1965,Tampo Granilite 2.00m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1966,Tampo Granilite 1.80m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1968,Tampo Granilite 1.50m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1970,Tampo Granilite 1.20m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1971,Tampo Granito 2.00m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1972,Tampo Granito 1.80m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1973,Tampo Granito 1.50m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1975,Tampo Granito 1.20m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1976,Tampo Marmore 2.00m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1977,Tampo Marmore 1.80m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1978,Tampo Marmore 1.50m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1982,Tampo Marmore 1.20m com Cuba,un,02 - Materiais,02.023 - Louças e Acessórios
+1988,Mictorio Coletivo,un,02 - Materiais,02.023 - Louças e Acessórios
+1992,Mictorio de Louca,un,02 - Materiais,02.023 - Louças e Acessórios
+1995,Bide,un,02 - Materiais,02.023 - Louças e Acessórios
+1997,Caixa de Descarga,un,02 - Materiais,02.023 - Louças e Acessórios
+2031,Bacia com Caixa Acoplada com Saida Horizontal,un,02 - Materiais,02.023 - Louças e Acessórios
+2065,Bacia com Caixa Acoplada,un,02 - Materiais,02.023 - Louças e Acessórios
+2077,Vaso Sanitario,un,02 - Materiais,02.023 - Louças e Acessórios
+2083,Lavatorio Popular,un,02 - Materiais,02.023 - Louças e Acessórios
+2096,Coluna,un,02 - Materiais,02.023 - Louças e Acessórios
+2098,Lavatorio Medio,un,02 - Materiais,02.023 - Louças e Acessórios
+2099,Armario de Embutir,un,02 - Materiais,02.023 - Louças e Acessórios
+2111,Cabide,un,02 - Materiais,02.023 - Louças e Acessórios
+2116,Porta Toalha,un,02 - Materiais,02.023 - Louças e Acessórios
+2118,Papeleira 15x15,un,02 - Materiais,02.023 - Louças e Acessórios
+30,Pintura de Faixas da Quadra e Equipamentos,un,02 - Materiais,02.014 - Pintura
+281,Solvente Para Tinta,l,02 - Materiais,02.014 - Pintura
+431,Corante Globo,un,02 - Materiais,02.014 - Pintura
+532,Rolo de La,un,02 - Materiais,02.014 - Pintura
+533,Trincha,un,02 - Materiais,02.014 - Pintura
+534,Garfo Para Rolo Atlas 400/23,un,02 - Materiais,02.014 - Pintura
+725,Hidrax,l,02 - Materiais,02.014 - Pintura
+964,Removedor de Tinta,l,02 - Materiais,02.014 - Pintura
+1335,Pintura,m2,02 - Materiais,02.014 - Pintura
+1589,Pentox (5L),l,02 - Materiais,02.014 - Pintura
+1656,Esmalte Sintetico Fosco,l,02 - Materiais,02.014 - Pintura
+1657,Rebril,kg,02 - Materiais,02.014 - Pintura
+1658,Sinteko,l,02 - Materiais,02.014 - Pintura
+1659,Selador Madeira (3.6L),l,02 - Materiais,02.014 - Pintura
+1663,Silicone,l,02 - Materiais,02.014 - Pintura
+1665,Esmalte Sintetico Acetinado,l,02 - Materiais,02.014 - Pintura
+1666,Esmalte Sintetico Brilhante,l,02 - Materiais,02.014 - Pintura
+1668,Tinta Acrilica,l,02 - Materiais,02.014 - Pintura
+1682,"Aguabril Interna (Liquibrilho) 3,6L",l,02 - Materiais,02.014 - Pintura
+1683,Zarcao (3.6 L),l,02 - Materiais,02.014 - Pintura
+1685,Suvinil Diluente 6870,l,02 - Materiais,02.014 - Pintura
+1687,Agua Raz,l,02 - Materiais,02.014 - Pintura
+1688,Fundo Preparador de Paredes,l,02 - Materiais,02.014 - Pintura
+1689,Selador Acrilico,l,02 - Materiais,02.014 - Pintura
+1690,Fixador Pintura Cal Globo Fix 150ml,l,02 - Materiais,02.014 - Pintura
+1691,"Diluente Verniz Poliuretano (3,6L)",l,02 - Materiais,02.014 - Pintura
+1692,Resina Acrilica,l,02 - Materiais,02.014 - Pintura
+1693,Verniz Acrilico Para Concreto (Inter),l,02 - Materiais,02.014 - Pintura
+1694,"Fundo Primer Verniz Poliuretano 3,6L",l,02 - Materiais,02.014 - Pintura
+1695,Verniz Assoalho (Killing),l,02 - Materiais,02.014 - Pintura
+1696,Verniz PVA,l,02 - Materiais,02.014 - Pintura
+1697,Tinta Kresil Acrilica Quartzo,l,02 - Materiais,02.014 - Pintura
+1698,Verniz Sintetico,l,02 - Materiais,02.014 - Pintura
+1699,Tinta Reko a Oleo,l,02 - Materiais,02.014 - Pintura
+1700,Tinta Oleo Assoalho,l,02 - Materiais,02.014 - Pintura
+1701,Escova de Cerdas,un,02 - Materiais,02.014 - Pintura
+1718,Solvente,l,02 - Materiais,02.014 - Pintura
+1742,Tinta Oleo (Tucano 3.6L),l,02 - Materiais,02.014 - Pintura
+1763,Super Conservado P,l,02 - Materiais,02.014 - Pintura
+1766,Tinta PVA,l,02 - Materiais,02.014 - Pintura
+1767,Tinta Plastica Exterior (3.6L),l,02 - Materiais,02.014 - Pintura
+1768,Tinta Plastica 3.6 (Globo Vinil),l,02 - Materiais,02.014 - Pintura
+1772,Selador,l,02 - Materiais,02.014 - Pintura
+1773,Liquido Selador (3.6L),l,02 - Materiais,02.014 - Pintura
+1776,Massa Acrilica (Suvinil),l,02 - Materiais,02.014 - Pintura
+1777,Massa Corrida Plastica (3.6L),l,02 - Materiais,02.014 - Pintura
+102,"Eletroduto Corrugado 3/4""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+103,"Eletroduto Roscavel 3m 3/4""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+535,"Tubo Protecao PVC Anti-Chama 2""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+603,"Tubo Condutor Provid. 1.1/2""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+708,Condutor PVC Rigido 88mm,m,02 - Materiais,02.047 - Tubos e Eletrodutos
+831,Condutor PVC Rigido 100mm,m,02 - Materiais,02.047 - Tubos e Eletrodutos
+832,Bracadeira Para Condutor PVC 100mm,un,02 - Materiais,02.047 - Tubos e Eletrodutos
+844,"Tubo Eletroduto 2""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1490,Eletroduto,un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1753,"Eletroduto Liso 1""x2,5",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1771,"Eletroduto Liso 3/4""x1,5",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1774,"Eletroduto Liso 1/2""x1,0",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1775,"Eletroduto Corrugado 5/8""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1779,"Eletroduto Corrugado 3/8""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1780,"Eletroduto Corrugado 1/2""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1781,"Eletroduto Corrugado 1""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1790,"Curva 90 Eletroduto Roscavel 2.1/2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1791,"Curva 90 Eletroduto Roscavel 2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1792,"Curva 90 Eletroduto Roscavel 1.1/4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1793,"Curva Eletroduto Roscavel 3/4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1794,"Curva 90 Eletroduto Roscavel 1""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1795,"Curva 90 Eletroduto Roscavel 1.1/2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1796,"Luva Eletroduto Roscavel 3/4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1797,"Luva Eletroduto Roscavel 1""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1798,"Curva 90 Eletroduto Roscavel 1/2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1799,"Eletroduto Roscavel 3m 2.1/4""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1800,"Eletroduto Roscavel 3m 2""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1823,"Curva 180 Eletroduto Roscavel 1""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1824,"Eletroduto Roscavel 3m 1.1/4""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1825,"Eletroduto Roscavel 3m 1.1/2""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1830,"Eletroduto Roscavel 3m 1/2""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1833,"Eletroduto Roscavel 3m 3/4""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1843,"Eletroduto Roscavel 3m 1""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1845,"Curva 90 Eletroduto Roscavel 3""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1848,"Curva 90 Eletroduto Roscavel 3/4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1849,"Curva 90 Eletroduto Roscavel 3/8""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1853,"Curva 90 Eletroduto Roscavel 4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1854,"Curva 180 Eletroduto Roscavel 1.1/2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1855,"Curva 180 Eletroduto Roscavel 1.1/4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1856,"Arruela Aluminio Para Eletroduto Roscavel 1""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1857,"Curva 180 Eletroduto Roscavel 1/2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1858,"Curva 180 Eletroduto Roscavel 2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1860,"Curva 180 Eletroduto Roscavel 3/4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1861,"Luva Eletroduto Roscavel 1/2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1862,"Luva Eletroduto Roscavel 1.1/4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1864,"Luva Eletroduto Roscavel 1.1/2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1866,"Luva Eletroduto Roscavel 2""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1867,"Luva Eletroduto Roscavel 3""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1868,"Luva Eletroduto Roscavel 4""",un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1869,Luva Eletroduto Pressao 20mm,un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1870,Luva Eletroduto Pressao 25mm,un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1874,Luva Eletroduto Pressao 32mm,un,02 - Materiais,02.047 - Tubos e Eletrodutos
+1892,"Eletroduto Roscavel 3m 3""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+1893,"Eletroduto Roscavel 3m 4""",m,02 - Materiais,02.047 - Tubos e Eletrodutos
+204,Placa de Registro Historico,un,02 - Materiais,02.032 - Diversos
+226,Pneus,un,02 - Materiais,02.032 - Diversos
+250,Mangueira Corrugada,m,02 - Materiais,02.032 - Diversos
+252,Cunha Lateral,un,02 - Materiais,02.032 - Diversos
+351,Perfil,un,02 - Materiais,02.032 - Diversos
+513,Clips Para Aquecedores,un,02 - Materiais,02.032 - Diversos
+689,Mesa Plastica,un,02 - Materiais,02.032 - Diversos
+841,Lixa Ferro 100,un,02 - Materiais,02.032 - Diversos
+847,Junta Plastica 27x3mm,m,02 - Materiais,02.032 - Diversos
+881,Camisa Metalica Tubulacao Ar Comprimido,m,02 - Materiais,02.032 - Diversos
+896,Lona Preta,m2,02 - Materiais,02.032 - Diversos
+971,Imprimacao Ligante Para Pavimentacao Asfaltica,m2,02 - Materiais,02.032 - Diversos
+972,Solo Jazida,m3,02 - Materiais,02.032 - Diversos
+988,Gabiao Malha Hexagonal,m3,02 - Materiais,02.032 - Diversos
+1019,Mourao Para Cerca,m,02 - Materiais,02.032 - Diversos
+1020,Esticador Para Cerca,m,02 - Materiais,02.032 - Diversos
+1318,Lona Plastica,m2,02 - Materiais,02.032 - Diversos
+1336,Aquecedor Hidromassagem,un,02 - Materiais,02.032 - Diversos
+1351,Quadro Negro Para Sala de Aula,un,02 - Materiais,02.032 - Diversos
+1417,Material Para Canteiro de Obra,vb,02 - Materiais,02.032 - Diversos
+1425,Placa Institucional da Empresa,un,02 - Materiais,02.032 - Diversos
+1432,Placa Agente Financeiro,un,02 - Materiais,02.032 - Diversos
+1434,Escada Tipo Piscina,un,02 - Materiais,02.032 - Diversos
+1435,Gabiao Colchao,un,02 - Materiais,02.032 - Diversos
+1558,Material Para Muro de Pedra,m2,02 - Materiais,02.032 - Diversos
+1739,Targeta Fio Redondo,un,02 - Materiais,02.032 - Diversos
+1778,Lixa Ferro 80,un,02 - Materiais,02.032 - Diversos
+2026,Juntas,un,02 - Materiais,02.032 - Diversos
+2089,Fita Vedacao,m,02 - Materiais,02.032 - Diversos
+4665,ABACAXI,kg,02 - Materiais,02.032 - Diversos
+207,Pilar de Concreto Pre-Moldado,m3,02 - Materiais,02.015 - Pré-Moldados
+208,Tesouras de Concreto Pre-Moldado,m3,02 - Materiais,02.015 - Pré-Moldados
+209,Tercas de Concreto Pre-Moldado,m3,02 - Materiais,02.015 - Pré-Moldados
+211,Blocos / Cofres de Concreto Pre-Moldado,m3,02 - Materiais,02.015 - Pré-Moldados
+212,Tirante de Pilar a Pilar,kg,02 - Materiais,02.015 - Pré-Moldados
+213,Tirante de Cobertura Para Tesouras,kg,02 - Materiais,02.015 - Pré-Moldados
+217,Chumbadores Para Pilares nas Fundacoes,kg,02 - Materiais,02.015 - Pré-Moldados
+218,"Chumbadores Para Tesouras, nos Pilares",kg,02 - Materiais,02.015 - Pré-Moldados
+622,Laje Trelicada,m2,02 - Materiais,02.015 - Pré-Moldados
+842,Pilar de Concreto Pre-Moldado,m3,02 - Materiais,02.015 - Pré-Moldados
+897,Concreto Pre Moldado,m3,02 - Materiais,02.015 - Pré-Moldados
+1022,Laje Protendida 8cm,m2,02 - Materiais,02.015 - Pré-Moldados
+1029,Laje Protendida 12cm,m2,02 - Materiais,02.015 - Pré-Moldados
+1032,Laje Pre Fabricada 8cm,m2,02 - Materiais,02.015 - Pré-Moldados
+1034,Laje Pre-Fabricada 12cm,m2,02 - Materiais,02.015 - Pré-Moldados
+1035,Placa de Concreto Isopor,m2,02 - Materiais,02.015 - Pré-Moldados
+1325,Verga Pre-Moldada,m,02 - Materiais,02.015 - Pré-Moldados
+1451,Viga Concreto Pre Moldado,m3,02 - Materiais,02.015 - Pré-Moldados
+1452,Sapatas Concreto Pre Moldado,m3,02 - Materiais,02.015 - Pré-Moldados
+1529,Meio Fio Pre-Fabricado,m,02 - Materiais,02.015 - Pré-Moldados
+210,Tercas Metalicas,kg,02 - Materiais,02.045 - Estrutura Metálica
+214,Viga Estrutura Metalica,kg,02 - Materiais,02.045 - Estrutura Metálica
+215,Pilar Estrutura Metalica,kg,02 - Materiais,02.045 - Estrutura Metálica
+216,Tesouras Estrutura Metalica,kg,02 - Materiais,02.045 - Estrutura Metálica
+219,Arco Metalico Para Estrutura Cobertura,kg,02 - Materiais,02.045 - Estrutura Metálica
+352,Ganchos Completos Para Armacao Metalica,un,02 - Materiais,02.045 - Estrutura Metálica
+1209,Estrutura Metalica,kg,02 - Materiais,02.045 - Estrutura Metálica
+220,Valvula Pematic Piso 790-P DOCOL,un,02 - Materiais,02.013 - Metais
+225,Aro de Arremate Para Tubo Flexivel de Metal,un,02 - Materiais,02.013 - Metais
+439,"Base Valvula Descarga RI 484AP 1.1/4""",un,02 - Materiais,02.013 - Metais
+440,"Base Valvula Descarga RI 484 1.1/2""",un,02 - Materiais,02.013 - Metais
+442,"Misturador Para Pia Bica Movel 1/2""",un,02 - Materiais,02.013 - Metais
+443,"Misturador Pia Parede 1/2""",un,02 - Materiais,02.013 - Metais
+444,Plug Lavatorio Cromado,un,02 - Materiais,02.013 - Metais
+445,"Registro Gaveta Bege 3/4""",un,02 - Materiais,02.013 - Metais
+446,"Registro Gaveta Bruto 4""",un,02 - Materiais,02.013 - Metais
+447,"Registro Gaveta Bruto 2""",un,02 - Materiais,02.013 - Metais
+448,"Registro Gaveta Bruto 1/2""",un,02 - Materiais,02.013 - Metais
+449,"Registro Gaveta Bruto 3/4""",un,02 - Materiais,02.013 - Metais
+450,"Registro Gaveta Bruto 1.1/4""",un,02 - Materiais,02.013 - Metais
+451,"Registro Gaveta Bruto 1.1/2""",un,02 - Materiais,02.013 - Metais
+452,"Registro Gaveta com Canopla 1/2""",un,02 - Materiais,02.013 - Metais
+453,"Registro Gaveta com Canopla 1""",un,02 - Materiais,02.013 - Metais
+454,"Registro Gaveta com Canopla 1.1/4""",un,02 - Materiais,02.013 - Metais
+455,"Registro Gaveta com Canopla 1.1/2""",un,02 - Materiais,02.013 - Metais
+456,"Registro Gaveta com Canopla 2""",un,02 - Materiais,02.013 - Metais
+457,"Registro Gaveta sem Canopla 1/2""",un,02 - Materiais,02.013 - Metais
+458,"Registro Gaveta sem Canopla 3/4""",un,02 - Materiais,02.013 - Metais
+459,"Registro Gaveta sem Canopla 1""",un,02 - Materiais,02.013 - Metais
+460,"Registro Pressao Bege 3/4""",un,02 - Materiais,02.013 - Metais
+463,"Registro Pressao com Canopla 1/2""",un,02 - Materiais,02.013 - Metais
+464,"Registro Pressao Roscavel com Volante 1/2""",un,02 - Materiais,02.013 - Metais
+465,"Registro Pressao Roscavel com Volante 3/4""",un,02 - Materiais,02.013 - Metais
+466,"Registro Pressao Roscavel Thornell 1/2""",un,02 - Materiais,02.013 - Metais
+467,"Registro Pressao Roscavel Thornell 3/4""",un,02 - Materiais,02.013 - Metais
+468,Registro Pressao Soldavel com Volante 25mm,un,02 - Materiais,02.013 - Metais
+471,"Registro Pressao sem Canopla 1/2""",un,02 - Materiais,02.013 - Metais
+472,"Registro Pressao sem Canopla 3/4""",un,02 - Materiais,02.013 - Metais
+473,Valvula Descarga Mictorio Cromado,un,02 - Materiais,02.013 - Metais
+474,"Valvula Descarga Hidra Liso com Rosca 1.1/4""",un,02 - Materiais,02.013 - Metais
+475,"Valvula Descarga Hidra Luxo 1.1/4""",un,02 - Materiais,02.013 - Metais
+476,"Valvula Descarga PVC P21 1.1/2""",un,02 - Materiais,02.013 - Metais
+477,"Torneira Boia Caixa D'Agua 1/2""",un,02 - Materiais,02.013 - Metais
+478,"Torneira Boia Caixa D'Agua 3/4""",un,02 - Materiais,02.013 - Metais
+479,"Torneira Cozinha Alavanca Simples 15 1/2""",un,02 - Materiais,02.013 - Metais
+480,"Torneira Cozinha Alavanca Simples 18 3/4""",un,02 - Materiais,02.013 - Metais
+481,"Torneira Cozinha Alavanca Simples 20 1/2""",un,02 - Materiais,02.013 - Metais
+482,"Torneira Cozinha Alavanca Simples 20 3/4""",un,02 - Materiais,02.013 - Metais
+483,"Torneira Cozinha Jato 10 1/2""",un,02 - Materiais,02.013 - Metais
+484,"Torneira Cozinha Jato 10 3/4""",un,02 - Materiais,02.013 - Metais
+485,"Torneira Cozinha Jato 15 1/2""",un,02 - Materiais,02.013 - Metais
+486,"Torneira Cozinha Jato 15 3/4""",un,02 - Materiais,02.013 - Metais
+487,"Torneira Jardim Mangueira 1/2""",un,02 - Materiais,02.013 - Metais
+488,"Torneira Jardim Mangueira 3/4""",un,02 - Materiais,02.013 - Metais
+489,"Torneira Jardim Plastica Thornell 1/2""",un,02 - Materiais,02.013 - Metais
+490,"Torneira Jardim Curta 1/2""",un,02 - Materiais,02.013 - Metais
+491,"Torneira Jardim Longa 1/2""",un,02 - Materiais,02.013 - Metais
+493,"Torneira Jardim Longa 3/4""",un,02 - Materiais,02.013 - Metais
+494,Torneira Filtro,un,02 - Materiais,02.013 - Metais
+495,"Torneira Lavatorio 1/2""",un,02 - Materiais,02.013 - Metais
+496,"Torneira Lavatorio 3/4""",un,02 - Materiais,02.013 - Metais
+497,"Torneira Lavatorio Thornell 1/2""",un,02 - Materiais,02.013 - Metais
+498,"Torneira Pia Bica Fixa 1/2""",un,02 - Materiais,02.013 - Metais
+499,"Torneira Pia Bica Movel 1/2""",un,02 - Materiais,02.013 - Metais
+500,"Torneira Pia 11 1/2""",un,02 - Materiais,02.013 - Metais
+501,"Torneira Pia 18 Cab. 1/2""",un,02 - Materiais,02.013 - Metais
+503,"Torneira Tanque 6 1/2""",un,02 - Materiais,02.013 - Metais
+504,"Torneira Tanque 14 1/2""",un,02 - Materiais,02.013 - Metais
+505,"Torneira Tanque 16 1/2""",un,02 - Materiais,02.013 - Metais
+506,"Torneira Tanque 10 1/2""",un,02 - Materiais,02.013 - Metais
+507,"Torneira Tanque 10 3/4""",un,02 - Materiais,02.013 - Metais
+508,"Torneira Tanque 15 1/2""",un,02 - Materiais,02.013 - Metais
+509,"Torneira Tanque 15 3/4""",un,02 - Materiais,02.013 - Metais
+510,"Torneira Tanque Thornell 1/2""",un,02 - Materiais,02.013 - Metais
+565,Valvula Lavatorio Unho Cromada N_12,un,02 - Materiais,02.013 - Metais
+566,Valvula Pia Unho Branca N_02,un,02 - Materiais,02.013 - Metais
+567,Valvula Tanque Saida Roscavel 40,un,02 - Materiais,02.013 - Metais
+604,Acabamento Valvula Descarga,un,02 - Materiais,02.013 - Metais
+611,Acabamento Valvula Descarga Branco,un,02 - Materiais,02.013 - Metais
+612,Acabamento Valvula Descarga Dourado,un,02 - Materiais,02.013 - Metais
+613,Acabamento Valvula Descarga Fume,un,02 - Materiais,02.013 - Metais
+614,Acabamento Valvula Descarga Silv. Vid.,un,02 - Materiais,02.013 - Metais
+619,Valvula Pematic Parede 191-PA DOCOL,un,02 - Materiais,02.013 - Metais
+675,Torneira Eletrica Pia,un,02 - Materiais,02.013 - Metais
+726,Valvula Lavatorio Unho Branca N_5,un,02 - Materiais,02.013 - Metais
+727,Valvula Lavatorio Unho Branca N_11,un,02 - Materiais,02.013 - Metais
+728,Valvula Pia Unho Branca N_1,un,02 - Materiais,02.013 - Metais
+729,Valvula Tanque Saida Lisa 40,un,02 - Materiais,02.013 - Metais
+730,Valvula Tanque Ranhur 50 N_11,un,02 - Materiais,02.013 - Metais
+863,"Tampo Aco Inox 1,20m com Cuba",un,02 - Materiais,02.013 - Metais
+900,Adaptador Curto Soldavel 50 x 1 1/2,un,02 - Materiais,02.013 - Metais
+901,Adaptador Curto Soldavel 25 x 3/4,un,02 - Materiais,02.013 - Metais
+902,Registro Base Gaveta 3/4 Docol,un,02 - Materiais,02.013 - Metais
+903,Registro Base,un,02 - Materiais,02.013 - Metais
+1394,Tampa Valvula Pia Lavatorio,un,02 - Materiais,02.013 - Metais
+1395,Tampa Valvula Para Tanque,un,02 - Materiais,02.013 - Metais
+1396,Toalheiro,un,02 - Materiais,02.013 - Metais
+1398,Torneira Para Caixa de Descarga,un,02 - Materiais,02.013 - Metais
+1400,"Registro Gaveta Cromado 1/2""",un,02 - Materiais,02.013 - Metais
+1414,Valvula de Poco,un,02 - Materiais,02.013 - Metais
+1415,Valvula de Retencao,un,02 - Materiais,02.013 - Metais
+1426,"Registro Gaveta Bruto 1""",un,02 - Materiais,02.013 - Metais
+1526,Acabamento Para Valvula Docol Plastica,un,02 - Materiais,02.013 - Metais
+1896,Aparelho Misturador Para Lavatorio,un,02 - Materiais,02.013 - Metais
+1902,"Registro Pressao com Canopla 3/4""",un,02 - Materiais,02.013 - Metais
+1904,Tampo de Aco Inox (l=0.60m),m,02 - Materiais,02.013 - Metais
+1905,Pia Aco Inox 0.60x2.40m (Cuba Dupla),un,02 - Materiais,02.013 - Metais
+1906,Pia Aco Inox 0.62x2 40m (Cuba Simples),un,02 - Materiais,02.013 - Metais
+1938,Torneira Para Tanque,un,02 - Materiais,02.013 - Metais
+1953,"Sifao 2"" Para Pia e Tanque",un,02 - Materiais,02.013 - Metais
+1954,"Valvula 2"" Para Pia e Tanque",un,02 - Materiais,02.013 - Metais
+1955,Torneira Para Pia,un,02 - Materiais,02.013 - Metais
+1956,Valvula Pia Americana,un,02 - Materiais,02.013 - Metais
+1983,Tampo Aco Inox 2.00m com Cuba,un,02 - Materiais,02.013 - Metais
+1984,Tampo Aco Inox 1.80m com Cuba,un,02 - Materiais,02.013 - Metais
+1985,Tampo Aco Inox 1.50m com Cuba,un,02 - Materiais,02.013 - Metais
+1987,"Valvula 1.1/2""",un,02 - Materiais,02.013 - Metais
+1989,"Registro Gaveta com Canopla 3/4""",un,02 - Materiais,02.013 - Metais
+1990,"Sifao Cromado 2""",un,02 - Materiais,02.013 - Metais
+1993,Aparelho Misturador Para Pia,un,02 - Materiais,02.013 - Metais
+1994,Aparelho Misturador Para Bide,un,02 - Materiais,02.013 - Metais
+2019,Valvula de Descarga,un,02 - Materiais,02.013 - Metais
+2039,Engate Cromado,un,02 - Materiais,02.013 - Metais
+2079,Torneira Para Lavatorio,un,02 - Materiais,02.013 - Metais
+2084,Torneira Para Lavatorio com Coluna,un,02 - Materiais,02.013 - Metais
+2093,"Sifao 1.1/2"" Para Lavatorio",un,02 - Materiais,02.013 - Metais
+2095,"Valvula 1"" Simples",un,02 - Materiais,02.013 - Metais
+2122,Valvula de PVC Para Pia,un,02 - Materiais,02.013 - Metais
+227,Caixa Embutir Ferro 3x3 Sextavada Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+228,Caixa Embutir Ferro 3x3 Sextav. Fundo Movim. Duplo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+229,Caixa Embutir Ferro 4x4 Quadrada,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+230,Caixa Embutir Ferro 4x4 Oitavada Fundo Movim.Duplo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+231,Caixa Embutir Ferro 4x4 Sextav. Fundo Movim. Duplo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+232,Caixa Embutir Ferro 4x4 Sext. Fundo Movim. Simples,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+233,Caixa Embutir Ferro 6x6 Sextav. Fundo Movim. Duplo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+234,Caixa Embutir Ferro 6x6 Sext. Fundo Movim. Simples,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+235,Caixa Embutir Ferro 2x4 IEL-FF,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+236,Caixa Embutir Ferro 3x3 Sext. Fundo Movim. Simples,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+237,Caixa Embutir PVC 2x4,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+238,Caixa Embutir PVC 3x3 Sextavada Fundo Movel,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+239,Caixa Embutir PVC 4x4 Quadrada,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+240,Caixa Embutir PVC 4x4 Oitavada Fundo Movel,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+288,Caixa PVC,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+343,Disjuntores Para 12 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+371,Disjuntor Monofasico 5 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+372,Disjuntor Monofasico 10 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+373,Disjuntor Monofasico 25 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+374,Disjuntor Monofasico 35 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+375,Disjuntor Monofasico 40 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+376,Disjuntor Monofasico 50 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+377,Disjuntor Bifasico 10 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+378,Disjuntor Bifasico 20 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+379,Disjuntor Bifasico 30 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+380,Disjuntor Bifasico 40 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+381,Disjuntor Bifasico 50 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+382,Disjuntor Bifasico 60 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+383,Disjuntor Bifasico 70 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+384,Disjuntor Trifasico 10 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+385,Disjuntor Trifasico 20 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+386,Disjuntor Trifasico 25 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+387,Disjuntor Trifasico 40 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+388,Disjuntor Trifasico 50 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+389,Disjuntor Trifasico 60 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+390,Disjuntor Trifasico 80 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+391,Disjuntor Trifasico 90 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+392,Disjuntor Trifasico 100 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+393,Disjuntor Trifasico 250 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+531,Caixa Inspecao 30x30x40cm,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+554,Caixa Passagem 20x20x12cm Porteiro Eletronico,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+560,Caixa de Medidor Trifasica,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+623,Caixa Passagem 60x60 Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+624,Caixa 6 Disjuntores Embutir com Porta,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+630,Caixa Telefone 60x60cm Embutir,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+843,Caixa Padrao Trifasico,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+865,Caixa Lombardi Para 12 Disjuntores,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+941,Caixa Passagem 13x15 Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+942,Caixa Passagem 15x15 Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+943,Caixa Passagem 20x20 Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+953,Caixa Passagem 25x25 Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+955,Caixa Passagem 30x30 Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+956,Caixa Passagem 40x40 Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+957,Caixa Passagem 50x50 Fundo Fixo,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1078,Caixa Embutir de Ferro 4x4 Oitavada,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1079,Caixa Embutir Ferro 2x4,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1124,Caixa 2 Disjuntores Embutir com Porta,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1125,Caixa 3 Disjuntores Embutir com Porta,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1126,Caixa 4 Disjuntores Embutir com Porta,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1127,Caixa 6 Disjuntores Embutir com Porta,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1128,Caixa Telefone 20x20cm Embutir,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1129,Caixa Telefone 30x30cm Embutir,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1130,Caixa Telefone 40x40cm Embutir,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1131,Caixa Telefone 50x50cm Embutir,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1154,"Caixa PVC 2x4""",un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1491,Caixa 20x20,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1873,Disjuntor Trifasico 30 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+1875,Disjuntor Monofasico 30 Amperes,un,02 - Materiais,"02.050 - Caixas, Passagem e Disjuntores"
+241,Lampada Fluorescente 20W,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+242,Lampada Fluorescente 40W,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+243,Lampada Incandescente 25x220x230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+244,Lampada Incandescente 36x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+245,Lampada Incandescente 40x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+246,Lampada Incandescente 54x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+247,Lampada Incandescente 60x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+248,Lampada Incandescente 75x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+249,Lampada Incandescente 90x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+255,Lampada Incandescente 100x220/220,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+257,Lampada Incandescente 135x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+258,Lampada Incandescente 150x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+259,Lampada Mista 160x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+261,Lampada Mista 250x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+262,Lampada Mista 250x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+263,Lampada Mista 500x220/230,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+264,Lanterna Parede Pintada,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+265,Lanterna Teto Pintada,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+266,Luminaria 1x20 Acrilico,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+267,Luminaria 1x40 Acrilico Referencia LC,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+268,Luminaria 2x20 Acrilico,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+269,Luminaria 2x40 Acrilico Completa,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+271,Luminaria Arandela 45,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+272,Luminaria Parede 45cm com Acrilico,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+273,Luminaria Parede 60cm com Acrilico,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+274,Luminaria Parede 75cm com Acrilico,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+275,Luminaria Parede 90cm com Acrilico,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+276,Luminaria Plastico Leitoso Brasil,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+277,Luminaria Plastico Leitoso Escada,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+278,Luminaria Esferica Plastica,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+283,Lampada Incandescente 40W,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+921,Luminaria 2x20W 220V Completa,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+1498,Lampada de 60W,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+1499,Luminaria Obstaculo Simples,vb,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+1522,Luminaria,un,02 - Materiais,"02.051 - Lâmpadas, Luminárias e Lanternas"
+251,Cinta Para Elevacao,un,02 - Materiais,02.033 - Material Segurança
+432,Stow Bag  (Equipamento de Transporte),un,02 - Materiais,02.033 - Material Segurança
+511,Botina,un,02 - Materiais,02.033 - Material Segurança
+517,Extintor AGP 10 Lt,un,02 - Materiais,02.033 - Material Segurança
+935,Balde Plastico,un,02 - Materiais,02.033 - Material Segurança
+1140,Extintor Po Quimico Seco PQS 4KG,un,02 - Materiais,02.033 - Material Segurança
+253,Calha do Queixo,un,02 - Materiais,02.017 - Calhas e Acessórios
+254,Calha da Contra Cunha,un,02 - Materiais,02.017 - Calhas e Acessórios
+768,Calha Beiral Chapa Galvanizada Corte 25 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+769,Calha Beiral Chapa Galvanizada Corte 28 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+770,Calha Beiral Chapa Galvanizada Corte 33 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+771,Calha Beiral Chapa Galvanizada Corte 40 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+773,Calha Interna Chapa Galvanizada Corte 33 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+774,Calha Interna Chapa Galvanizada Corte 40 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+775,Calha Interna Chapa Galvanizada Corte 50 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+776,Calha Chapa Galvanizada Colocada,m,02 - Materiais,02.017 - Calhas e Acessórios
+780,"Sobrecalha Calha Int. Chapa Galv.Corte 12,5 Coloc.",m,02 - Materiais,02.017 - Calhas e Acessórios
+781,Sobrecalha Calha Int. Chapa Galv. Corte 25 Coloc.,m,02 - Materiais,02.017 - Calhas e Acessórios
+782,Sobrecalha Parede Chapa Galvan. Corte 25 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+783,Sobrecalha Parede Chapa Galvan. Corte 28 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+784,Sobrecalha Parede Chapa Galvan. Corte 33 Colocado,m,02 - Materiais,02.017 - Calhas e Acessórios
+786,Bico Para Calha 75mm,un,02 - Materiais,02.017 - Calhas e Acessórios
+788,Bico com Panela 75mm Para Calha,un,02 - Materiais,02.017 - Calhas e Acessórios
+789,Bico Para Calha com Panela 100mm,un,02 - Materiais,02.017 - Calhas e Acessórios
+882,Calha Inox Para Piso,m,02 - Materiais,02.017 - Calhas e Acessórios
+1365,Calha de Beiral Corte 50 Colocada,m,02 - Materiais,02.017 - Calhas e Acessórios
+2106,Calha Colocada,m,02 - Materiais,02.017 - Calhas e Acessórios
+256,Parafuso,un,02 - Materiais,02.020 - Material Metalúrgico
+584,Grelha Perfil de Ferro,m,02 - Materiais,02.020 - Material Metalúrgico
+787,Gabiao Arame 2.7,m3,02 - Materiais,02.020 - Material Metalúrgico
+939,Prego Galvanizado,un,02 - Materiais,02.020 - Material Metalúrgico
+1010,Prego,kg,02 - Materiais,02.020 - Material Metalúrgico
+1021,Arame Farpado,m,02 - Materiais,02.020 - Material Metalúrgico
+1033,Parafuso Para Instalacao Provisoria,un,02 - Materiais,02.020 - Material Metalúrgico
+1038,Grampo Para Cerca,kg,02 - Materiais,02.020 - Material Metalúrgico
+1051,Prego 12x12,kg,02 - Materiais,02.020 - Material Metalúrgico
+1052,Prego 12x15,kg,02 - Materiais,02.020 - Material Metalúrgico
+1053,Prego 16x24,kg,02 - Materiais,02.020 - Material Metalúrgico
+1054,Prego 18x30,kg,02 - Materiais,02.020 - Material Metalúrgico
+1055,Prego 15x15,kg,02 - Materiais,02.020 - Material Metalúrgico
+1060,Corrente Para Porta Galpao Provisorio,kg,02 - Materiais,02.020 - Material Metalúrgico
+1203,Arame,kg,02 - Materiais,02.020 - Material Metalúrgico
+1207,Arame n10,kg,02 - Materiais,02.020 - Material Metalúrgico
+1219,"Arame Recozido no. 18 (1,24 mm)",kg,02 - Materiais,02.020 - Material Metalúrgico
+1224,Parafuso 1/4 com Arruela e Bucha,un,02 - Materiais,02.020 - Material Metalúrgico
+1387,Porca No. 2,un,02 - Materiais,02.020 - Material Metalúrgico
+1458,Tela Poliester,m2,02 - Materiais,02.020 - Material Metalúrgico
+1559,Grelhas de Aco,ml,02 - Materiais,02.020 - Material Metalúrgico
+1592,Alambrados,m2,02 - Materiais,02.020 - Material Metalúrgico
+1675,"Parafuso Fixacao Portas 6,1x90",un,02 - Materiais,02.020 - Material Metalúrgico
+1715,Bucha s-8 com Parafuso,un,02 - Materiais,02.020 - Material Metalúrgico
+1782,"Parafuso 3/4"" x 10",un,02 - Materiais,02.020 - Material Metalúrgico
+1784,Cadeado 20 mm,un,02 - Materiais,02.020 - Material Metalúrgico
+1872,"Arruela Quadrada Furo 3/8""",un,02 - Materiais,02.020 - Material Metalúrgico
+1876,Parafuso Rosca Soberba,un,02 - Materiais,02.020 - Material Metalúrgico
+1959,Grampos T-50 ct-1/2(100un),un,02 - Materiais,02.020 - Material Metalúrgico
+2067,Parafusos Niquelados,un,02 - Materiais,02.020 - Material Metalúrgico
+2114,Parafuso 8x110 Arruela Inox + PVC,cj,02 - Materiais,02.020 - Material Metalúrgico
+2121,Parafuso com Porca e Chapa,un,02 - Materiais,02.020 - Material Metalúrgico
+2137,Gancho Galvanizado 8x25 Porca e Arruela,un,02 - Materiais,02.020 - Material Metalúrgico
+279,Cabo Isolado 1.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+293,Cabo Isolado 2.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+294,Cabo Isolado 4mm2,m,02 - Materiais,02.048 - Fios e Cabos
+295,Cabo Isolado 6mm2,m,02 - Materiais,02.048 - Fios e Cabos
+296,Cabo Isolado 10mm2,m,02 - Materiais,02.048 - Fios e Cabos
+297,Cabo Isolado 16mm2,m,02 - Materiais,02.048 - Fios e Cabos
+298,Cabo Isolado 25mm2,m,02 - Materiais,02.048 - Fios e Cabos
+299,Cabo Isolado 35mm2,m,02 - Materiais,02.048 - Fios e Cabos
+302,Cabo Isolado 50mm2,m,02 - Materiais,02.048 - Fios e Cabos
+303,Cabo Isolado 70mm2,m,02 - Materiais,02.048 - Fios e Cabos
+304,Cabo Isolado 95mm2,m,02 - Materiais,02.048 - Fios e Cabos
+305,Cabo Isolado 120mm2,m,02 - Materiais,02.048 - Fios e Cabos
+306,Cabo de Cobre NU 50mm2,m,02 - Materiais,02.048 - Fios e Cabos
+307,Cabo de Cobre NU 16mm2,m,02 - Materiais,02.048 - Fios e Cabos
+308,Cabo de Cobre NU 35mm2,m,02 - Materiais,02.048 - Fios e Cabos
+309,Cabo Sintenax 2.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+312,Cabo Sintenax 4mm2,m,02 - Materiais,02.048 - Fios e Cabos
+313,Cabo Sintenax 6mm2,m,02 - Materiais,02.048 - Fios e Cabos
+314,Cabo Sintenax 10mm2,m,02 - Materiais,02.048 - Fios e Cabos
+315,Cabo Sintenax 16mm2,m,02 - Materiais,02.048 - Fios e Cabos
+332,Cabo Sintenax 50mm2,m,02 - Materiais,02.048 - Fios e Cabos
+336,Cabo Sintenax 70mm2,m,02 - Materiais,02.048 - Fios e Cabos
+337,Cabo Sintenax 120mm2,m,02 - Materiais,02.048 - Fios e Cabos
+338,Cabo Sintenax 1KV 25mm2,m,02 - Materiais,02.048 - Fios e Cabos
+339,Cabo Sintenax 1KV 35mm2,m,02 - Materiais,02.048 - Fios e Cabos
+340,Fio Isolado 0.25mm2,m,02 - Materiais,02.048 - Fios e Cabos
+341,Fio Isolado 0.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+342,Fio Isolado 0.75mm2,m,02 - Materiais,02.048 - Fios e Cabos
+344,Fio Isolado 1mm2,m,02 - Materiais,02.048 - Fios e Cabos
+345,Fio Isolado 1.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+346,Fio Isolado 16mm2,m,02 - Materiais,02.048 - Fios e Cabos
+347,Fio Paralelo 2x0.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+348,Fio Paralelo 2x0.75mm2,m,02 - Materiais,02.048 - Fios e Cabos
+349,Fio Paralelo 2x1.0mm2,m,02 - Materiais,02.048 - Fios e Cabos
+350,Fio Paralelo 2x1.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+539,Cabo Para Antena Coletiva,m,02 - Materiais,02.048 - Fios e Cabos
+549,Cabo Para Telefone,m,02 - Materiais,02.048 - Fios e Cabos
+556,Cabo Para Porteiro Eletronico,m,02 - Materiais,02.048 - Fios e Cabos
+918,Cabo Flexolda 35mm,un,02 - Materiais,02.048 - Fios e Cabos
+929,Cabo Flexolda 35mm,un,02 - Materiais,02.048 - Fios e Cabos
+944,Cabo Antifogo 1.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+945,Cabo Antifogo 2.5mm2,m,02 - Materiais,02.048 - Fios e Cabos
+946,Cabo Antifogo 4mm2,m,02 - Materiais,02.048 - Fios e Cabos
+947,Cabo Antifogo 6mm2,m,02 - Materiais,02.048 - Fios e Cabos
+948,Cabo Antifogo 10mm2,m,02 - Materiais,02.048 - Fios e Cabos
+949,Cabo Antifogo 16mm2,m,02 - Materiais,02.048 - Fios e Cabos
+950,Cabo Antifogo 35mm2,m,02 - Materiais,02.048 - Fios e Cabos
+951,Cabo Antifogo 50mm2,m,02 - Materiais,02.048 - Fios e Cabos
+952,Cabo Antifogo 70mm2,m,02 - Materiais,02.048 - Fios e Cabos
+954,Cabo Antifogo 120mm2,m,02 - Materiais,02.048 - Fios e Cabos
+998,Cabo Antifogo 25mm2,m,02 - Materiais,02.048 - Fios e Cabos
+1000,Cabo Antifogo 95mm2,m,02 - Materiais,02.048 - Fios e Cabos
+1031,"Fio Isolado 2,5mm2",m,02 - Materiais,02.048 - Fios e Cabos
+1036,Fio Isolado 4mm2,m,02 - Materiais,02.048 - Fios e Cabos
+1040,Fio Isolado 6mm2,m,02 - Materiais,02.048 - Fios e Cabos
+1041,Fio Isolado 10mm2,m,02 - Materiais,02.048 - Fios e Cabos
+1493,Cabo de Cobre NU,m,02 - Materiais,02.048 - Fios e Cabos
+1519,"Fio Paralelo 2x2,5mm2",m,02 - Materiais,02.048 - Fios e Cabos
+1520,"Fio Paralelo 2x4,0mm2",m,02 - Materiais,02.048 - Fios e Cabos
+282,Placas 4x2 com Posto,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+292,Interruptor Externo Tecla de Nylon,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+353,"Conjunto Embutir 2x4"" Espelho Cego",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+354,"Conjunto Embutir 2x4"" Espelho Cego",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+355,"Conjunto Embutir 2x4"" 1 Tomada 20A (Condic. de ar)",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+356,"Conjunto Embutir 2x4"" 1 Interruptor Paralelo",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+358,"Conj. Embut. 2x4"" Tomada Univ. + Interr. Paralelo",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+359,"Conj. Embut. 2x4"" Interr. Simples + Interr. Paral.",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+360,"Conjunto Embutir 2x4"" 2 Interruptores Paralelos",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+361,"Conjunto Embutir 2x4"" 2 Interr.+1 Tomada Universal",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+362,"Conj. Embut. 2x4"" 1 Inter. Simples+2 Inter. Paral.",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+363,"Conj. Embut. 2x4"" 2 Inter. Simples+1 Inter. Paral.",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+364,"Conjunto Embutir 2x4"" 1 Interruptor Simples",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+365,"Conjunto Embutir 2x4"" 3 Interruptores Simples",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+366,"Conj. Embutir 2x4"" 1 Campainha + 1 Interr. Simples",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+367,"Conjunto Embutir 2x4"" 1 Campainha + 1 Tomada",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+368,"Conjunto Embut. 2x4"" 1 Tomada Universal Retangular",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+369,"Conjunto Embutir 2x4"" 3 Interruptores Paralelos",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+370,"Conj. Emb. 2x4"" 1 Inter. Paral.+1 Tomada Universal",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+394,"Conjunto Embutir 2x4"" 2 Interruptores Simples",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+395,"Conj. Embut. 2x4"" 1 Interr. Simples+1 Tomada Univ.",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+396,"Conjunto Embutir 2x4"" 1 Tomada Universal",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+397,"Conjunto Embutir 2x4"" 1 Tomada Universal Tripolar",un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+540,Espelho Para Caixa Antena Coletiva,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+542,Interruptor Externo Simples,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+543,Interruptor Externo 2 Teclas,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+544,Interruptor Externo Paralelo,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+545,Interruptor Externo Campainha,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+546,Interruptor Externo Tecla Nylon,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+548,Interruptor Externo 1 Tecla,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+550,Interruptor Externo Campainha Tecla Luminosa,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+551,Interruptor Externo Tecla Luminaria Paralela,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+552,Interruptor Externo Paralelo Tecla Luminosa,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+553,Interruptor Externo Retangular Tecla Luminosa,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+1296,Tecla Campainha Embutir,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+1523,Interruptor Interno,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+1524,Tomada,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+1788,Tomada Porcelana 2 Polos 30 Amperes,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+1789,Tomada Porcelana 3 Polos 30 Amperes,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+2097,Tomada Telefonica,un,02 - Materiais,"02.049 - Interruptores, Tomadas e Conjuntos"
+287,Revestimento Limpowax 125 Powocol,un,02 - Materiais,02.039 - Revestimentos
+502,Quimical HPK 120,kg,02 - Materiais,02.039 - Revestimentos
+514,Argamassa Quartozolit 20 kg,kg,02 - Materiais,02.039 - Revestimentos
+547,Assoalho Champagne,m2,02 - Materiais,02.039 - Revestimentos
+709,Peitoril de Marmore 15cm,m2,02 - Materiais,02.039 - Revestimentos
+713,Pedra Itacolomy Colocada,m2,02 - Materiais,02.039 - Revestimentos
+802,Pvarte,kg,02 - Materiais,02.039 - Revestimentos
+837,Peitoril Granilite,m,02 - Materiais,02.039 - Revestimentos
+860,Carpete 8mm nylon (Reviflex) Colocado,m2,02 - Materiais,02.039 - Revestimentos
+861,Carpete Colocado,m2,02 - Materiais,02.039 - Revestimentos
+877,Lajota Colonial,m2,02 - Materiais,02.039 - Revestimentos
+891,Papel de Parede Para Revestimento Interno,m2,02 - Materiais,02.039 - Revestimentos
+1116,Colocacao de Caquinhos,m2,02 - Materiais,02.039 - Revestimentos
+1119,Caquinhos Ceramicos,m2,02 - Materiais,02.039 - Revestimentos
+1277,Graffiato,m2,02 - Materiais,02.039 - Revestimentos
+1440,Placa Pingadeira Canalete Colocada,un,02 - Materiais,02.039 - Revestimentos
+1441,Soleira Ceramica,m,02 - Materiais,02.039 - Revestimentos
+1442,Pingadeira Galvanizada Corte 30cm,m,02 - Materiais,02.039 - Revestimentos
+1443,Soleira,m,02 - Materiais,02.039 - Revestimentos
+1447,Piso Vinilico Semi-Flexivel (Vinamipiso),m2,02 - Materiais,02.039 - Revestimentos
+1450,Rejunte Para Argamassa (Cimento e Cola),kg,02 - Materiais,02.039 - Revestimentos
+1459,Carpete 5mm Colocado Inclui Cola,m2,02 - Materiais,02.039 - Revestimentos
+1570,Formica,m2,02 - Materiais,02.039 - Revestimentos
+1587,Revestimento de Madeira,m2,02 - Materiais,02.039 - Revestimentos
+1588,Ladrilho Hidraulico,m2,02 - Materiais,02.039 - Revestimentos
+1590,Madeira Ipe,m3,02 - Materiais,02.039 - Revestimentos
+1680,Taco Para Fixacao de Rodape,un,02 - Materiais,02.039 - Revestimentos
+1769,Soleira de Basalto,m2,02 - Materiais,02.039 - Revestimentos
+1770,Peitoril de Basalto,m2,02 - Materiais,02.039 - Revestimentos
+1909,Azulejo Liso,m2,02 - Materiais,02.039 - Revestimentos
+1910,Azulejo Colorido,m2,02 - Materiais,02.039 - Revestimentos
+1911,Azulejo Decorado,m2,02 - Materiais,02.039 - Revestimentos
+1912,Pastilha Ceramica,m2,02 - Materiais,02.039 - Revestimentos
+1913,Chapa Eucatex,m2,02 - Materiais,02.039 - Revestimentos
+1916,Reboco Externo Preparado,kg,02 - Materiais,02.039 - Revestimentos
+1917,Reboco Interno,kg,02 - Materiais,02.039 - Revestimentos
+1925,Ceramica Tipo Gail Granitada,m2,02 - Materiais,02.039 - Revestimentos
+1926,Ceramica Tipo Gail Flash,m2,02 - Materiais,02.039 - Revestimentos
+1927,Ceramica Tipo Gail 9800,m2,02 - Materiais,02.039 - Revestimentos
+1928,Revestimento Fuget Inclui Lav.,m2,02 - Materiais,02.039 - Revestimentos
+1929,Cantoneira Aluminio Para Azulejos,m,02 - Materiais,02.039 - Revestimentos
+1939,Pastilha Jatoba 104,m2,02 - Materiais,02.039 - Revestimentos
+1940,Pastilha Jatoba 216,m2,02 - Materiais,02.039 - Revestimentos
+1941,Pastilha Jatoba 307,m2,02 - Materiais,02.039 - Revestimentos
+1942,Pastilha Jatoba 402,m2,02 - Materiais,02.039 - Revestimentos
+1943,Pastilha Jatoba 404,m2,02 - Materiais,02.039 - Revestimentos
+1944,Pastilha Jatoba 611,m2,02 - Materiais,02.039 - Revestimentos
+1946,Chapiscofix,kg,02 - Materiais,02.039 - Revestimentos
+1961,Cantoneira Invisivel Aluminio,m,02 - Materiais,02.039 - Revestimentos
+1967,Eucaplac 0.30x2.75x0.064,m2,02 - Materiais,02.039 - Revestimentos
+1969,Laminado Fenolico,m2,02 - Materiais,02.039 - Revestimentos
+1979,Dimopiso,m2,02 - Materiais,02.039 - Revestimentos
+1980,Azulejo Para Cozinha,m2,02 - Materiais,02.039 - Revestimentos
+1999,Tijoletas Ceramicas,m2,02 - Materiais,02.039 - Revestimentos
+2000,Rodape Metalico,m,02 - Materiais,02.039 - Revestimentos
+2002,Ceramica Vitrificada,m2,02 - Materiais,02.039 - Revestimentos
+2003,Rodape Ceramica Vermelha,m,02 - Materiais,02.039 - Revestimentos
+2004,Rodape Ladrilho Hidraulico Aplicado,m,02 - Materiais,02.039 - Revestimentos
+2005,Paviflex 30x30x0.02,m2,02 - Materiais,02.039 - Revestimentos
+2006,Carpete 10mm,m2,02 - Materiais,02.039 - Revestimentos
+2007,Carpete 4mm Colocado Inclui Cola,m2,02 - Materiais,02.039 - Revestimentos
+2008,Carpete 6mm Colocado Inclui Cola,m2,02 - Materiais,02.039 - Revestimentos
+2009,Rodape Para Carpete (Cordao Passoma),m,02 - Materiais,02.039 - Revestimentos
+2010,Cordao de Madeira,m,02 - Materiais,02.039 - Revestimentos
+2012,Tacos Madeira 7x21 1a,m2,02 - Materiais,02.039 - Revestimentos
+2013,Rodape de Peroba,m,02 - Materiais,02.039 - Revestimentos
+2014,Grana de Marmore,kg,02 - Materiais,02.039 - Revestimentos
+2015,Rodape de Ipe,m,02 - Materiais,02.039 - Revestimentos
+2016,Parquet de Madeira,m2,02 - Materiais,02.039 - Revestimentos
+2017,Piso Pastilhado 40x40x0.5,m2,02 - Materiais,02.039 - Revestimentos
+2018,Paviflex 30x30x3.0,m2,02 - Materiais,02.039 - Revestimentos
+2021,Lajotao Colonial Vitrificado,m2,02 - Materiais,02.039 - Revestimentos
+2022,Tabuas Corridas 10cm,m2,02 - Materiais,02.039 - Revestimentos
+2023,Tabuas Corridas 20cm,m2,02 - Materiais,02.039 - Revestimentos
+2025,Testeira Paviflex 1.6mm,m,02 - Materiais,02.039 - Revestimentos
+2027,Paviflex 30x30x1.6,m2,02 - Materiais,02.039 - Revestimentos
+2028,Ardosia Colocada,m2,02 - Materiais,02.039 - Revestimentos
+2029,Goias Aplicada,m2,02 - Materiais,02.039 - Revestimentos
+2032,Mineira Aplicada,m2,02 - Materiais,02.039 - Revestimentos
+2033,Mosaico Portugues Aplicada,m2,02 - Materiais,02.039 - Revestimentos
+2034,Marmore e=2cm (Peitoril),m2,02 - Materiais,02.039 - Revestimentos
+2035,Rodape Ceramica Vitrificada,m,02 - Materiais,02.039 - Revestimentos
+2036,Rodape Lajotao Colonial,m,02 - Materiais,02.039 - Revestimentos
+2037,Pedra Caxambu,m2,02 - Materiais,02.039 - Revestimentos
+2038,Rodape Paviflex,m,02 - Materiais,02.039 - Revestimentos
+2040,Rodape Ceramica Esmaltada,m,02 - Materiais,02.039 - Revestimentos
+2041,Lajota Sextavada 4cm,m2,02 - Materiais,02.039 - Revestimentos
+2042,Soleira Granito Polido,m,02 - Materiais,02.039 - Revestimentos
+2043,Peitoril de Concreto,m,02 - Materiais,02.039 - Revestimentos
+2044,Basalto,m2,02 - Materiais,02.039 - Revestimentos
+2046,Rodape Chapa Dobrada Aplicado,m,02 - Materiais,02.039 - Revestimentos
+2047,Blokrete 8cm,un,02 - Materiais,02.039 - Revestimentos
+2048,Soleira Marmore,m2,02 - Materiais,02.039 - Revestimentos
+2049,Cordao de Marmore,m,02 - Materiais,02.039 - Revestimentos
+2050,Agregado Alta Resistencia,kg,02 - Materiais,02.039 - Revestimentos
+2051,Junta Piso Alta Resistencia,m,02 - Materiais,02.039 - Revestimentos
+2052,Rodape de Durbeton Aplicado,m,02 - Materiais,02.039 - Revestimentos
+2053,Granito 2cm Aplicado,m2,02 - Materiais,02.039 - Revestimentos
+2054,Rodape Granito 2cm Aplicado,m,02 - Materiais,02.039 - Revestimentos
+2056,Peitoril Granito Polido,m,02 - Materiais,02.039 - Revestimentos
+2057,Soleira de Concreto,m,02 - Materiais,02.039 - Revestimentos
+2058,Caco de Marmore,m2,02 - Materiais,02.039 - Revestimentos
+2059,Po de Marmore,kg,02 - Materiais,02.039 - Revestimentos
+2062,Rodape Imbuia 7cmx2m,m,02 - Materiais,02.039 - Revestimentos
+2063,Rodape Imbuia 5cmx2m,m,02 - Materiais,02.039 - Revestimentos
+2064,Rodape Pinho 7cmx2m,m,02 - Materiais,02.039 - Revestimentos
+2073,"Carpete 4,5mm Nylon (Reviflex) Colocado",m2,02 - Materiais,02.039 - Revestimentos
+2074,Rodape Pinho 5x2,m,02 - Materiais,02.039 - Revestimentos
+2076,Ladrilho Hidraulico 20x20,m2,02 - Materiais,02.039 - Revestimentos
+2078,Pingadeira Vermelha Para Soleira / Peitoril 25cm,un,02 - Materiais,02.039 - Revestimentos
+2081,Respaldo Para Carpete em Fita Metalica Colocado,m,02 - Materiais,02.039 - Revestimentos
+2082,Pedra Regular 20x20x40,un,02 - Materiais,02.039 - Revestimentos
+2086,Pedra Para Lixar Piso Alta Resistencia,un,02 - Materiais,02.039 - Revestimentos
+2087,Basalto Regular,m2,02 - Materiais,02.039 - Revestimentos
+2088,Madeira de Lei,m,02 - Materiais,02.039 - Revestimentos
+2090,Ceramica Para Cozinha,m2,02 - Materiais,02.039 - Revestimentos
+2094,Piso Ceramico,m2,02 - Materiais,02.039 - Revestimentos
+429,Trava Para Porta,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+880,Ferragem Para Estrutura de Madeira,kg,02 - Materiais,02.009 - Fechaduras e Ferragens
+1065,Cadeado 35mm,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1323,Ferragem Para Porta Vidro Temperado,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1346,"Dobradica 4""x2.1/2""",un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1359,Cadeado e Dobradica,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1369,Fecho de Alavanca - 40cm,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1717,Fechadura Embutir Interna Completa,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1720,Fecho,cj,02 - Materiais,02.009 - Fechaduras e Ferragens
+1723,Dobradica,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1734,Ferragem Para Porta Tipo Balcao,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1752,Fechadura Embutir Externa com Cilindro,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1754,Fechadura Embutir Para Banheiro,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1756,Trilho Para Porta de Correr,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1757,Concha Para Porta de Correr,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1761,Ferragem Janela Basculante,un,02 - Materiais,02.009 - Fechaduras e Ferragens
+1832,Ferragem de Janela,cj,02 - Materiais,02.009 - Fechaduras e Ferragens
+433,Enxada Sul,un,02 - Materiais,02.035 - Ferramentas
+434,Pa Para Ajuntamento Comun com Cabo,un,02 - Materiais,02.035 - Ferramentas
+441,Pa,un,02 - Materiais,02.035 - Ferramentas
+469,Peneira,un,02 - Materiais,02.035 - Ferramentas
+461,Corrimao de Madeira Fixo em Parede,m,02 - Materiais,02.040 - Corrimão
+462,Corrimao de Madeira Mon.c/120 Prancha 0.30,m,02 - Materiais,02.040 - Corrimão
+515,Cera Gioca 1x4 amarela,un,02 - Materiais,02.019 - Limpeza
+518,Thinner do Lar (Para Limpeza de Aluminio),l,02 - Materiais,02.019 - Limpeza
+1679,Cera Assoalho / Porta (450g),un,02 - Materiais,02.019 - Limpeza
+2061,Acido Muriatico 1L,l,02 - Materiais,02.019 - Limpeza
+2080,Amoniaco 1L,l,02 - Materiais,02.019 - Limpeza
+519,Cumeeira de Aluminio,un,02 - Materiais,02.016 - Coberturas e Acessórios
+610,Goivo Barro Para Telha Francesa,un,02 - Materiais,02.016 - Coberturas e Acessórios
+698,Telha Canalete 49cm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+767,"Cobertura Aluminio 0,5mm Trapezoidal",m2,02 - Materiais,02.016 - Coberturas e Acessórios
+785,Pingadeira Sobre-Parede Corte 25 Colocado,m,02 - Materiais,02.016 - Coberturas e Acessórios
+826,Prego Aco Zincado com Arruela,un,02 - Materiais,02.016 - Coberturas e Acessórios
+830,Conjunto Vedacao Aluminio,un,02 - Materiais,02.016 - Coberturas e Acessórios
+845,"Bucha e Arruela de Aluminio 2""",un,02 - Materiais,02.016 - Coberturas e Acessórios
+846,"Bucha e Arruela de Aluminio 2""",un,02 - Materiais,02.016 - Coberturas e Acessórios
+1082,Sistema Gethal - Viga Trelica,m,02 - Materiais,02.016 - Coberturas e Acessórios
+1133,Telha Aco Zincado Pintada com Acessorios Colocada,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1135,Telha Aco Zincado Ondulada,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1136,Telha Aco Zincado Trapezoidal,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1141,"Telha de Aluminio Ondulada 0,7mm",m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1143,"Telha de Aluminio Ondulada 0,8mm",m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1146,Telha Ceramica Alema,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1148,Telha Ceramica Francesa,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1149,Telha Ceramica Plan,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1150,Telha Ceramica Romana,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1184,Telha Fibrocimento Ondulada 4mm Vogatex,m,02 - Materiais,02.016 - Coberturas e Acessórios
+1185,Arruela Plastica 4x16,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1186,Telha Fibrocimento Ondulada 5mm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1187,Parafuso 5/16x110 com Arruela de Chumbo,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1188,Telha Fibrocimento Ondulada 6mm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1190,Conjunto de Vedacao Plastica,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1200,Telha Fibrocimento Kalheta 8mm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1221,Telha Fibrocimento Kalhetao 8mm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1222,Afastador Para Telha Fibrocimento,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1223,Fixador de Abas Simples,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1225,Contra Rufo Aluminio Corte 30cm,m,02 - Materiais,02.016 - Coberturas e Acessórios
+1226,Contra Rufo de Aluminio Corte 50cm,m,02 - Materiais,02.016 - Coberturas e Acessórios
+1227,Cumeeira Fibrocimento Kalheta 8mm,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1228,Cumeeira Fibrocimento Kalhetao 8mm,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1229,Telha Poliester Ondulada,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1230,Arruela PVC Rigido,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1231,Telha Termoacustica,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1232,Cumeeira PVC Rigido Perfil Greca,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1233,Cumeeira PVC Rigido Perfil Fibrocimento,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1234,Placas Ventilacao Para Telha Fibrocimento,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1287,Telha PVC Rigido Ondulada,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+1307,Cumeeira Aco Zincado,m,02 - Materiais,02.016 - Coberturas e Acessórios
+1320,Cumeeira Espigao Fibrocimento,m,02 - Materiais,02.016 - Coberturas e Acessórios
+1321,Cumeeira Fibrocimento Articulada 4mm Vogatex,m,02 - Materiais,02.016 - Coberturas e Acessórios
+1324,Cumeeira Fibrocimento 8mm,m,02 - Materiais,02.016 - Coberturas e Acessórios
+1437,Tampao Canalete,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1439,Rufo Canalete,un,02 - Materiais,02.016 - Coberturas e Acessórios
+1531,Massa Calafetar 35G,kg,02 - Materiais,02.016 - Coberturas e Acessórios
+1879,Telha Galvanizada,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2001,Pingadeira Vermelha Para Soleira com Peitoril 15cm,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2091,Telha Aco Galvanizada,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2100,Telha Fibrocimento 4mm-50x150,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2101,Telha Fibrocimento Ondulada 8mm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2102,Acessorios Fixacao Fibrocimento 8mm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2103,Telha Canalete 90cm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2104,Acessorios Fixacao de Canalete 90,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2105,Rufos Metalicos Colocados,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2109,Telha Fibrocimento,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2110,Telha Fibrocimento Ondulada 5mm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2112,Rufos Fibrocimento 6mm,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2113,Cumeeira Fibrocimento 6mm,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2115,Acessorios Fixacao Telha Fibrocimento 5mm,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2117,Acessorio Fixacao Canalete 49,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2119,Acessorios Fixacao Rufos Fibrocimento,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2120,Acessorios Fixacao Cumeeira Fibrocimento,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2123,Barrote 8x12,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2126,Telha Poliester com Fibra de Vidro,m2,02 - Materiais,02.016 - Coberturas e Acessórios
+2127,Caibros,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2128,Ripas,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2129,Telha Romana,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2130,Telha Francesa,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2131,Telha Paulista,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2132,Cumeeira Ceramica,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2133,Telha Colonial,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2134,Telha de Concreto,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2135,Cumeeira de Concreto,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2136,Espelho Para Beiral de Cobertura h=15cm,m,02 - Materiais,02.016 - Coberturas e Acessórios
+2138,Telha Aluminio Ondulada 0.5mm(1.8kg/m2),kg,02 - Materiais,02.016 - Coberturas e Acessórios
+2139,Cumeeira Lanternim Fibrocimento,un,02 - Materiais,02.016 - Coberturas e Acessórios
+2140,Arruela Inox Para Telha Fibrocimento,un,02 - Materiais,02.016 - Coberturas e Acessórios
+523,Captor Franklin,un,02 - Materiais,02.036 - Para Raio
+525,Sinalizador de Obstaculos,un,02 - Materiais,02.036 - Para Raio
+526,Conjunto de Contraventagem,un,02 - Materiais,02.036 - Para Raio
+527,Suporte Isolador com Reforco,un,02 - Materiais,02.036 - Para Raio
+528,Suporte Isolador Simples Para Mastro,un,02 - Materiais,02.036 - Para Raio
+529,Suporte Isolador com Reforco Para Mastro,un,02 - Materiais,02.036 - Para Raio
+530,Suporte Isolador Simples,un,02 - Materiais,02.036 - Para Raio
+925,Para Raio de Rede Tipo Valvula 25KV,un,02 - Materiais,02.036 - Para Raio
+1485,Para-Raio Franklin,un,02 - Materiais,02.036 - Para Raio
+524,"Tubo Ferro Galvanizado3 2""",m,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+562,"Luva Galvanizada 2""",un,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1299,"Tubo Ferro Galvanizado com Costura 1.1/4""",m,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1300,"Cotovelo 90 Ferro Galvanizado 1.1/4""",un,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1308,"Te 90 Ferro Galvanizado 1.1/4""",un,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1309,"Cruzeta Ferro Galvanizado 1.1/4""",un,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1310,"Flange Ferro Galvanizado 1.1/4""",un,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1494,Cano de Sustentacao,m,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1884,"Pontalete Galvanizado 1.1/2""x2,0m",un,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1915,"Conexoes Ferro Galvanizado 2,5""",m,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+1918,"Tubo Ferro Galvanizado 2.1/2""",m,02 - Materiais,02.025 - Tubos e Conexões Galvanizadas
+555,Po Impermeabilizante n.2 20 kg,un,02 - Materiais,02.011 - Impermeabilização
+828,Expansor - Aditivo em Po,kg,02 - Materiais,02.011 - Impermeabilização
+833,Argamassa Polimerica (Denvertec 100),kg,02 - Materiais,02.011 - Impermeabilização
+904,Denverlit Cinza,kg,02 - Materiais,02.011 - Impermeabilização
+905,Denverfix,kg,02 - Materiais,02.011 - Impermeabilização
+909,Denverseal,kg,02 - Materiais,02.011 - Impermeabilização
+910,Denverjunta,m2,02 - Materiais,02.011 - Impermeabilização
+911,Denverfrigor,m2,02 - Materiais,02.011 - Impermeabilização
+912,Denvercril E,m2,02 - Materiais,02.011 - Impermeabilização
+928,Denversol,kg,02 - Materiais,02.011 - Impermeabilização
+1015,Manta de Bidim,kg,02 - Materiais,02.011 - Impermeabilização
+1027,Bianco,kg,02 - Materiais,02.011 - Impermeabilização
+1045,Espuma (Neopor),l,02 - Materiais,02.011 - Impermeabilização
+1047,Manta de Densidade = 1.2,m3,02 - Materiais,02.011 - Impermeabilização
+1062,Denverlastic,kg,02 - Materiais,02.011 - Impermeabilização
+1067,Denverlastic Primer,kg,02 - Materiais,02.011 - Impermeabilização
+1111,Sika-1,kg,02 - Materiais,02.011 - Impermeabilização
+1242,Sika Aer,kg,02 - Materiais,02.011 - Impermeabilização
+1243,Plastiment VZ,kg,02 - Materiais,02.011 - Impermeabilização
+1244,Sika 4A,kg,02 - Materiais,02.011 - Impermeabilização
+1343,Tela Microtex Malha Quadrada 1mm,m2,02 - Materiais,02.011 - Impermeabilização
+1371,Denverglass 3mm,m2,02 - Materiais,02.011 - Impermeabilização
+1374,Denvermanta 3mm,m2,02 - Materiais,02.011 - Impermeabilização
+1376,Denverpren II,kg,02 - Materiais,02.011 - Impermeabilização
+1379,Denvermanta 4mm,m2,02 - Materiais,02.011 - Impermeabilização
+1381,Denvermanta Jardim,m2,02 - Materiais,02.011 - Impermeabilização
+1384,Denverflex TX,kg,02 - Materiais,02.011 - Impermeabilização
+1386,Denverplast Incolor,kg,02 - Materiais,02.011 - Impermeabilização
+1388,Denvermanta Cor,m2,02 - Materiais,02.011 - Impermeabilização
+1397,Denvermanta 5mm,m2,02 - Materiais,02.011 - Impermeabilização
+1401,Impermeabilizacao (Sika 1 Saco 1kg),kg,02 - Materiais,02.011 - Impermeabilização
+1402,Tinta Asfaltica (Igol 5kg),kg,02 - Materiais,02.011 - Impermeabilização
+1404,Frio Asfalto,kg,02 - Materiais,02.011 - Impermeabilização
+1405,Feltro Asfaltico,m2,02 - Materiais,02.011 - Impermeabilização
+1409,Vedaprem Branco,kg,02 - Materiais,02.011 - Impermeabilização
+1410,Denver Cor,kg,02 - Materiais,02.011 - Impermeabilização
+1411,Sika Fix,kg,02 - Materiais,02.011 - Impermeabilização
+1418,Denverniz,l,02 - Materiais,02.011 - Impermeabilização
+1424,Denverniz PU,l,02 - Materiais,02.011 - Impermeabilização
+1427,Denverpoxi Piso,l,02 - Materiais,02.011 - Impermeabilização
+1428,Denver PU,l,02 - Materiais,02.011 - Impermeabilização
+1429,Denverpren Arq,l,02 - Materiais,02.011 - Impermeabilização
+1430,Denverpiso PU,l,02 - Materiais,02.011 - Impermeabilização
+1433,Lp 54,l,02 - Materiais,02.011 - Impermeabilização
+1516,Denverpren III,kg,02 - Materiais,02.011 - Impermeabilização
+1517,Alcatrao,l,02 - Materiais,02.011 - Impermeabilização
+1518,Denver HR,l,02 - Materiais,02.011 - Impermeabilização
+1584,Isopor 20mm,m2,02 - Materiais,02.011 - Impermeabilização
+1585,Neoprene,m2,02 - Materiais,02.011 - Impermeabilização
+1660,Impermeabilizacao Acrilico Suviflex,l,02 - Materiais,02.011 - Impermeabilização
+1669,Imunizante Liquido (Pentox 5L),l,02 - Materiais,02.011 - Impermeabilização
+1851,Sikadur 31,kg,02 - Materiais,02.011 - Impermeabilização
+1852,Sikaflex 1a,m,02 - Materiais,02.011 - Impermeabilização
+2060,Manta Vinilica 0.90 Largura,m2,02 - Materiais,02.011 - Impermeabilização
+2124,Sikaflex 11-fc,kg,02 - Materiais,02.011 - Impermeabilização
+570,Tubo Cobre Cl. A 5m 15 (0.281Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+575,Tubo Cobre Cl.A 5m 22 (0.533Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+578,Tubo Cobre Cl. A 5m 28 (0.685Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+579,Tubo Cobre Cl A 5m 35 (1.047Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+580,Tubo Cobre Cl. A 5m 42 (1.264Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+581,Tubo Cobre Cl. A 5m 54 (1.780Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+582,Tubo Cobre Cl. E 5m 15 (0.203Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+583,Tubo Cobre Cl. E 5m 22 (0.360Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+597,Tubo Cobre Cl. E 5m 28 (0.462Kg/M),m,02 - Materiais,02.024 - Tubulação para Gás
+599,Tubo Cobre Cl. E 5m 42 (0.927Kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+601,Tubo Cobre Cl. E 5m 54 (l.343kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+602,Tubo Cobre Cl. E 5m 66 (2.209kg/m),m,02 - Materiais,02.024 - Tubulação para Gás
+682,"Conector Reducao Bronze 15x1/2""",un,02 - Materiais,02.024 - Tubulação para Gás
+683,"Conector Reducao Bronze 22x3/4""",un,02 - Materiais,02.024 - Tubulação para Gás
+684,Joelho 90 Bronze 42mm,un,02 - Materiais,02.024 - Tubulação para Gás
+686,"Joelho 90 Roscavel Bronze 15x1/2""",un,02 - Materiais,02.024 - Tubulação para Gás
+687,Luva Bronze 42mm,un,02 - Materiais,02.024 - Tubulação para Gás
+688,Te Bronze 15x1/2x15,un,02 - Materiais,02.024 - Tubulação para Gás
+690,Te Bronze 22x1/2x22,un,02 - Materiais,02.024 - Tubulação para Gás
+691,Te Bronze 22x3/4x22,un,02 - Materiais,02.024 - Tubulação para Gás
+692,Te Bronze 15 Misturador,un,02 - Materiais,02.024 - Tubulação para Gás
+693,Te Bronze 22 Misturador,un,02 - Materiais,02.024 - Tubulação para Gás
+694,Uniao Bronze 15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+695,Uniao Bronze 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+696,Uniao Bronze 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+697,Bucha Cobre 22x15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+699,Bucha Cobre 28x15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+700,Bucha Cobre 28x22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+701,Bucha de Cobre 35x15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+702,Bucha de Cobre 35x22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+703,Bucha de Cobre 35x28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+704,Bucha de Cobre 42x15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+710,Bucha de Cobre 42x22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+711,Bucha de Cobre 42x28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+712,Bucha de Cobre 42x35mm,un,02 - Materiais,02.024 - Tubulação para Gás
+714,Conector de Cobre 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+715,Conector de Cobre 35mm,un,02 - Materiais,02.024 - Tubulação para Gás
+716,Conector de Cobre 42mm,un,02 - Materiais,02.024 - Tubulação para Gás
+717,Conector de Cobre 54mm,un,02 - Materiais,02.024 - Tubulação para Gás
+718,Cotovelo de Cobre 15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+719,Cotovelo de Cobre 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+720,Cotovelo de Cobre 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+721,Cotovelo de Cobre 35mm,un,02 - Materiais,02.024 - Tubulação para Gás
+722,Curva 45 de Cobre 15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+723,Curva 45 de Cobre 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+724,Curva 45 de Cobre 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+741,Flange de Cobre 15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+742,Flange de Cobre 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+743,Flange de Cobre 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+744,Flange de Cobre 35mm,un,02 - Materiais,02.024 - Tubulação para Gás
+745,Flange de Cobre 42mm,un,02 - Materiais,02.024 - Tubulação para Gás
+746,Flange de Cobre 54mm,un,02 - Materiais,02.024 - Tubulação para Gás
+747,Te de Cobre 15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+748,Te de Cobre 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+749,Te de Cobre 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+750,Te Reducao Cobre 28x22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+753,"Te Reducao de Cobre 22x1/2""",un,02 - Materiais,02.024 - Tubulação para Gás
+757,"Te Reducao Cobre 22x1""",un,02 - Materiais,02.024 - Tubulação para Gás
+758,Joelho 45 de Cobre 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+759,"Joelho Reducao 90 de Cobre 22x1/2""",un,02 - Materiais,02.024 - Tubulação para Gás
+762,"Joelho Reducao 90 Roscavel Bronze 22x1/2""",un,02 - Materiais,02.024 - Tubulação para Gás
+772,Joelho 90 de Cobre 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+777,Joelho 90 de Cobre 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+778,Joelho 90 de Cobre 15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+779,"Joelho Reducao 90 de Cobre 22x3/4""",un,02 - Materiais,02.024 - Tubulação para Gás
+790,Luva de Cobre 15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+791,Luva de Cobre 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+792,Luva de Cobre 28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+793,Luva de Cobre 35mm,un,02 - Materiais,02.024 - Tubulação para Gás
+794,Luva de Cobre 42mm,un,02 - Materiais,02.024 - Tubulação para Gás
+795,Luva de Cobre 54mm,un,02 - Materiais,02.024 - Tubulação para Gás
+796,Tampao de Cobre 15mm,un,02 - Materiais,02.024 - Tubulação para Gás
+797,Tampao de Cobre 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+798,Te de Cobre 22x15x22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+799,Te de Cobre 28x15x28mm,un,02 - Materiais,02.024 - Tubulação para Gás
+800,Uniao de Cobre 22mm,un,02 - Materiais,02.024 - Tubulação para Gás
+813,"Joelho 90 de Bronze 22x3/4""",un,02 - Materiais,02.024 - Tubulação para Gás
+605,Adesivo Para PVC,un,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+892,Cola Para Papel de Parede,kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1008,Aditivo (Bianco),l,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1057,Desformante,l,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1070,Pozolit,kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1072,Alvaiade 1kg,kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1073,Alvenarite,l,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1403,Desmoldante,l,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1407,Acelerador de Pega (Sika 3),l,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1408,Plastificante (Plastiment.bv40),kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1569,Cola Para Formica (Kilopren),un,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+1640,Cola Para Blocos,kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+2011,Cola PVA,kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+2020,Cola Para Revestimentos Ceramicos,kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+2069,Cola Paviflex (Quimical lab67800),kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+2070,Cola Para Taco (Cascofix 25kg),kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+2072,Cola Para Taco (Cascorez 25kg),kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+2075,Cola Quimical,kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+2085,Cola Para Formica,kg,02 - Materiais,"02.021 - Aditivos, Colas e Similares"
+616,Portas de Madeira,un,02 - Materiais,02.008 - Esquadrias de Madeira
+801,Portao Madeira 2.5x1m com Acessorios,un,02 - Materiais,02.008 - Esquadrias de Madeira
+850,Marco de Madeira Para Porta,m,02 - Materiais,02.008 - Esquadrias de Madeira
+851,Vistas de Madeira Para Janela,m,02 - Materiais,02.008 - Esquadrias de Madeira
+853,Marco de Madeira Para Janela,m,02 - Materiais,02.008 - Esquadrias de Madeira
+854,Folha Porta Balcao com Veneziana,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+857,Folha Porta Cerejeira,un,02 - Materiais,02.008 - Esquadrias de Madeira
+858,Folha Porta Interna Correr,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1292,Porta Veneziana 80x210cm com Tala Comum,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1297,Porta Imbuia Semi-Oca PLI-40,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1311,Porta Mogno 80x210cm Semi-Oca PLM-40,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1312,Porta Macica,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1317,Porta Pinho com Madeira de Lei Semi-Oca PLP-40,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1319,Porta de Canela Semi-Oca PLPC-40,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1560,Alcapao de Madeira 60x60cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1574,Vistas de Cerejeira,m,02 - Materiais,02.008 - Esquadrias de Madeira
+1575,Folha Porta Madeira 60x190cm (Banheiro),un,02 - Materiais,02.008 - Esquadrias de Madeira
+1576,Folha Porta de Madeira 70x210cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1577,Folha Porta de Madeira 80x210cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1578,Folha Porta Externa Abrir,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1579,Folha Porta Vai-Vem Interna,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1580,Folha Porta Abrir Caixilho Vidro Var.,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1581,Folha Porta Correr Caixilho Vidro,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1582,Batente de Cerejeira,m,02 - Materiais,02.008 - Esquadrias de Madeira
+1583,Contrabatente,par,02 - Materiais,02.008 - Esquadrias de Madeira
+1703,Folha de Porta Externa Mexicana 80 + Bandeira 30cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1704,Folha Porta Madeira Interna 80x210cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1705,Folha de Porta Madeira Interna 70x210cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1706,Folha de Porta Madeira Interna 60x210cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1707,Folha de Porta Interna Imbuia,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1708,Bandeira Porta Interna Imbuia 0.82,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1709,Bandeira Porta Interna 0.72,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1710,Bandeira Porta Interna Imbuia 0.62,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1711,Bandeira Porta Interna Imbuia 0.52,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1712,Bandeira Porta Externa Imbuia 0.82,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1713,Folha de Porta Externa Imbuia 0.72,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1714,Bandeira Porta Externa 0.72,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1716,Vistas Madeira Para Porta,m,02 - Materiais,02.008 - Esquadrias de Madeira
+1721,Folha Porta Interna Imbuia 1.02,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1722,Bandeira Porta Interna Imbuia,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1724,Folha Porta Interna 0.82,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1725,Folha Porta Interna Tipo Eucatex 0.72,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1726,Folha Porta Interna Tipo Eucatex 0.62,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1727,Folha Porta Interna Tipo Eucatex 0.52,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1728,Bandeira Interna Tipo Eucatex 0.82,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1729,Bandeira Interna Tipo Eucatex 0.72,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1730,Bandeira Interna Tipo Eucatex 0.62,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1731,Bandeira Interna Tipo Eucatex 0.52,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1732,Folha Porta Tipo Balcao de Correr,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1733,Folha Porta Externa Mexicana 0.80x2.10m,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1735,Folha Porta Tipo Duratex 0.82,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1736,Bandeira Duratex 0.82,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1737,Folha Porta Tipo Duratex 0.72,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1738,Bandeira Duratex 0.72,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1740,Folha Porta 0.72 com Veneziana,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1744,Folha Porta Madeira 92x210cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1745,Folha Porta Interna 1.02,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1746,Folha Porta Interna 0.62 com Visor 30x40cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1747,Folha Porta Interna 0.72 com Visor 30x40cm,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1748,Batente Madeira,m,02 - Materiais,02.008 - Esquadrias de Madeira
+1749,Folha Porta Interna Correr Veneziana,un,02 - Materiais,02.008 - Esquadrias de Madeira
+1755,Veneziana Madeira Fixa Para Ventilacao,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1758,Janela Madeira Guilhotina,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1759,Janela Caixilho Fixo,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1760,Janela Basculante Madeira,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1762,Janela Madeira Correr com Veneziana J1,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1764,Folha Porta Madeira 60x210cm,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1765,Folha Porta Externa Madeira sem Veneziana,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1831,Janela Madeira Guilhotina com Veneziana J2,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1840,Batentes de Peroba,m,02 - Materiais,02.008 - Esquadrias de Madeira
+1841,Caixilho de Mogno,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+1847,Janela Madeira Maxim-ar J3,m2,02 - Materiais,02.008 - Esquadrias de Madeira
+629,Bloco Concreto Vedacao 14cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+656,Canaleta Bloco de Concreto 14cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+657,Canaleta Bloco de Concreto 20cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+681,Canaleta Bloco Selecta 9cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+685,Bloco Selecta 14cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1278,Bloco Concreto Aparente 19x19x39cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1280,"Bloco Concreto Aparente 6,5x19x39cm",un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1281,Bloco Concreto Aparente 9x19x39cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1282,Bloco Concreto Aparente 14x19x39cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1286,"Bloco Silico Calcareo 14x11,3x24cm",un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1291,"Bloco Silico Calcareo 17,5x11,3x24cm",un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1294,"Bloco Concreto 11,5x19x39cm",un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1295,Bloco Silico Calcareo Autoportante 24cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1566,"Bloco Autoclavado 0,20",m2,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1567,"Bloco Autoclavado 0,10",m2,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1568,"Bloco Autoclavado 0,075",m2,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1610,Bloco Concreto Vedacao 10cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1611,Bloco Concreto Vedacao 15cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1612,Bloco Concreto Vedacao 20cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1613,Bloco Concreto Estrutural 15cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1614,Bloco Concreto Estrutural 20cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1615,Canaleta Concreto Estrutural 15cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1617,Bloco Concreto Vedacao 12cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1618,Bloco Concreto Vedacao 7cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1625,Canaleta Bloco Concreto Vedacao 15cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1626,Canaleta Bloco Concreto 10cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1627,Canaleta Bloco Concreto Vedacao,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1632,"Bloco Silico Calcareo 11,5cm",un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1633,Bloco Silico Calcareo 14cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1636,Verobloco 15cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1637,Verobloco 10cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1650,Bloco Selecta 9cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1653,Canaleta Bloco Selecta 14cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+1662,Canaleta Bloco Concreto 12cm,un,02 - Materiais,02.038 - Elementos de Vedação (Concreto)
+660,Tijolo Furado 10x20x24cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+661,Tijolo Ceramico Furado 5x10x20,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+662,Tijolo 5x11x23,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+663,Tijolo Ceramico Furado 10x15x28,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+664,Tijolo Macico 5x10x20,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+665,Tijolo Comum 21cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+677,Tijolo Comum Para Parede a Vista 20cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+678,Tijolo Ceramico Furado Pozolanico 12cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+679,Tijolo Ceramico Furado Pozolanico 18cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+680,Tijolo Comum Pozolanico 15cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1571,Tijolo Ceramico Furado 15x20x40,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1601,Tijolo Comum,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1602,Tijolo Ceramico Furado 10x20x20,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1603,Tijolo Laminado,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1604,"Bloco Ceramico 11,5cm",un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1605,Bloco Ceramico 14cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1606,Tijolo Comum a Vista,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1609,Tijolo Macico 23x11x5,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1619,Tijolo Ceramico Furado Stela,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1620,Tijolo Refratario 5.5x11x23,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1621,Elemento Vazado,m2,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1641,Tijolo Ceramico Furado 12x15x28cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1642,Tijolo Ceramico Furado 10x10x20(20 cm),un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1648,Tijolo Furado 10x20x30,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1651,Bloco Ceramico 15x20x40cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1652,Canaleta Bloco Ceramico 10x20x40cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1661,Tijolo Comum Para Parede a Vista 10cm,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+1667,Tijolo Ceramico Furado Aparente 10x10x28,un,02 - Materiais,02.034 - Elementos de Vedação (Cerâmica)
+763,Gabinete de Formica Colocado,m2,02 - Materiais,02.046 - Carpintaria e Marcenaria
+922,Cadeira,un,02 - Materiais,02.046 - Carpintaria e Marcenaria
+1283,Guiches,un,02 - Materiais,02.046 - Carpintaria e Marcenaria
+1551,Balcao do Cliente,un,02 - Materiais,02.046 - Carpintaria e Marcenaria
+1552,Mesa do Coordenador,un,02 - Materiais,02.046 - Carpintaria e Marcenaria
+1553,Bancada Posterior,un,02 - Materiais,02.046 - Carpintaria e Marcenaria
+1572,Gabinete de Pia Colocado,m2,02 - Materiais,02.046 - Carpintaria e Marcenaria
+1963,Gabinete,un,02 - Materiais,02.046 - Carpintaria e Marcenaria
+827,Tabua Cedrinho,m3,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+934,Ripa de Peroba de 5x1cm,m,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+985,Escora de Eucalipto,m,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+989,Prancha de Peroba 6x25cm,m,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1103,Sistema Gethal - Grampo Normal,un,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1107,"Sistema Gethal - Cabeca ""U""",un,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1109,Chapa Galvanizada Lisa,m2,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1285,"Sarrafo Pinho 1x4""",m,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1301,Compensado 6mm Resinado,m2,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1302,Compensado 12mm Resinado,m2,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1305,Pontalete de Bracatinga 3m,m,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1332,Mata-Junta 1/5,m,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1334,Pranchas Madeira 4x15 (0.006 m3),m,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1352,Placa Compensado 14mm (0.30m2),un,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1353,Placa Compensado 14mm (0.61m2),un,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1676,Forma Fibra Vidro Inclui Acessorios (Compra),m2,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1677,Forma Fibra Vidro Inclui Acessorios (Locacao),m2,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+1678,Forma Fibra Vidro Inclui Acessorios Laj- (Compra),m2,02 - Materiais,02.043 - Madeira para Formas (Estrutura)
+859,Folha Porta Vidro Temperado 10mm Colocada,m2,02 - Materiais,02.018 - Vidros
+1460,Vidro Fume 4mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1528,Vidro Canelado Colocado,m2,02 - Materiais,02.018 - Vidros
+1593,Vidro Bronze 6mm Jateado Colocado,m2,02 - Materiais,02.018 - Vidros
+1594,Vidro Acrilico Leitoso 4mm Colorido Colocado,m2,02 - Materiais,02.018 - Vidros
+1595,Vidro Plumbifero Colocado,m2,02 - Materiais,02.018 - Vidros
+1596,Vidro Emalit 10mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1597,Vidro Emalit 8mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1598,Vidro Emalit 6mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1599,Vidro Temperado Cinza 10mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1600,Vidro Temperado Cinza 8mm  Colocado,m2,02 - Materiais,02.018 - Vidros
+1607,Vidro Temperado Cinza 6mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1608,Vidro Temperado Bronze 10mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1616,Vidro Temperado Bronze 8mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1622,Vidro Temperado Bronze 6mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1624,Vidro Temperado Incolor 10mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1628,Vidro Temperado Incolor 8mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1629,Vidro Temperado Incolor 7mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1630,Vidro Temperado Incolor 6mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1631,Vidro Color Glass Bronze 6mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1634,Vidro Color Glass Bronze 5mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1635,Vidro Color Glass Bronze 4mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1638,Vidro Color Glass Cinza 6mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1639,Vidro Color Glass Cinza 5mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1643,Vidro Color Glass Cinza 4mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1644,Vidro Martelado Colocado,m2,02 - Materiais,02.018 - Vidros
+1645,Vidro Liso 6.0mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1646,Vidro Liso 5mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1647,Vidro Liso 4mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1649,Vidro Aramado 8mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1654,Vidro Fantasia 4mm Colocado,m2,02 - Materiais,02.018 - Vidros
+1655,Vidro Liso 3.0mm Colocado,m2,02 - Materiais,02.018 - Vidros
+917,"Distanciador de Armadura na Forma (5, 7, 20 mm)",mlh,02 - Materiais,02.003 - Armadura
+1201,Aco CA-50,kg,02 - Materiais,02.003 - Armadura
+1202,Aco CA-60,kg,02 - Materiais,02.003 - Armadura
+1206,Aco CA-50/60,kg,02 - Materiais,02.003 - Armadura
+1214,"Aco CA-50 Diametro 10,0mm",kg,02 - Materiais,02.003 - Armadura
+1216,"Aco CA-50 Diametro 6,30mm",kg,02 - Materiais,02.003 - Armadura
+1217,"Aco CA-60 Diametro 4,20mm",kg,02 - Materiais,02.003 - Armadura
+1218,Tela Telcon,m2,02 - Materiais,02.003 - Armadura
+1347,"Aco CA-50 Diametro 8,00mm",kg,02 - Materiais,02.003 - Armadura
+1348,"Aco CA-50 Diametro 12,5mm",kg,02 - Materiais,02.003 - Armadura
+1444,"Aco CA-50 Diametro 16,0mm",kg,02 - Materiais,02.003 - Armadura
+1445,"Aco CA-60 Diametro 5,00mm",kg,02 - Materiais,02.003 - Armadura
+1591,Tela Soldada Para Concreto,m2,02 - Materiais,02.003 - Armadura
+4684,AÇO,kg,02 - Materiais,02.003 - Armadura
+933,"Pontalete Pinho 3a. 3x3""",m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+937,"Pontalete Pinho 3a. 7,5x7,5cm",m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+938,"Ripa de Pinho 3a. 1,2x7cm",m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+996,Tabua de Pinho 3a. 1x12cm,m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1262,Caibro Pinho 3a. 5x7cm,m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1303,Compensado 20mm Plastificado,m2,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1304,"Tabua Pinho 3a Construcao 2,5x30dz",m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1306,"Sarrafo Pinho 2,5x10",m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1314,Tabua Pinus 3a Construcao 2.5x30cm,m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1315,Compensado 12mm Plastificado,m2,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1316,Compensado 17mm Plastificado,m2,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1326,Madeira Pinho 3a Construcao (dz),m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1327,"Sarrafo Pinho 3a Construcao 2,5x5cm",m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1328,"Tirante Madeira 8/16 (0,0128 m3)",m,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1333,"Tabua Madeira 2,5x15 a 30cm",m2,02 - Materiais,02.042 - Madeira para Formas (Fundações)
+1001,Cimento Portland,kg,02 - Materiais,02.001 - Aglomerantes
+1002,Cal,kg,02 - Materiais,02.001 - Aglomerantes
+1006,Cimento Para Rejunte,kg,02 - Materiais,02.001 - Aglomerantes
+1013,Pozolana,kg,02 - Materiais,02.001 - Aglomerantes
+1028,Cimento Colante (Argamassa),kg,02 - Materiais,02.001 - Aglomerantes
+1373,Cimento Portland Pozolanico 320,sc,02 - Materiais,02.001 - Aglomerantes
+4672,MEIA Nº37,un,02 - Materiais,02.001 - Aglomerantes
+1101,Concreto Usinado FCK=135kgf/cm2,m3,02 - Materiais,02.004 - Concretos
+1105,Concreto Magro 150kg cim/m3,m3,02 - Materiais,02.004 - Concretos
+1108,Concreto Usinado FCK=150kgf/cm2,m3,02 - Materiais,02.004 - Concretos
+1249,Concreto Usinado FCK=180 Kgf/cm2,m3,02 - Materiais,02.004 - Concretos
+1255,Concreto Usinado FCK=90 Kgf/cm2,m3,02 - Materiais,02.004 - Concretos
+1561,Bloco Para Pavimentacao Intertravada,un,02 - Materiais,02.004 - Concretos
+1952,Tanque de Concreto,un,02 - Materiais,02.004 - Concretos
+1268,Janela Aluminio Abrir Veneziana,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1269,Caixilho Aluminio Basculante,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1270,Janela Aluminio Correr Veneziana,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1271,Caixilho Aluminio Fixo,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1272,Janela Aluminio Fixa Veneziana,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1273,Caixilho Aluminio Maxim-ar,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1274,Caixilho Aluminio de Correr,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1370,Portao Aluminio Para Carro,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1801,Caixilho Aluminio Vidros,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1802,Caixilho Vidro-Veneziana Aluminio,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1808,Folha Porta Veneziana Aluminio,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1809,Caixilho Aluminio Max-ar Colocado,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1810,Gradil de Aluminio,m,02 - Materiais,02.006 - Esquadrias de Alumínio
+1811,Corrimao Escada Aluminio,m,02 - Materiais,02.006 - Esquadrias de Alumínio
+1816,Caixilho Aluminio com Porta,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1817,Porta Aluminio Abrir Completa,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1822,Folha Porta Aluminio Correr 2 Folhas Cort. Ferro,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1826,Caixilho Aluminio 3 Folhas Arc. Linha 200,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1827,Caixilho Aluminio Correr Arc. Linha 200,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1828,Caixilho Aluminio Maxim-ar Arc. Linha 200,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1829,Caixilho Aluminio com Porta Arc. Linha 400,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1834,Peitoril Aluminio,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1835,Caixilho Aluminio Basculante,m2,02 - Materiais,02.006 - Esquadrias de Alumínio
+1850,Pingadeira de Aluminio,m,02 - Materiais,02.006 - Esquadrias de Alumínio
+1279,"Batente de Ferro 0,60x1,60m",un,02 - Materiais,02.007 - Esquadrias de Ferro
+1284,"Batente de Ferro 0,60x2,10m",un,02 - Materiais,02.007 - Esquadrias de Ferro
+1293,"Batente de Ferro 0,80x2,10m",un,02 - Materiais,02.007 - Esquadrias de Ferro
+1298,Grade Pantografica,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1313,"Grade de Ferro Chato 5/8""",m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1322,Grade de Ferro Para Cercas,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1338,Caixilho Ferro Basculante,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1339,Janela de Ferro Caixilho Correr,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1340,Janela Ferro Correr Veneziana,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1341,Caixilho Ferro Fixo,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1342,Janela de Ferro Caixilho Maxim-ar,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1344,Janela Ferro Veneziana Fixa,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1345,Janela Ferro Veneziana Abrir,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1349,Folha Porta Ferro Correr Tipo Caixilho,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1357,"Folha Porta Corta Fogo 0,90x2,10m",un,02 - Materiais,02.007 - Esquadrias de Ferro
+1358,"Batente de Ferro 0,90x2,10",un,02 - Materiais,02.007 - Esquadrias de Ferro
+1360,Folha Porta Aco Enrolar Tiras Articuladas,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1361,Folha Porta Ferro Abrir 1 Chapa,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1362,Folha Porta Ferro Abrir 2 Chapas,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1368,Portao Ferro Para Carros,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1436,Persianas,m,02 - Materiais,02.007 - Esquadrias de Ferro
+1565,Batente Para Elevador,par,02 - Materiais,02.007 - Esquadrias de Ferro
+1702,Batente Metalico,m,02 - Materiais,02.007 - Esquadrias de Ferro
+1719,Folha Porta Corta Fogo Colocada,un,02 - Materiais,02.007 - Esquadrias de Ferro
+1743,"Batente de Ferro 0,60x2,70m",un,02 - Materiais,02.007 - Esquadrias de Ferro
+1750,Folha Porta Revestida Chumbo cpl0 72x2.11,un,02 - Materiais,02.007 - Esquadrias de Ferro
+1751,Folha Porta Revestida Chumbo cpl1 22x2.11,un,02 - Materiais,02.007 - Esquadrias de Ferro
+1803,Caixilho Ferro Maxim-ar,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1804,Persiana de Enrolar Colocada,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1805,Caixilho Ferro Basculante ou Fixo,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1806,Caixilho Ferro Correr 3 Folhas,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1807,Contra-Marco,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1812,Corrimao Escada Ferro,m,02 - Materiais,02.007 - Esquadrias de Ferro
+1813,Folha Porta Ferro Completa,un,02 - Materiais,02.007 - Esquadrias de Ferro
+1814,Gradil de Ferro,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1815,Folha Porta Enrolar Completa Colocada,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1818,Caixilho Ferro Correr Para Vidro,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1819,Folha Porta Ferro c/ Persiana Plast. 2 Caix.Correr,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1820,Janela Ferro Persiana Plastica 2 Caixilho Aluminio,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1821,Janela Maxim-ar Mista Aluminio - Ferro,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1836,Grade Protecao de Ferro,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1837,Cantoneira de Ferro,m,02 - Materiais,02.007 - Esquadrias de Ferro
+1838,Caixilho Ferro com Porta,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1839,Caixilho Correr com Veneziana Ferro,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1842,Escada Caracol Colocada Diametro = 1.4m,m,02 - Materiais,02.007 - Esquadrias de Ferro
+1844,Folha Porta de Ferro Abrir,m2,02 - Materiais,02.007 - Esquadrias de Ferro
+1846,Caixa Para Esconder Grade Enrolar,m,02 - Materiais,02.007 - Esquadrias de Ferro
+1329,Caibro Madeira 8/8 (0.0064 m3),m,02 - Materiais,02.044 - Madeira para Telhado
+1330,Caibrinho Madeira 5/8 (0.004 m3),m,02 - Materiais,02.044 - Madeira para Telhado
+1331,"Guia Madeira 2,5/15 (0.0038 m3)",m,02 - Materiais,02.044 - Madeira para Telhado
+2024,Caibros Peroba 5x5,m,02 - Materiais,02.044 - Madeira para Telhado
+2107,Viga 6x16,m,02 - Materiais,02.044 - Madeira para Telhado
+2108,Vigas Peroba 6x12,m,02 - Materiais,02.044 - Madeira para Telhado
+1438,Urbanizacao de Jardins,vb,02 - Materiais,02.012 - Jardinagem
+1554,Grama,m2,02 - Materiais,02.012 - Jardinagem
+1555,Terra Para Aterro Comprado,m3,02 - Materiais,02.012 - Jardinagem
+1556,Grama em Mudas Aplicada,m2,02 - Materiais,02.012 - Jardinagem
+1557,Terra Vegetal,m3,02 - Materiais,02.012 - Jardinagem
+1562,Mudas,un,02 - Materiais,02.012 - Jardinagem
+1563,Jardins,m2,02 - Materiais,02.012 - Jardinagem
+1564,Gramados,m2,02 - Materiais,02.012 - Jardinagem
+1623,Terra Refrataria,kg,02 - Materiais,02.012 - Jardinagem
+1907,Massa Pronta,m3,02 - Materiais,02.028 - Argamassa
+1908,Massa Raspada,kg,02 - Materiais,02.028 - Argamassa
+2055,Argamassa Britada Aplicada,m3,02 - Materiais,02.028 - Argamassa
+1933,Tubo Concreto Simples 30cm,m,02 - Materiais,02.026 - Tubo Concreto e Manilha
+4653,Aluguel de Veículos,h,03 - Equipamentos de Obra,03.001 - Equipamentos Aluguel
+4654,Locação de Escoramento Lajes,m2,03 - Equipamentos de Obra,03.001 - Equipamentos Aluguel
+4655,Locação Torre de Encaixe,m2,03 - Equipamentos de Obra,03.001 - Equipamentos Aluguel
+4666,Retroescavadeira,un,03 - Equipamentos de Obra,03.001 - Equipamentos Aluguel
+4656,Carro Argamassa Iany  Roda Camara 225,un,03 - Equipamentos de Obra,03.002 - Equipamentos Próprios
+4657,Borracha Porta 31-1608,un,03 - Equipamentos de Obra,03.002 - Equipamentos Próprios
+4658,Baliza Para Voleibol,un,03 - Equipamentos de Obra,03.003 - Equipamentos Esportivos e Recreativos
+4659,Rede Para Voleibol,un,03 - Equipamentos de Obra,03.003 - Equipamentos Esportivos e Recreativos
+4660,Trave Para Futebol de Salão,un,03 - Equipamentos de Obra,03.003 - Equipamentos Esportivos e Recreativos
+4661,Rede Para Futebol de Salão,un,03 - Equipamentos de Obra,03.003 - Equipamentos Esportivos e Recreativos
+4662,Estrutura Metalica Movel Para Basquete,un,03 - Equipamentos de Obra,03.003 - Equipamentos Esportivos e Recreativos
+4667,"Abraçadeira 250x4,8mm",un,05 - PÓS OBRA,05.001 - ASSISTÊNCIA TÉCNICA
+4668,Caixa Sifonada 100x100 PVC,pc,05 - PÓS OBRA,05.001 - ASSISTÊNCIA TÉCNICA
+4669,SERRA,pc,05 - PÓS OBRA,05.001 - ASSISTÊNCIA TÉCNICA
+4673,Elaboração do Manual do Proprietário e das Áreas Comuns,vb,05 - PÓS OBRA,05.001 - ASSISTÊNCIA TÉCNICA
+4682,Mesa reunião diretoria,un,06 - ATIVOS,06.002 - Móveis e utensílios

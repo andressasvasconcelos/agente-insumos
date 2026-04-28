@@ -1,0 +1,6 @@
+streamlit==1.39.0
+pandas==2.2.3
+numpy==1.26.4
+sentence-transformers==3.2.1
+rapidfuzz==3.10.1
+anthropic==0.39.0
