@@ -11,7 +11,7 @@ from anthropic import Anthropic
 from core.matcher import Candidato
 
 
-CLAUDE_MODEL = "claude-sonnet-4-20250514"
+CLAUDE_MODEL = "claude-sonnet-4-5"
 MAX_TOKENS = 1024
 
 
