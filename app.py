@@ -1,6 +1,6 @@
 """
 Agente de Cadastro de Insumos — All Wert Construtora
-v2.1 — acesso via dict/objeto unificado + Tipo de Uso restaurado
+v2.3 — motivo usado na busca semântica (SBERT) + no Claude
 """
 
 import streamlit as st
@@ -120,7 +120,7 @@ with st.sidebar:
 
 
 # ============================================================
-# INPUT
+# INPUT PRINCIPAL
 # ============================================================
 
 col1, col2 = st.columns([3, 1])
@@ -134,6 +134,14 @@ with col2:
     st.write("")
     buscar = st.button("🔍 Analisar", type="primary", use_container_width=True)
 
+motivo = st.text_area(
+    "Motivo da utilização — onde e como será usado (ajuda na busca e na sugestão de nome):",
+    placeholder="ex: Polimento de piso de mármore na fase de acabamento do Bloco A / "
+                "Manutenção da retroescavadeira CAT 416 / "
+                "Instalação elétrica de quadro de distribuição",
+    height=80,
+)
+
 
 # ============================================================
 # EXECUÇÃO
@@ -141,13 +149,20 @@ with col2:
 
 if buscar and solicitacao.strip():
     with st.spinner("Buscando candidatos..."):
-        resultado = matcher.buscar(solicitacao)
+        # motivo passado ao matcher — enriquece o embedding de busca
+        resultado = matcher.buscar(solicitacao, motivo=motivo.strip())
 
     st.divider()
     st.subheader("📥 Solicitação analisada")
     c1, c2 = st.columns(2)
-    c1.write(f"**Original:** `{_get(resultado, 'query')}`")
+    c1.write(f"**Insumo solicitado:** `{_get(resultado, 'query')}`")
     c2.write(f"**Normalizada:** `{_get(resultado, 'query_normalizada')}`")
+    if motivo.strip():
+        # Mostra a query enriquecida que foi usada na busca semântica
+        enriq = _get(resultado, "query_enriquecida", "")
+        st.write(f"**Motivo informado:** {motivo.strip()}")
+        if enriq and enriq != _get(resultado, "query_normalizada"):
+            st.caption(f"🔍 Busca semântica realizada com: *\"{enriq}\"*")
 
     # Match exato
     st.subheader("🎯 Match exato na base ATIVA")
@@ -203,6 +218,7 @@ if buscar and solicitacao.strip():
             decisao = consultar_claude(
                 api_key=api_key,
                 solicitacao=solicitacao,
+                motivo=motivo.strip(),
                 match_exato=m,
                 similares_ativa=similares_ativa,
                 similares_modelo=similares_modelo,
@@ -247,7 +263,6 @@ if buscar and solicitacao.strip():
 
                 st.info(f"🆕 **CRIAR NOVO INSUMO**\n\n{just}")
 
-                # Linha 1 — 4 campos principais
                 col1, col2, col3, col4 = st.columns(4)
                 col1.metric("📝 Nome sugerido",   c.get("nome_sugerido",   "—"))
                 col2.metric("🗂️ Grupo de Insumo", grupo.get("descricao",  "—"),
@@ -255,7 +270,6 @@ if buscar and solicitacao.strip():
                 col3.metric("🏗️ Tipo de Uso",     grupo.get("tipo",        "—"))
                 col4.metric("📦 Unidade",          c.get("unidade_sugerida","—"))
 
-                # Linha 2 — conta financeira
                 st.markdown(
                     f"💰 **Conta Financeira:** `{conta.get('codigo','—')}` — "
                     f"{conta.get('descricao','—')}"
