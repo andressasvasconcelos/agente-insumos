@@ -1,11 +1,6 @@
 """
 Agente de Cadastro de Insumos — All Wert Construtora
-=====================================================
-
-Versão 2 — Alterações em relação à v1:
-- Base ativa atualizada (4.367 insumos ativos exportados do Sienge)
-- Recomendação CRIAR_NOVO exibe: Nome sugerido · Conta Financeira · Grupo de Insumo
-- Grupos de insumo e plano de contas carregados como referência para o Claude
+v2.1 — acesso via dict/objeto unificado + Tipo de Uso restaurado
 """
 
 import streamlit as st
@@ -23,25 +18,71 @@ st.set_page_config(
 
 
 # ============================================================
-# CACHE DE RECURSOS PESADOS
+# CACHE
 # ============================================================
 
 @st.cache_resource(show_spinner="Carregando bases e modelo de IA (1ª vez ~30s)...")
 def carregar_matcher() -> Matcher:
-    base_ativa = pd.read_csv("data/base_ativa.csv", dtype=str).fillna("")
+    base_ativa  = pd.read_csv("data/base_ativa.csv",  dtype=str).fillna("")
     base_modelo = pd.read_csv("data/base_modelo.csv", dtype=str).fillna("")
     return Matcher(base_ativa, base_modelo)
 
 
 @st.cache_data
 def carregar_referencias():
-    grupos = pd.read_csv("data/grupos_insumo.csv", dtype=str).fillna("").to_dict("records")
+    grupos = pd.read_csv("data/grupos_insumo.csv",      dtype=str).fillna("").to_dict("records")
     contas = pd.read_csv("data/contas_financeiras.csv", dtype=str).fillna("").to_dict("records")
     return grupos, contas
 
 
 # ============================================================
-# UI — SIDEBAR
+# HELPERS — compatível com resultado dict OU dataclass
+# ============================================================
+
+def _get(obj, key, default=""):
+    try:
+        return obj[key] if isinstance(obj, dict) else getattr(obj, key, default)
+    except Exception:
+        return default
+
+
+def _candidatos(obj, key):
+    items = _get(obj, key, []) or []
+    result = []
+    for c in items:
+        if isinstance(c, dict):
+            result.append(c)
+        else:
+            result.append({
+                "codigo":           getattr(c, "codigo",           ""),
+                "descricao":        getattr(c, "descricao",        ""),
+                "grupo":            getattr(c, "grupo",            ""),
+                "unidade":          getattr(c, "unidade",          ""),
+                "score":            getattr(c, "score",            0),
+                "cod_conta":        getattr(c, "cod_conta",        ""),
+                "conta_financeira": getattr(c, "conta_financeira", ""),
+            })
+    return result
+
+
+def _match_exato_dict(obj):
+    m = _get(obj, "match_exato", None)
+    if m is None:
+        return None
+    if isinstance(m, dict):
+        return m
+    return {
+        "codigo":           getattr(m, "codigo",           ""),
+        "descricao":        getattr(m, "descricao",        ""),
+        "grupo":            getattr(m, "grupo",            ""),
+        "score":            getattr(m, "score",            0),
+        "cod_conta":        getattr(m, "cod_conta",        ""),
+        "conta_financeira": getattr(m, "conta_financeira", ""),
+    }
+
+
+# ============================================================
+# SIDEBAR
 # ============================================================
 
 st.title("🏗️ Agente de Cadastro de Insumos")
@@ -58,14 +99,13 @@ with st.sidebar:
         api_key = st.text_input(
             "Anthropic API Key",
             type="password",
-            help="Crie em console.anthropic.com. Em produção, configure via Streamlit Secrets.",
+            help="Crie em console.anthropic.com. Em produção configure via Streamlit Secrets.",
         )
 
     usar_claude = st.checkbox(
         "Usar Claude para validação e geração",
         value=bool(api_key),
         disabled=not api_key,
-        help="Sem Claude, o agente devolve apenas os candidatos rankeados.",
     )
 
     st.divider()
@@ -73,14 +113,14 @@ with st.sidebar:
     matcher = carregar_matcher()
     grupos, contas = carregar_referencias()
 
-    st.metric("Insumos na base ATIVA", len(matcher.base_ativa))
+    st.metric("Insumos na base ATIVA",  len(matcher.base_ativa))
     st.metric("Insumos na base MODELO", len(matcher.base_modelo))
-    st.metric("Grupos de insumo", len(grupos))
-    st.metric("Contas financeiras", len(contas))
+    st.metric("Grupos de insumo",       len(grupos))
+    st.metric("Contas financeiras",     len(contas))
 
 
 # ============================================================
-# INPUT PRINCIPAL
+# INPUT
 # ============================================================
 
 col1, col2 = st.columns([3, 1])
@@ -103,39 +143,40 @@ if buscar and solicitacao.strip():
     with st.spinner("Buscando candidatos..."):
         resultado = matcher.buscar(solicitacao)
 
-    # --- Query ---
     st.divider()
     st.subheader("📥 Solicitação analisada")
     c1, c2 = st.columns(2)
-    c1.write(f"**Original:** `{resultado.query}`")
-    c2.write(f"**Normalizada:** `{resultado.query_normalizada}`")
+    c1.write(f"**Original:** `{_get(resultado, 'query')}`")
+    c2.write(f"**Normalizada:** `{_get(resultado, 'query_normalizada')}`")
 
-    # --- Match exato ---
+    # Match exato
     st.subheader("🎯 Match exato na base ATIVA")
-    if resultado.match_exato:
-        m = resultado.match_exato
+    m = _match_exato_dict(resultado)
+    if m:
         st.success(
-            f"**JÁ EXISTE** — código `{m.codigo}` | score {m.score:.1f}%\n\n"
-            f"📦 **{m.descricao}**  \n"
-            f"Grupo: {m.grupo}  |  Conta: `{m.cod_conta}` — {m.conta_financeira}"
+            f"**JÁ EXISTE** — código `{m['codigo']}` | score {float(m['score']):.1f}%\n\n"
+            f"📦 **{m['descricao']}**  \n"
+            f"Grupo: {m['grupo']}  |  Conta: `{m['cod_conta']}` — {m['conta_financeira']}"
         )
     else:
         st.info("Nenhum match exato encontrado (≥ 95% de similaridade).")
 
-    # --- Similares ---
+    # Similares
     col_a, col_b = st.columns(2)
+    similares_ativa  = _candidatos(resultado, "similares_ativa")
+    similares_modelo = _candidatos(resultado, "similares_modelo")
 
     with col_a:
         st.subheader("📋 Top 5 — Base ATIVA")
         df_a = pd.DataFrame([
             {
-                "Código": c.codigo,
-                "Descrição": c.descricao,
-                "Grupo": c.grupo,
-                "Conta": c.cod_conta,
-                "Score": f"{c.score:.1f}",
+                "Código":    c["codigo"],
+                "Descrição": c["descricao"],
+                "Grupo":     c["grupo"],
+                "Conta":     c["cod_conta"],
+                "Score":     f"{float(c['score']):.1f}",
             }
-            for c in resultado.similares_ativa
+            for c in similares_ativa
         ])
         st.dataframe(df_a, use_container_width=True, hide_index=True)
 
@@ -143,17 +184,17 @@ if buscar and solicitacao.strip():
         st.subheader("📋 Top 5 — Base MODELO")
         df_m = pd.DataFrame([
             {
-                "Código": c.codigo,
-                "Descrição": c.descricao,
-                "Subgrupo": c.grupo,
-                "Un.": c.unidade,
-                "Score": f"{c.score:.1f}",
+                "Código":    c["codigo"],
+                "Descrição": c["descricao"],
+                "Subgrupo":  c["grupo"],
+                "Un.":       c["unidade"],
+                "Score":     f"{float(c['score']):.1f}",
             }
-            for c in resultado.similares_modelo
+            for c in similares_modelo
         ])
         st.dataframe(df_m, use_container_width=True, hide_index=True)
 
-    # --- Claude ---
+    # Claude
     if usar_claude and api_key:
         st.divider()
         st.subheader("🤖 Recomendação do Agente (Claude)")
@@ -162,9 +203,9 @@ if buscar and solicitacao.strip():
             decisao = consultar_claude(
                 api_key=api_key,
                 solicitacao=solicitacao,
-                match_exato=resultado.match_exato,
-                similares_ativa=resultado.similares_ativa,
-                similares_modelo=resultado.similares_modelo,
+                match_exato=m,
+                similares_ativa=similares_ativa,
+                similares_modelo=similares_modelo,
                 grupos=grupos,
                 contas=contas,
             )
@@ -178,23 +219,19 @@ if buscar and solicitacao.strip():
             acao = decisao.get("acao", "?")
             just = decisao.get("justificativa", "")
 
-            # ── REUTILIZAR ──
             if acao == "REUTILIZAR":
                 r = decisao.get("reutilizar", {}) or {}
                 st.success(f"✅ **REUTILIZAR**\n\n{just}")
-
                 col1, col2, col3 = st.columns(3)
-                col1.metric("Código", r.get("codigo", "—"))
-                col2.metric("Insumo", r.get("descricao", "—"))
-                col3.metric("Grupo", r.get("grupo", "—"))
-
+                col1.metric("Código",  r.get("codigo",    "—"))
+                col2.metric("Insumo",  r.get("descricao", "—"))
+                col3.metric("Grupo",   r.get("grupo",     "—"))
                 if r.get("conta_financeira_codigo"):
                     st.info(
-                        f"💰 Conta Financeira: `{r.get('conta_financeira_codigo')}` — "
-                        f"{r.get('conta_financeira_descricao', '')}"
+                        f"💰 Conta: `{r.get('conta_financeira_codigo')}` — "
+                        f"{r.get('conta_financeira_descricao','')}"
                     )
 
-            # ── REVISAR_HUMANO ──
             elif acao == "REVISAR_HUMANO":
                 st.warning(f"⚠️ **REVISAR MANUALMENTE**\n\n{just}")
                 for r in decisao.get("revisar", []) or []:
@@ -203,33 +240,26 @@ if buscar and solicitacao.strip():
                         f"  *Dúvida:* {r.get('motivo_duvida')}"
                     )
 
-            # ── CRIAR_NOVO ──
             elif acao == "CRIAR_NOVO":
-                c = decisao.get("criar_novo", {}) or {}
+                c     = decisao.get("criar_novo", {}) or {}
+                grupo = c.get("grupo_insumo",     {}) or {}
+                conta = c.get("conta_financeira",  {}) or {}
+
                 st.info(f"🆕 **CRIAR NOVO INSUMO**\n\n{just}")
 
-                # Campos principais em destaque
-                col1, col2, col3 = st.columns(3)
-                col1.metric("📝 Nome sugerido", c.get("nome_sugerido", "—"))
+                # Linha 1 — 4 campos principais
+                col1, col2, col3, col4 = st.columns(4)
+                col1.metric("📝 Nome sugerido",   c.get("nome_sugerido",   "—"))
+                col2.metric("🗂️ Grupo de Insumo", grupo.get("descricao",  "—"),
+                            help=f"Ref: {grupo.get('ref','')}")
+                col3.metric("🏗️ Tipo de Uso",     grupo.get("tipo",        "—"))
+                col4.metric("📦 Unidade",          c.get("unidade_sugerida","—"))
 
-                grupo = c.get("grupo_insumo", {}) or {}
-                col2.metric(
-                    "🗂️ Grupo de Insumo",
-                    grupo.get("descricao", "—"),
-                    help=f"Ref: {grupo.get('ref', '')}",
+                # Linha 2 — conta financeira
+                st.markdown(
+                    f"💰 **Conta Financeira:** `{conta.get('codigo','—')}` — "
+                    f"{conta.get('descricao','—')}"
                 )
-
-                conta = c.get("conta_financeira", {}) or {}
-                col3.metric(
-                    "💰 Conta Financeira",
-                    conta.get("descricao", "—"),
-                    help=f"Código: {conta.get('codigo', '')}",
-                )
-
-                # Linha com detalhes adicionais
-                colA, colB = st.columns(2)
-                colA.write(f"**Código da conta:** `{conta.get('codigo', '—')}`")
-                colB.write(f"**Unidade sugerida:** `{c.get('unidade_sugerida', '—')}`")
 
                 alts = c.get("alternativas_de_nome", []) or []
                 if alts:
@@ -241,9 +271,7 @@ if buscar and solicitacao.strip():
                 st.json(decisao)
 
     elif not api_key:
-        st.warning(
-            "⚠️ Configure a Anthropic API Key na barra lateral para ativar a recomendação automática."
-        )
+        st.warning("⚠️ Configure a Anthropic API Key para ativar a recomendação automática.")
     else:
         st.info("✓ Apenas matching ativo. Marque 'Usar Claude' para receber recomendação.")
 
