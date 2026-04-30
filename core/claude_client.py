@@ -1,10 +1,6 @@
 """
 claude_client.py  v2.2
 Envia contexto ao Claude e interpreta a decisão JSON.
-
-Novidades:
-  - Aceita parâmetro `motivo` (onde/como o insumo será usado)
-  - grupos e contas com default [] para compatibilidade retroativa
 """
 
 import json
@@ -150,7 +146,6 @@ def consultar_claude(
     grupos: list = None,
     contas: list = None,
 ) -> dict:
-    """Chama a API Claude e retorna o JSON de decisão."""
     client = anthropic.Anthropic(api_key=api_key)
 
     contexto = _montar_contexto(
@@ -166,14 +161,13 @@ def consultar_claude(
     resposta_bruta = ""
     try:
         msg = client.messages.create(
-            model="claude-sonnet-4-5",
+            model="claude-sonnet-4-6",
             max_tokens=1000,
             system=PROMPT_SYSTEM,
             messages=[{"role": "user", "content": contexto}],
         )
         resposta_bruta = msg.content[0].text.strip()
 
-        # Remove eventuais fences de markdown
         if resposta_bruta.startswith("```"):
             resposta_bruta = resposta_bruta.split("```")[1]
             if resposta_bruta.startswith("json"):
