@@ -1,0 +1,313 @@
+codigo,descricao
+2.01.01.01,Aquisição de Terrenos
+2.01.01.04,Corretagens
+2.01.01.05,IPTU/ITR
+2.01.01.06,Manutenção na Área
+2.01.01.08,Topografia (Pré Obra)
+2.01.01.09,Outorgas Onerosas
+2.01.01.10,Sondagens (Pré Obra)
+2.01.01.11,ITBI
+2.01.01.99,(-) Anulação de Custos
+2.01.02.01,Projetos Civis
+2.01.02.01.02,Projetos de Urbanização
+2.01.02.01.03,Projetos de Infraestrutura
+2.01.02.03.01,Aprovação - Serviços e Taxas
+2.01.02.03.02,Licença Ambiental
+2.01.02.03.03,Alvará de Construção
+2.01.02.03.05,APP
+2.01.02.03.06,Contrapartidas Ambientais
+2.01.02.04.01,Estudos e Projetos Ambientais
+2.01.02.04.02,Sondagem de Solo
+2.01.02.04.03,Estudos e Viabilidades
+2.01.02.04.04,Estudos Geológicos
+2.01.02.04.05,Estudo Impacto de Vizinhança - EIV
+2.01.02.05.01,Certificações
+2.01.02.05.02,Estudos e Projetos para Certificações
+2.01.03.01,Cartório e Registro
+2.01.03.02,(NÃO USAR) ITBI
+2.01.03.03,Editais
+2.01.03.04,Solo Criado
+2.01.03.05,Taxas e Despesas
+2.01.03.07,Contrapartidas de Incorporação
+2.01.03.08,Publicações
+2.01.03.09,Assessoria Jurídica para Incorporação
+2.01.04.01.01,Salarios e Ordenados
+2.01.04.01.02,Férias
+2.01.04.01.03,Rescisões
+2.01.04.01.04,Décimo Terceiro Salário
+2.01.04.01.05,Multa FGTS
+2.01.04.01.06,Estagiário(a)
+2.01.04.01.07,Encargos Sociais INSS
+2.01.04.01.08,Encargos Sociais FGTS
+2.01.04.01.09,Encargos Sociais IRRF
+2.01.04.01.99,(-) Anulação de Custos Mão de Obra
+2.01.04.02.01,Vale Transporte
+2.01.04.02.02,Vale Alimentação
+2.01.04.02.03,Seguro de Vida
+2.01.04.02.04,Plano de Saúde
+2.01.04.02.05,Medicina e Segurança do Trabalho
+2.01.04.02.06,PPR - Plano de Participação de Resultados
+2.01.04.02.07,Gratificação / Bônus
+2.01.04.02.99,(-) Benefícios
+2.01.04.03.01,Cursos e Treinamentos
+2.01.04.03.02,Incentivo a formação
+2.01.04.03.99,(-) Treinamentos
+2.01.04.04.01,(-) Retenção Contribuição Sindical (OBRA)
+2.01.04.04.02,Pagamento Contribuição Sindical (OBRA)
+2.01.05.01,Serviços Técnico de Terceiros Internos
+2.01.05.02,Gratificação / Bônus Internos
+2.01.06.01,Serviços de Terceiros
+2.01.06.02,Empreitada de Mão de Obra Terceiros
+2.01.06.03,Locação de Máquinas e Equipamentos
+2.01.06.04,Serviços de Descarte e Entulhos
+2.01.06.05,Vigilância e Monitoramento
+2.01.06.06,"Manutenção de Máquinas, Equipamentos e Ferramentas"
+2.01.06.11.01,(-) Retenção Caução/Sinal
+2.01.06.11.02,Pagamento Retenção Caução/Sinal
+2.01.06.11.03,(-) Retenção de INSS
+2.01.06.11.04,Pagamento Retenção de INSS
+2.01.06.11.05,(-) Retenção de ISS
+2.01.06.11.06,Pagamento Retenção de ISS
+2.01.06.11.07,(-) Retenção de PIS
+2.01.06.11.08,Pagamento Retenção de PIS
+2.01.06.11.09,(-) Retenção de CSLL
+2.01.06.11.10,Pagamento Retenção de CSLL
+2.01.06.11.11,(-) Retenção de COFINS
+2.01.06.11.12,Pagamento Retenção de COFINS
+2.01.06.11.13,(-) Retenção de IR
+2.01.06.11.14,Pagamento Retenção de IR
+2.01.06.11.15,"(-) Retenção (PIS/COFINS/CSLL - 4,65%)"
+2.01.06.11.16,"Pagamento Retenção de (PIS/COFINS/CSLL - 4,65%)"
+2.01.06.11.17,(-) Retenção de Permuta
+2.01.06.11.18,Pagamento Retenção de Permuta
+2.01.06.99,(-) Serviços de Terceiros
+2.01.07.01,Insumos Aplicados à Obra
+2.01.07.02,"Uniformes, EPIs, EPCs"
+2.01.08.01,Internet (Obra)
+2.01.08.02,Aluguéis (Obra)
+2.01.08.03,Telefone (Obra)
+2.01.08.04,Despesas com Viagens (Obra)
+2.01.08.05,Serviços e Materiais de Consumo e Conserv (Obra)
+2.01.08.06,Energia Elétrica (Obra)
+2.01.08.07,Água e Esgoto (Obra)
+2.01.08.08.01,Multa Veículo (Obra)
+2.01.08.08.02,IPVA (Obra)
+2.01.08.08.03,Combustível/Lubrificantes (Obra)
+2.01.08.08.04,Manutenção de Veículos (Obra)
+2.01.08.08.05,Seguro de Veículos (Obra)
+2.01.08.08.06,Locação de Veículos (Obra)
+2.01.08.09,Brindes e Presentes (Obra)
+2.01.08.10,Despesas com Sinalizações  (Obra)
+2.01.08.11,Taxa de Administração de Obra  (Obra)
+2.01.08.12,Coleta de Lixo  (Obra)
+2.01.08.13,Licenças de Uso de Software (Obra)
+2.01.08.14,Manutenção de Softwares e Hardware (Obra)
+2.01.08.15,Seguro (Obra)
+2.01.08.16,Material de expediente (Obra)
+2.01.08.17,"Cópias, Impressos e Plotagens (Obra)"
+2.01.08.18,Copa e Limpeza (Obra)
+2.01.08.19,Cursos e Treinamentos (Obra)
+2.01.08.20,Alimentação e Eventos Externos (Obra)
+2.01.08.21,Presentes e Brindes (Obra)
+2.01.08.22,Confraternização (Obra)
+2.01.08.23,Locomoção e Pedágios  (Obra)
+2.01.08.24,Bens de Pequeno Valor (Obra)
+2.01.09.01,"Jardinagem e Paisagismo (Iluminação, Móveis, Etc)"
+2.01.09.02,Decoração Obra
+2.01.09.03,Móveis
+2.02.01.01.01,Salários e Ordenados (Escritório)
+2.02.01.01.02,Férias (Escritório)
+2.02.01.01.03,Décimo Terceiro (Escritório)
+2.02.01.01.04,Estagiário(a) (Escritório)
+2.02.01.01.05,Encargos Sociais e Trabalhistas INSS (Escritório)
+2.02.01.01.06,Encargos Sociais e Trabalhistas FGTS (Escritório)
+2.02.01.01.07,Rescisões (Escritório)
+2.02.01.01.08,Horas Extra (Escritório)
+2.02.01.01.09,Multa FGTS (Escritório)
+2.02.01.02.01,Vale Transporte (Escritório)
+2.02.01.02.02,Vale Alimentação (Escritório)
+2.02.01.02.03,Seguro de Vida (Escritório)
+2.02.01.02.04,Plano de Saúde (Escritório)
+2.02.01.02.05,Medicina e Segurança do Trabalho (Escritório)
+2.02.01.02.06,PPR - Plano de Participação de Resultados
+2.02.01.02.07,Gratificação / Bônus  (Escritório)
+2.02.01.02.99,(-) Benefícios
+2.02.01.03.01,Cursos e Treinamentos (Escritório)
+2.02.01.03.02,Incentivo a formação (Escritório)
+2.02.01.03.99,(-) Treinamentos
+2.02.01.04.01,(-) Retenção Contribuição Sindical (Escritório)
+2.02.01.04.02,Pagamento Contribuição Sindical (Escritório)
+2.02.02.01,Pró Labore (Escritório)
+2.02.02.02,Distribuição de Lucro (Escritório)
+2.02.03.01,Serviços Técnicos Internos
+2.02.03.02,Gratificação / Bônus
+2.02.03.99,(-) Reembolso de Despesas Administrativas
+2.02.05.01.01,"Cópias, Impressos e Plotagens (Escritório)"
+2.02.05.01.02,Correios e Telégrafos (Escritório)
+2.02.05.01.03,Material de Expediente (Escritório)
+2.02.05.01.04,Impressos e Gráficos (Escritório)
+2.02.05.01.05,Copa e Limpeza (Escritório)
+2.02.05.01.06,Cursos e Treinamentos (Escritório)
+2.02.05.01.07,"Livros, Jornais e Periódicos (Escritório)"
+2.02.05.01.08,Anuidades e Mensalidades (Escritório)
+2.02.05.01.09,"CREA, Sinduscom (Escritório)"
+2.02.05.01.10,Associações de Classe (Escritório)
+2.02.05.01.11,Sindical Patronal (Escritório)
+2.02.05.01.12,Despesas com Viagens (Escritório)
+2.02.05.01.13,Locomoção e Pedágios  (Escritório)
+2.02.05.01.14,Alimentação e Eventos Externos (Escritório)
+2.02.05.01.15,Doações e Patrocínios (Escritório)
+2.02.05.01.16,Presentes e Brindes (Escritório)
+2.02.05.01.17,Confraternização (Escritório)
+2.02.05.01.18,Outras Despesas Administrativas (Escritório)
+2.02.05.01.19,Impostos a restituir
+2.02.05.01.20,Decoração (Escritório)
+2.02.05.01.21,Bens de Pequeno Valor (Escritório)
+2.02.05.02.01,Água e Esgoto (Escritório)
+2.02.05.02.02,Energia Elétrica (Escritório)
+2.02.05.02.03,Seguros (Escritório)
+2.02.05.02.04,Aluguéis (Escritório)
+2.02.05.02.05,Pagamento Condomínio (Escritório)
+2.02.05.02.06,Pagamento IPTU Imóveis Alugados (Escritório)
+2.02.05.02.07,(-) Restituição IPTU Imóveis Alugados (Escritório)
+2.02.05.02.08,Pagamento IPTU Imóveis Próprios (Escritório)
+2.02.05.03.01,Multa Veículos (Escritório)
+2.02.05.03.02,Emplacamento e IPVA (Escritório)
+2.02.05.03.03,Combustível/Lubrificantes (Escritório)
+2.02.05.03.04,Seguro de Veículos (Escritório)
+2.02.05.03.05,Manutenção de Veículos (Escritório)
+2.02.05.03.06,Locação de Veículos (Escritório)
+2.02.05.04.01,Internet (Escritório)
+2.02.05.04.02,Telefone (Escritório)
+2.02.05.04.03,Licenças de Uso de Software (Escritório)
+2.02.05.04.04,Manutenção de Softwares e Hardware (Escritório)
+2.02.05.04.05,Impressoras
+2.02.05.04.06,Insumos de Informática
+2.02.05.05.01,Assessoria Jurídica
+2.02.05.05.02,Assessoria Contábil
+2.02.05.05.03,Assessoria de Recrutamento e Seleção
+2.02.05.05.04,Assessorias e Consultorias
+2.02.05.05.05,Assessoria de Informática
+2.02.05.06.01,Serviço de Vigilância/Monitoramento
+2.02.05.06.02,Serviço de Limpeza
+2.02.05.06.03,Serviço de Jardinagem
+2.02.05.06.04,Serviço de Manutenções Gerais
+2.02.05.07.01,Cartórios e Registros (Escritório)
+2.02.05.07.02,Custas Judiciais (Escritório)
+2.02.05.08.01,Antecipação de Distribuição de Lucros
+2.02.05.09.01,Despesas Bancárias
+2.02.05.09.02,Descontos Concedidos
+2.02.05.09.03,Juros de Mora
+2.02.05.09.05,Multas
+2.02.05.09.06,Variação Monetária
+2.02.05.09.07,Juros Bancários
+2.02.05.09.08,IOF
+2.02.05.09.99,(-) Reembolso de Despesas Financeiras
+2.03.01.01,Pesquisa
+2.03.01.02,Agência
+2.03.02.01,Agência Mídia Digital
+2.03.02.02,Veiculação Jornais e Revistas
+2.03.02.03,Veículação TV
+2.03.02.04,Veiculação Rádio
+2.03.02.05,"Mídia Digital (Facebook, Google)"
+2.03.02.06,"Mídia Exterior (Outdoor, Busdoor, Front)"
+2.03.02.07,"Sinalizações (Flag Banner, Outdoor, Lonas)"
+2.03.02.08,"Materiais Gráficos(Cards,Flyers,Folders,Folhetos)"
+2.03.02.09,"Imagens Eletrônicas (Renders), Filmagens e Fotog."
+2.03.02.10,Ações Promocionais
+2.03.02.11,Ações Promocionais Imobiliária
+2.03.03.01,Endomarketing
+2.03.03.02,Premiações
+2.03.03.03,Convenção
+2.03.04.01,"Mídia Institucional (Anúncios, Blocos de Rua)"
+2.03.04.02,Site institucional
+2.03.04.03,Brindes institucionais
+2.03.05.01,Assessoria de imprensa
+2.03.05.02,Assessoria e Consultoria - Comercial/MKT
+2.03.06.01.01,Alimentação e Produtos - Golf
+2.03.06.01.02,"Serviços (Recepção, Promotor) - Golf"
+2.03.06.01.03,Locação de Espaço - Golf
+2.03.06.01.04,"Locação de Equip., Máq., Utensílios e Mob. - Golf"
+2.03.06.02.01,Alimentação e Produtos - Cliente
+2.03.06.02.02,"Serviços (Recepção, Promotor) - Cliente"
+2.03.06.02.03,Locação de Espaço - Cliente
+2.03.06.02.04,"Locação de Equip., Máq., Utensílios,Mob. - Cliente"
+2.03.06.03.01,Alimentação e Produtos - Comercial
+2.03.06.03.02,"Serviços (Recepção, Promotor) - Comercial"
+2.03.06.03.03,Locação de Espaço - Comercial
+2.03.06.03.04,"Locação de Equip.,Máq.,Utensílios,Mob. - Comercial"
+2.03.06.03.05,Treinamentos com corretores
+2.03.06.03.06,Despesas com viagem - Comercial
+2.03.07.01,Comissão de Corretagem - Venda unidade
+2.03.07.02,Remuneração Variável Interna
+2.03.08.01.01,Construção Stand
+2.03.08.01.02,Maquete Stand
+2.03.08.01.03,Decoração Stand
+2.03.08.01.04,Projeto Arquitetônico Stand
+2.03.08.01.05,Seguro Stand
+2.03.08.01.06,Locação Espaço Stand
+2.03.08.01.07,Recepcionista Stand
+2.03.08.01.08,Manutenção da Maquete Stand
+2.03.08.01.09,Manutenção do Stand
+2.03.08.01.10,"Despesas de Consumo (Água, Luz, Telefone) Stand"
+2.03.08.01.11,Aquisição de Móveis e Utens. Stand - Imobilizado
+2.03.08.02.01,Construção PDV
+2.03.08.02.02,Maquete PDV
+2.03.08.02.03,Decoração PDV
+2.03.08.02.04,Projeto Arquitetônico PDV
+2.03.08.02.05,Manutenção PDV
+2.03.08.02.06,"Despesas de consumo (água, luz, tel,) PDV"
+2.03.08.02.07,Aquisição de Móveis PDV - Imobilizado
+2.03.08.02.08,Aquisição de Computadores e Periféricos - Imobiliz
+2.03.08.03.01,Construção Casa/Apto Modelo
+2.03.08.03.02,Decoração Casa/Apto Modelo
+2.03.08.03.03,Projeto Arquitetônico Casa/Apto Modelo
+2.03.08.03.04,Transferência Casa/Apto Modelo
+2.03.08.03.05,Paisagismo Casa/Apto Modelo
+2.03.08.03.06,Seguro Casa Conceito/Apto Modelo
+2.03.08.03.07,Manutenção da Casa Conceito/Apto Modelo
+2.03.08.03.08,"Despesas de Consumo(Água, Luz, Tel.) Casa/Apto Mod"
+2.03.08.03.09,Aquisição de Móveis e Utens. Casa/Apto Mod - Imobi
+2.01.02,PIS
+2.01.02,COFINS
+2.01.02,ISS
+2.01.02,ISQN Antecipado
+2.01.02,IRRF - Imposto de Renda Retido na Fonte
+2.01.02,IR Pessoa Jurídica
+2.01.02,Contrato Social - IR
+2.01.02,INSS
+2.01.02,IPTU
+2.01.02,CSLL
+2.01.02,Taxas Diversas
+2.01.02,RET
+2.01.02,CIDE
+2.01.02,(-) Reembolso de Despesas Tributárias
+2.01.02,Aquisição de Veículos
+2.01.02,Aquisição de Máquinas e Equipamentos
+2.01.02,Aquisição de Computadores e Periféricos
+2.01.02,Aquisição de Móveis e Utensílios
+2.01.02,"Aquisição de Celulares, Telefonia e Monitoramento"
+2.01.02,Adiantamento aos Fornecedores
+2.01.02,Adiantamento aos Colaboradores
+2.01.02,Adiantamento à Diretoria
+2.01.02,Adiantamento à Obra
+2.01.02,Adiantamento ao Escritório
+2.01.02,Adiantamento aos Sócios
+2.01.02,(-) Abatimento de Adiantamento
+2.01.02,Compra de Imóveis
+2.01.02,Pagamentos de Seguros MIP
+2.01.02,(-) Reembolso de Seguros MIP
+2.09,Estorno de pagamento Indevido
+2.10.01.01,Taxa de gerenciamento de Obra
+2.10.01.02,(-) Taxa de Gerenciamento de Obra
+2.10.02.01,Despesas de Condominio
+2.10.02.02,Cartórios (Registros / Autenticações/ ITBI)
+2.10.02.03,Alvarás
+2.10.02.04,IPTU
+2.10.02.05,Manutenções em Unidades de Estoques
+2.01.02,Cota Cooperativa
+2.01.02,Pagamento de Despesas Administrativas
+2.01.02,(-) Recebimentos de Despesas Administrativas
+2.01.02,Assessoria e Consult. (Conselho de Administração)
+2.01.02,Despesas com Viagens (Conselho de Administração)
+2.01.02,Alimentação (Conselho de Administração)
