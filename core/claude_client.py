@@ -166,7 +166,7 @@ def consultar_claude(
     resposta_bruta = ""
     try:
         msg = client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-4-5",
             max_tokens=1000,
             system=PROMPT_SYSTEM,
             messages=[{"role": "user", "content": contexto}],
