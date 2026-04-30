@@ -1,71 +1,143 @@
 """
-Cliente Claude (Anthropic API) para:
-1. Validar se algum candidato realmente serve (semântica + contexto de obra)
-2. Gerar nome novo no padrão da base modelo quando nada serve
+claude_client.py  v2.2
+Envia contexto ao Claude e interpreta a decisão JSON.
+
+Novidades:
+  - Aceita parâmetro `motivo` (onde/como o insumo será usado)
+  - grupos e contas com default [] para compatibilidade retroativa
 """
 
 import json
-import httpx
-from anthropic import Anthropic
-
-from core.matcher import Candidato
+import anthropic
 
 
-CLAUDE_MODEL = "claude-sonnet-4-5"
-MAX_TOKENS = 1024
+PROMPT_SYSTEM = """Você é um especialista em cadastro de insumos para construção civil
+no sistema Sienge da empresa All Wert Construtora.
 
+Você receberá:
+1. A solicitação bruta do usuário
+2. O motivo da utilização (onde e como será usado) — use isso para afinar a classificação
+3. Os top candidatos da base ATIVA (insumos já cadastrados)
+4. Os top candidatos da base MODELO (referência de nomenclatura)
+5. A lista completa de GRUPOS DE INSUMO disponíveis no Sienge
+6. A lista completa de CONTAS FINANCEIRAS disponíveis no plano de contas
 
-PROMPT_SYSTEM = """Você é um especialista em catalogação de insumos de construção civil.
+Sua tarefa: analisar e retornar EXCLUSIVAMENTE um JSON válido, sem texto fora do JSON.
 
-Sua tarefa: ao receber uma SOLICITAÇÃO de novo insumo e uma lista de CANDIDATOS \
-similares (de duas bases — ATIVA e MODELO), decidir uma de três ações:
+Escolha UMA das três ações:
 
-1. **REUTILIZAR**: existe um insumo na base ATIVA que atende à solicitação \
-(mesma essência técnica, mesma função na obra). Devolver o código e descrição.
-
-2. **REVISAR_HUMANO**: há candidatos parecidos mas diferença técnica relevante \
-(unidade diferente, especificação técnica distinta, marca incompatível). \
-Devolver os 2-3 candidatos mais próximos com motivo da dúvida.
-
-3. **CRIAR_NOVO**: nada serve. Gerar um nome novo seguindo RIGOROSAMENTE o padrão \
-da base MODELO:
-   - Title Case (Cada Palavra Maiúscula)
-   - Estrutura: [Tipo] [Especificação] [Marca/Norma se relevante] [Dimensão/Medida]
-   - Exemplos do padrão: "Cimento Portland Pozolanico 320", "Misturador Pia Parede 1/2\"", \
-"Argamassa Quartzolit 20 kg", "Tubo PVC Soldável 50mm"
-   - Sem unidade no nome (a unidade é campo separado)
-   - Sugerir SUBGRUPO da base modelo (ex: "02.013 - Metais") e UNIDADE adequada \
-(un, m², m, kg, l, vb, h, m³, sc, pc, cj)
-
-Responda SEMPRE em JSON válido, sem markdown, sem explicação fora do JSON.
-
-Schema:
+━━━ REUTILIZAR ━━━
+Use quando um insumo da base ATIVA é semanticamente idêntico à solicitação.
 {
-  "acao": "REUTILIZAR" | "REVISAR_HUMANO" | "CRIAR_NOVO",
-  "justificativa": "1-2 frases explicando a decisão",
-  "reutilizar": { "codigo": "...", "descricao": "..." },
-  "revisar": [ { "codigo": "...", "descricao": "...", "motivo_duvida": "..." } ],
-  "criar_novo": {
-    "nome_sugerido": "Nome no padrão da base modelo",
-    "subgrupo_sugerido": "XX.XXX - Nome do Subgrupo",
-    "unidade_sugerida": "un|m2|m|kg|l|vb|h|m3|sc|pc|cj",
-    "alternativas_de_nome": ["alternativa 1", "alternativa 2"]
+  "acao": "REUTILIZAR",
+  "justificativa": "string",
+  "reutilizar": {
+    "codigo": "string",
+    "descricao": "string",
+    "grupo": "string",
+    "conta_financeira_codigo": "string",
+    "conta_financeira_descricao": "string"
   }
 }
+
+━━━ REVISAR_HUMANO ━━━
+Use quando há candidatos parecidos mas com diferença técnica relevante.
+{
+  "acao": "REVISAR_HUMANO",
+  "justificativa": "string",
+  "revisar": [
+    {
+      "codigo": "string",
+      "descricao": "string",
+      "motivo_duvida": "string"
+    }
+  ]
+}
+
+━━━ CRIAR_NOVO ━━━
+Use quando nenhum candidato serve. Gere nome no padrão da base modelo
+e classifique com o grupo de insumo e conta financeira mais adequados.
+{
+  "acao": "CRIAR_NOVO",
+  "justificativa": "string",
+  "criar_novo": {
+    "nome_sugerido": "string (nome padronizado para cadastro no Sienge)",
+    "grupo_insumo": {
+      "ref": "string",
+      "descricao": "string",
+      "tipo": "string"
+    },
+    "conta_financeira": {
+      "codigo": "string",
+      "descricao": "string"
+    },
+    "unidade_sugerida": "string",
+    "alternativas_de_nome": ["string", "string"]
+  }
+}
+
+Regras:
+- Use o motivo da utilização para escolher o grupo e conta corretos
+- Siga EXATAMENTE o padrão de nomenclatura dos insumos da base modelo
+- Escolha grupo e conta SOMENTE da lista fornecida — nunca invente
+- Retorne SOMENTE o JSON, sem markdown, sem texto fora do JSON
 """
 
 
-def _formatar_candidatos(cands: list, titulo: str) -> str:
-    if not cands:
-        return f"### {titulo}\n(nenhum candidato relevante)\n"
-    linhas = [f"### {titulo}"]
-    for c in cands:
-        unidade = f" | unidade: {c.unidade}" if c.unidade != "—" else ""
+def _montar_contexto(
+    solicitacao: str,
+    motivo: str,
+    match_exato,
+    similares_ativa: list,
+    similares_modelo: list,
+    grupos: list,
+    contas: list,
+) -> str:
+    linhas = [f"SOLICITAÇÃO: {solicitacao}\n"]
+
+    if motivo:
+        linhas.append(f"MOTIVO / ONDE SERÁ USADO: {motivo}\n")
+
+    if match_exato:
+        m = match_exato if isinstance(match_exato, dict) else vars(match_exato)
         linhas.append(
-            f"- [{c.fonte}] cod={c.codigo} | score={c.score:.1f} | "
-            f"grupo: {c.grupo}{unidade} | descrição: {c.descricao}"
+            f"MATCH EXATO NA BASE ATIVA (score {float(m.get('score',0)):.1f}%):\n"
+            f"  Código: {m.get('codigo','')} | {m.get('descricao','')} | "
+            f"Grupo: {m.get('grupo','')} | "
+            f"Conta: {m.get('cod_conta','')} — {m.get('conta_financeira','')}\n"
         )
-    return "\n".join(linhas) + "\n"
+
+    linhas.append("TOP CANDIDATOS — BASE ATIVA:")
+    for c in similares_ativa:
+        cd = c if isinstance(c, dict) else vars(c)
+        linhas.append(
+            f"  [{float(cd.get('score',0)):.1f}%] Cód {cd.get('codigo','')} | "
+            f"{cd.get('descricao','')} | Grupo: {cd.get('grupo','')} | "
+            f"Conta: {cd.get('cod_conta','')} — {cd.get('conta_financeira','')}"
+        )
+
+    linhas.append("\nTOP CANDIDATOS — BASE MODELO:")
+    for c in similares_modelo:
+        cd = c if isinstance(c, dict) else vars(c)
+        linhas.append(
+            f"  [{float(cd.get('score',0)):.1f}%] Cód {cd.get('codigo','')} | "
+            f"{cd.get('descricao','')} | Subgrupo: {cd.get('grupo','')} | "
+            f"Un: {cd.get('unidade','')}"
+        )
+
+    if grupos:
+        linhas.append("\nGRUPOS DE INSUMO DISPONÍVEIS:")
+        for g in grupos:
+            linhas.append(
+                f"  Ref {g.get('ref','')} | {g.get('descricao','')} | Tipo: {g.get('tipo','')}"
+            )
+
+    if contas:
+        linhas.append("\nCONTAS FINANCEIRAS DISPONÍVEIS:")
+        for ct in contas:
+            linhas.append(f"  {ct.get('codigo','')} | {ct.get('descricao','')}")
+
+    return "\n".join(linhas)
 
 
 def consultar_claude(
@@ -74,54 +146,42 @@ def consultar_claude(
     match_exato,
     similares_ativa: list,
     similares_modelo: list,
+    motivo: str = "",
+    grupos: list = None,
+    contas: list = None,
 ) -> dict:
-    client = Anthropic(api_key=api_key, http_client=httpx.Client())
+    """Chama a API Claude e retorna o JSON de decisão."""
+    client = anthropic.Anthropic(api_key=api_key)
 
-    partes = [f"## SOLICITAÇÃO DO USUÁRIO\n{solicitacao}\n"]
-
-    if match_exato:
-        partes.append(
-            f"## MATCH FUZZY EXATO ENCONTRADO (score {match_exato.score:.1f}%)\n"
-            f"- Código: {match_exato.codigo}\n"
-            f"- Descrição: {match_exato.descricao}\n"
-            f"- Grupo: {match_exato.grupo}\n"
-        )
-
-    partes.append(
-        _formatar_candidatos(
-            similares_ativa, "TOP 5 SIMILARES NA BASE ATIVA (insumos já cadastrados)"
-        )
-    )
-    partes.append(
-        _formatar_candidatos(
-            similares_modelo, "TOP 5 SIMILARES NA BASE MODELO (referência de padronização)"
-        )
+    contexto = _montar_contexto(
+        solicitacao=solicitacao,
+        motivo=motivo,
+        match_exato=match_exato,
+        similares_ativa=similares_ativa,
+        similares_modelo=similares_modelo,
+        grupos=grupos or [],
+        contas=contas or [],
     )
 
-    user_prompt = "\n".join(partes)
-
-    texto = ""
+    resposta_bruta = ""
     try:
-        response = client.messages.create(
-            model=CLAUDE_MODEL,
-            max_tokens=MAX_TOKENS,
+        msg = client.messages.create(
+            model="claude-sonnet-4-20250514",
+            max_tokens=1000,
             system=PROMPT_SYSTEM,
-            messages=[{"role": "user", "content": user_prompt}],
+            messages=[{"role": "user", "content": contexto}],
         )
-        texto = response.content[0].text.strip()
+        resposta_bruta = msg.content[0].text.strip()
 
-        if texto.startswith("```"):
-            texto = texto.split("```")[1]
-            if texto.startswith("json"):
-                texto = texto[4:]
-            texto = texto.strip()
+        # Remove eventuais fences de markdown
+        if resposta_bruta.startswith("```"):
+            resposta_bruta = resposta_bruta.split("```")[1]
+            if resposta_bruta.startswith("json"):
+                resposta_bruta = resposta_bruta[4:]
 
-        return json.loads(texto)
+        return json.loads(resposta_bruta)
 
     except json.JSONDecodeError as e:
-        return {
-            "erro": f"Resposta do Claude não é JSON válido: {e}",
-            "resposta_bruta": texto,
-        }
+        return {"erro": f"JSON inválido: {e}", "resposta_bruta": resposta_bruta}
     except Exception as e:
-        return {"erro": f"Erro na chamada da API: {type(e).__name__}: {e}"}
+        return {"erro": str(e)}
